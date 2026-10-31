@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026-10-31",
+  "purpose": "ILLUSTRATIVE purchasing-power envelope; USD is an external reporting numeraire, not an ORD token, target peg, issuer liability, or monetary-policy instrument.",
+  "metal": "Cu",
+  "world_population_assumed": 8300000000,
+  "world_2025_mine_copper_content_tonnes": 23665300,
+  "annual_funding_budgets_usd": [10000000000, 100000000000, 1000000000000],
+  "illustrative_quote_usd_per_tonne": [7000, 14000, 28000],
+  "custody_and_admin_fixed_usd": 50000000,
+  "operating_cost_basis_points_of_funding": 150,
+  "acquisition_premium_basis_points": 100,
+  "fraction_of_acquired_claims_retained_as_buffer_basis_points": 1000,
+  "annual_reference_income_goal_usd_per_person": 100,
+  "illustrative_realized_endowment_yield_basis_points": 400,
+  "wholesale_lot_tonnes": 25,
+  "sources": [
+    {
+      "publisher": "Comision Chilena del Cobre (COCHILCO)",
+      "dataset": "2026 August copper bulletin, 2025 world mine output in copper content",
+      "url": "https://boletin.cochilco.cl/productos/boletin.asp?anio=2026&mes=08&tabla=tabla34",
+      "source_value": "23,665.3 thousand tonnes, 2025",
+      "scope": "Annual primary mine output; not metal owned by ORD or eligible refined warehouse stock"
+    },
+    {
+      "publisher": "UN DESA",
+      "dataset": "World Population Prospects 2024",
+      "url": "https://population.un.org/wpp",
+      "scope": "8.3 billion is an intentionally rounded illustrative population, not an identified eligible user count"
+    },
+    {
+      "publisher": "World Bank",
+      "dataset": "Commodity Price Data (Pink Sheet)",
+      "url": "https://www.worldbank.org/en/research/commodity-markets",
+      "scope": "Reference for price-discovery methodology. USD/tonne quotes in this file are rounded HYPOTHETICAL SCENARIOS, not observed market data, price forecasts or feasible bulk execution prices"
+    },
+    {
+      "publisher": "London Metal Exchange",
+      "dataset": "LME Copper Grade A contract specification",
+      "url": "https://www.lme.com/Metals/Non-ferrous/LME-Copper/Contract-specifications",
+      "scope": "25 tonne wholesale delivery lot; not ORD retail delivery requirements"
+    }
+  ]
+}
