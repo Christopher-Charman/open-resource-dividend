@@ -169,8 +169,12 @@ def assert_matches_snapshot(events: list[dict], reserves: dict, accounts: dict) 
         name: {metal: account.get(metal, 0) for metal in METALS}
         for name, account in accounts.items()
     }
-    if result["balances"] != normalized:
-        raise ReplayError("account snapshot differs from journal replay")
+    # Accessing a missing account in the educational defaultdict can create a
+    # zero-only placeholder. Such placeholders are not economic liabilities.
+    zero = dict.fromkeys(METALS, 0)
+    for name in set(normalized) | set(result["balances"]):
+        if normalized.get(name, zero) != result["balances"].get(name, zero):
+            raise ReplayError("account snapshot differs from journal replay")
     return result
 
 
