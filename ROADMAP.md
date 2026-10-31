@@ -9,6 +9,15 @@
 - [Run the local illustrative model](DEVELOPMENT.md) and challenge it with a counterexample.
 - [Discuss community maintenance](https://github.com/Christopher-Charman/open-resource-dividend/discussions/5). The original proposer remains GitHub owner, while routine research and maintenance should become community-led.
 
+## New falsifiable research baseline
+
+- [Quantified scarcity study](research/COMMODITY_SCALE.md): hypothetical 2025 global copper flows compared with a rounded 2026 population; explicitly *not* owned, refined, deliverable or funded metal.
+- [Retail redemption evidence](research/REDEMPTION_EVIDENCE.md): LBMA and LME wholesale specifications, carefully separated from small-holder delivery rights.
+- [Separate inventory/liabilities demonstration](examples/compare_books.py): reveals a synthetic hidden collateral shortfall even where internal event-history checks pass.
+- [Architecture alternatives](research/RFC_0001_RESOURCE_CLAIMS.md): issuer-less distribution over existing resource claims is evaluated alongside new token options rather than assuming an ORD coin.
+
+These results help experts disprove assumptions. They do **not** establish a funded universal payment or a physically audited collateral pool.
+
 ## Workstreams (independent contributions are encouraged)
 
 | Priority | Research question | Concrete independent deliverable | Existing discussion |
