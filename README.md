@@ -4,7 +4,7 @@
 
 **New here? [Start with the two-minute overview](START_HERE.md) or [critical FAQ](FAQ.md).**
 
-**Stable public reference:** [ORD Research Baseline v0.2](https://github.com/Christopher-Charman/open-resource-dividend/releases/tag/v0.2.0) — source-linked economic research, synthetic accounting demonstrations and open governance. This is a **research release, not a currency launch**. This is an open research project intended for community maintenance, with [transparent governance](GOVERNANCE.md) and a [founder-independent contribution plan](COMMUNITY_HANDOFF.md). The original proposer remains the GitHub repository owner.
+**Stable public reference:** [ORD Research v0.4 — Issuer-neutral distribution](https://github.com/Christopher-Charman/open-resource-dividend/releases/tag/v0.4.0) (includes the earlier [v0.2 economic baseline](https://github.com/Christopher-Charman/open-resource-dividend/releases/tag/v0.2.0)). All releases are **research snapshots, not currency launches**. This is an open research project intended for community maintenance, with [transparent governance](GOVERNANCE.md) and a [founder-independent contribution plan](COMMUNITY_HANDOFF.md). The original proposer remains the GitHub repository owner.
 
 [White paper](WHITEPAPER.md) · [Funding feasibility](FUNDING_MODELS.md) · [Architecture and assurance](ARCHITECTURE.md) · [Reproduce the examples](DEVELOPMENT.md) · [Prior art](PRIOR_ART.md) · [Roadmap](ROADMAP.md) · [Contribute](CONTRIBUTING.md) · [Community discussion](https://github.com/Christopher-Charman/open-resource-dividend/discussions/5)
 
