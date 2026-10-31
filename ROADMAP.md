@@ -42,6 +42,10 @@ The [transfer API research](research/TRANSFER_INTERFACE_FINDINGS.md) distinguish
 
 [PUBLIC_BAR_ALLOCATION_EVIDENCE.md](research/PUBLIC_BAR_ALLOCATION_EVIDENCE.md) sets out a read-only, consent-respecting comparison of blockchain token balances, issuer-provided bar-lot allocations, month-end attestations and enforceable ownership/redemption conditions. Paxos already exposes a public holder-to-bar lookup, so ORD should **reuse the precedent instead of designing a redundant new bar allocator**. The remaining task is independent legal and physical verification, viable retail exit and legitimate universal funding.
 
+## First independent public-chain supply observation achieved
+
+The [PAXG two-node fixed-block verification](research/LIVE_PAXG_CHAIN_EVIDENCE.md) established real PAXG on-chain token supply at one Ethereum mainnet finalised block, using **two independent RPC providers** with matching contract bytecode and block hash. The result is archived as a machine-readable research observation, not a physical reserve certificate. The next non-synthetic evidence target is a **dated independent gold-reserve attestation**, reconciled with chain supply at the same reporting cutoff, followed by enforceable title and redemption analysis. No personal wallet data or transaction is needed for aggregate supply research.
+
 ## Workstreams (independent contributions are encouraged)
 
 | Priority | Research question | Concrete independent deliverable | Existing discussion |

@@ -50,6 +50,14 @@ Run the [synthetic externally-issued-claims scenario](examples/scenarios/issuer_
 
 This tests a **distribution of existing holdings** from two imaginary independent issuers rather than creating an ORD token. The current model has no custody connection, real inventory proof, electronic signatures, legal title evidence or identity verification. Its `delivery_assumed` event is explicitly not an independent physical-delivery confirmation. See [RFC 0002](research/RFC_0002_ISSUER_NEUTRAL_DISTRIBUTION.md).
 
+## Observe real PAXG on-chain supply without custody or private data
+
+```bash
+python3 research/paxg_chain_observer.py
+```
+
+This queries two independent **public read-only Ethereum JSON-RPC providers** at the same finalised block and compares chain ID, block hash, ERC-20 total supply/decimals and deployed code. The [historical observation](research/observations/paxg_ethereum_block_26315983.json) and [evidence boundary](research/LIVE_PAXG_CHAIN_EVIDENCE.md) describe exact data and limitations. Old block queries require archive-capable nodes. No actual vault inspection, legal title, wallet access or transaction is involved; the script refuses every effectful RPC method.
+
 ## Exploring funding assumptions
 
 The editable sample lives at [examples/scenarios/volatile_copper.json](examples/scenarios/volatile_copper.json).
