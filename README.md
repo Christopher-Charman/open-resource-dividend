@@ -4,7 +4,7 @@
 
 **New here? [Start with the two-minute overview](START_HERE.md).** This is an open research project intended for community maintenance, with [transparent governance](GOVERNANCE.md) and a [founder-independent contribution plan](COMMUNITY_HANDOFF.md). The original proposer remains the GitHub repository owner.
 
-[White paper](WHITEPAPER.md) · [Funding feasibility](FUNDING_MODELS.md) · [Toy accounting example](examples/README.md) · [Prior art](PRIOR_ART.md) · [Open questions](OPEN_QUESTIONS.md) · [Contributing](CONTRIBUTING.md) · [Community discussion](https://github.com/Christopher-Charman/open-resource-dividend/discussions/5)
+[White paper](WHITEPAPER.md) · [Funding feasibility](FUNDING_MODELS.md) · [Architecture and assurance](ARCHITECTURE.md) · [Reproduce the examples](DEVELOPMENT.md) · [Prior art](PRIOR_ART.md) · [Roadmap](ROADMAP.md) · [Contribute](CONTRIBUTING.md) · [Community discussion](https://github.com/Christopher-Charman/open-resource-dividend/discussions/5)
 
 > **Research only · v0.1 · 31 October 2026.** No tokens exist, no physical reserves are held, no redemption or universal allowance is funded, and no economic or legal feasibility has been demonstrated. Nothing here constitutes an investment offering or recommendation.
 
@@ -48,8 +48,14 @@ Contributors are encouraged to submit sources, worked counterexamples and object
 
 The personal-account owner retains GitHub-specific administrative controls. This distinction is stated openly: community stewardship is being built; it is **not yet a proven independent maintainer group**. [Independent-maintainer acceptance task](https://github.com/Christopher-Charman/open-resource-dividend/issues/7).
 
+## Reproducible open research
+
+All examples use the Python standard library, synthetic metal units and **no real assets or identities**. Contributors can reproduce the stock-flow model, independently reconstruct its event history, and run a four-period funding shortfall scenario from a fresh clone. The checks validate only arithmetic and event consistency under assumed custody; they do not attest gold, silver or copper.
+
+See [Development](DEVELOPMENT.md), [Architecture](ARCHITECTURE.md), [Research method](RESEARCH_METHOD.md) and [Roadmap](ROADMAP.md). New contributors can start with the [public research questions](OPEN_QUESTIONS.md) or a [source-based counterexample](https://github.com/Christopher-Charman/open-resource-dividend/issues/2).
+
 ## Scope and participation
 
-This repository contains **research documents and one non-financial accounting illustration**. It contains no token smart contracts, no mainnet, no fundraising, no financial promotion, and no affiliated third-party provider. Contributions that disprove an assumption or identify a closer precedent are welcome.
+This repository contains **research documents and non-financial accounting illustrations**. It contains no token smart contracts, no mainnet, no fundraising, no financial promotion, and no affiliated third-party provider. Contributions that disprove an assumption or identify a closer precedent are welcome.
 
 Original research text: [CC BY 4.0](LICENSE.md). Illustrative source code: [MIT License](LICENSE-CODE.md). Do not copy third-party content without its own licence and attribution.
