@@ -2,7 +2,9 @@
 
 **Open research proposal: an independently verifiable, physically redeemable universal entitlement for an AI-transformed economy.**
 
-[Read the discussion white paper](WHITEPAPER.md) · [Funding feasibility](FUNDING_MODELS.md) · [Prior art](PRIOR_ART.md) · [Open questions](OPEN_QUESTIONS.md) · [Contributing](CONTRIBUTING.md)
+**New here? [Start with the two-minute overview](START_HERE.md).**
+
+[White paper](WHITEPAPER.md) · [Funding feasibility](FUNDING_MODELS.md) · [Toy accounting example](examples/README.md) · [Prior art](PRIOR_ART.md) · [Open questions](OPEN_QUESTIONS.md) · [Contributing](CONTRIBUTING.md)
 
 > **Research only · v0.1 · 31 October 2026.** No tokens exist, no physical reserves are held, no redemption or universal allowance is funded, and no economic or legal feasibility has been demonstrated. Nothing here constitutes an investment offering or recommendation.
 
@@ -34,6 +36,6 @@ Universal Basic Compute, GoodDollar, Circles, Kinesis and Akash already explore 
 
 ## Scope and participation
 
-This repository currently contains **research documents only**. It contains no token smart contracts, no mainnet, no fundraising, no financial promotion, and no affiliated third-party provider. Contributions that disprove an assumption or identify a closer precedent are welcome.
+This repository contains **research documents and one non-financial accounting illustration**. It contains no token smart contracts, no mainnet, no fundraising, no financial promotion, and no affiliated third-party provider. Contributions that disprove an assumption or identify a closer precedent are welcome.
 
-[Licence for original text: CC BY 4.0](LICENSE.md). Do not copy third-party content without its own licence and attribution.
+Original research text: [CC BY 4.0](LICENSE.md). Illustrative source code: [MIT License](LICENSE-CODE.md). Do not copy third-party content without its own licence and attribution.
