@@ -72,7 +72,7 @@ No asset-custody API, financial contract, smart contract mainnet, KYC identity d
 
 A future production project would require separate legal, audit, security and community decisions, and a complete formal definition of physical asset rights. Nothing in the v0.1 paper or research tests grants that decision.
 
-## 6. Domain and source references
+## 7. Domain and source references
 
 - [Funding note](FUNDING_MODELS.md) — pool/issuance distinction and candidate sources.
 - [Simulated example](examples/README.md) — reproducibility and limitations.
