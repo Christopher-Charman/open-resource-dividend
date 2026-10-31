@@ -66,6 +66,7 @@ def evaluate(manifest: dict) -> dict:
         raise ManifestError("holdings and events must be lists")
 
     assets: dict[str, dict] = {}
+    represented_rights: set[tuple[str, ...]] = set()
     for raw in asset_rows:
         asset = _fields(raw, ASSET_FIELDS)
         key = _identifier(asset["asset_id"])
@@ -77,7 +78,15 @@ def evaluate(manifest: dict) -> dict:
             raise ManifestError("unsupported metal")
         _positive(asset["declared_total_claims"])
         _positive(asset["reported_reserves"], allow_zero=True)
-        # Different rights at different custodians must not use one asset id.
+        # Prevent two asset IDs from counting the same DECLARED right twice.
+        # This cannot detect double pledges outside this untrusted snapshot.
+        rights_key = tuple(asset[name] for name in (
+            "issuer_id", "custodian_id", "metal", "atomic_unit",
+            "legal_rights_reference",
+        ))
+        if rights_key in represented_rights:
+            raise ManifestError("same declared legal right represented twice")
+        represented_rights.add(rights_key)
         assets[key] = asset
 
     balances = defaultdict(int)
