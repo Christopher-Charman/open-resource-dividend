@@ -26,6 +26,10 @@ That would invent liabilities without backing. A dividend pool must own existing
 
 The [research calculator](research/COMMODITY_SCALE.md) shows that even a purely hypothetical 1% contribution of 2025 worldwide mine copper output would amount to about **28.5 grams of copper content per person per year** over 8.3 billion people. There is **no evidence any such metal is available to ORD**, and mined copper is not necessarily deliverable Grade A copper. These figures express a **quantity bound**, not a commodity price, a basic-income amount or a prediction.
 
+### How much would a meaningful recurring resource entitlement cost?
+
+A [public scenario calculator](research/VALUE_AND_FUNDING.md) asks what genuine outside income could purchase in physical copper claims. For illustration only, providing $100 of quoted metal value per year to 8.3 billion people requires about $946 billion of annual settled funding under a specific set of assumed expenses and retained reserves. At an assumed 4% endowment yield, that corresponds arithmetically to about $23.6 trillion of invested capital. No such endowment or yield is real, and acquiring the necessary copper at a fixed spot price is implausible. The project does not propose a dollar-pegged token.
+
 ### Would an immutable ledger prevent corruption?
 
 It makes an independently witnessed transaction history more difficult to rewrite secretly. It does **not** establish that physical metal exists or has unencumbered legal title. In fact, the [dual-book audit illustration](examples/compare_books.py) shows an internally consistent journal with *ten* units of copper liabilities but only *eight* units of separately declared inventory. The ledger is mathematically consistent; the declared collateral is insufficient. Even a matched declaration is not yet a verified audit.
