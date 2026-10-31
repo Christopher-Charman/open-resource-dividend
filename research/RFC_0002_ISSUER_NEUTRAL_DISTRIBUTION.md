@@ -74,6 +74,12 @@ Python 3.10+, no non-standard packages, server, blockchain or credentials.
 
 For these reasons every sample result reports **physical_reserves_verified=false**, **title_rights_verified=false**, **complete_external_liabilities_verified=false** and **redemption_delivery_verified=false**, regardless of accounting balances. A balanced self-reported inventory is not proof of reserves.
 
+### Evidence from actual existing systems (31 October 2026)
+
+[RFC 0002's external-ecosystem review](EXISTING_PROJECTS_DUE_DILIGENCE.md) identifies the **MIT-licensed GoodCollective `UBIPool.sol`** as an existing implementation that calculates periodic allocations from the actual funded token balance, with identity-root, manager and upgrade controls; it does **not** legally assign physical resources. [Paxos PAXG](https://www.paxos.com/terms-and-conditions/pax-gold-terms-conditions) and [Kinesis KAU/KAG](https://support.kinesis.money/hc/en-gb/articles/38687923843741-Redeeming-Gold-and-Silver-in-App) publish allocated metal terms but restrict small physical deliveries (PAXG at least 430 tokens for a bar; Kinesis 100 KAU or 200 KAG increments), with further fees and controls. [Circles v2](https://github.com/aboutcircles/circles-contracts-v2) relies on ongoing personal currency issuance and is **not** metal collateral. These findings support **separating pool logic from legal commodity-title custody**, not adopting any provider or currency.
+
+The [proposed adapter-level contract](INTEROPERABILITY_SPEC.md) now sets out the minimal source-evidence and destination-readback obligations. This is **not** an authorised production integration, provider endorsement, legal opinion or assurance that global eligibility is feasible.
+
 ## Independent acceptance questions
 
 1. Can a first provider demonstrate independently inspected and unencumbered metals *and* enforceable small-holder title, rather than merely an issuer-controlled digital account?
