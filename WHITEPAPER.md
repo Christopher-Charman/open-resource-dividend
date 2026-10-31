@@ -119,7 +119,7 @@ Material choices are research inputs, not immutable dogma: gold, silver and copp
 
 **Phase 0 — Prior art and critical review.** Reproduce the comparison in `PRIOR_ART.md`; solicit serious critiques from monetary economists, property/custody specialists, commodity market practitioners, cryptographers, auditors and AI-infrastructure operators.
 
-**Phase 1 — Economic feasibility.** Write a flow-of-funds model showing where real backing and recurring dividend assets originate, including conservation across mint, distribute, trade, redeem and default. Compare copper-heavy vs gold-heavy costs and divisibility.
+**Phase 1 — Economic feasibility.** Write a flow-of-funds model showing where real backing and recurring dividend assets originate, including conservation across mint, distribute, trade, redeem and default. Compare copper-heavy vs gold-heavy costs and divisibility. Initial candidate funding routes and a reproducible accounting toy example are now documented in [FUNDING_MODELS.md](FUNDING_MODELS.md); no source of sustainable global distributions has been verified.
 
 **Phase 2 — Formal event/accounting model.** Produce an open, non-financial toy simulator and machine-checkable invariants. No actual token sale, live collateral, or private identity records.
 
