@@ -51,6 +51,10 @@ The [actual GoodCollective `UBIPool.sol` source](https://github.com/GoodDollar/G
 
 **No third-party provider currently has a verified, approved ORD asset adapter.** This is a current result of evidence screening—not a ban on further authorised investigation or a requirement to build a new coin.
 
+### A stronger public evidence layer exists beyond API transfer status
+
+Paxos offers a [wallet-address gold bar lookup](https://www.paxos.com/pax-gold) and has published an [event-driven bar-allocation design (August 2026)](https://www.paxos.com/blog/paxg-delta-based-allocation). See [PUBLIC_BAR_ALLOCATION_EVIDENCE.md](PUBLIC_BAR_ALLOCATION_EVIDENCE.md) for a public, consent-respecting comparison path involving independent on-chain balances, issuer-asserted physical lot assignment, monthly attestation cutoff and actual holder rights. **A lookup result remains issuer-supplied evidence; a supported automated API is not yet established.** The [Paxos August 2026 fee page](https://support.paxos.com/articles/2899561282-PAX-Gold-Fees) confirms no storage fee *currently* and describes September 2026 redemption/in-kind conversion fees, while contractual §15.2 retains the future dilution possibility.
+
 ## An executable reconciliation boundary
 
 [The offline transfer evidence reader](../examples/provider_transfer_evidence.py) consumes a **deliberately fabricated** pair of [Paxos-v2-shaped records](../examples/scenarios/paxos_transfer_records.json). It checks:
