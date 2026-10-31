@@ -46,6 +46,13 @@ class IssuerNeutralResearchTests(unittest.TestCase):
         minted["events"].append({"type": "ord_mint", "asset_id": CU, "units": 999})
         with self.assertRaises(ManifestError):
             evaluate(minted)
+        # An alternate asset ID cannot count the same declared title twice.
+        duplicated = copy.deepcopy(source)
+        twin = dict(duplicated["assets"][0])
+        twin["asset_id"] = "SYN-SECOND-ID-SAME-COLLATERAL"
+        duplicated["assets"].append(twin)
+        with self.assertRaises(ManifestError):
+            evaluate(duplicated)
 
     def test_pending_redemption_is_a_liability_and_no_duplicate_resolution(self):
         waiting = sample()
