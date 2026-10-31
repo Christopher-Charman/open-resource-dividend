@@ -70,6 +70,12 @@ The [RFC 0002 candidate](research/RFC_0002_ISSUER_NEUTRAL_DISTRIBUTION.md) and [
 
 The example also demonstrates why a synthetic account balance **cannot prove** physical gold, copper, legal ownership, signed consent, eligible humans or a funded real-world dividend. This is a research option for public criticism, not an adopted monetary standard or launched financial service.
 
+## Reuse real systems, not an invented financial stack
+
+The [live external-project assessment](research/EXISTING_PROJECTS_DUE_DILIGENCE.md) now examines **Paxos PAXG, Kinesis gold/silver, GoodDollar/GoodCollective funded UBI pools, current Circles v2, the Windfall Trust, and Akash**, using published redemption contracts, external audit directories and actual open-source code. The [interoperability specification](research/INTEROPERABILITY_SPEC.md) identifies which existing components could inform ORD and what evidence would be necessary before anyone could honestly claim that commodity title transfers to a universal recipient.
+
+**Key finding:** GoodCollective supplies a particularly relevant *funded-pool distribution pattern*; Paxos and Kinesis already provide physical-metal instruments, but their actual redemption minimums, issuer powers and jurisdictional requirements mean none is a verified drop-in universal ORD backing asset. No partnership, integrated live provider or real reserve exists.
+
 ## First contributions welcome
 
 No AI account, investment, coding background or connection to the original proposer is required to join the research. Two bounded starter tasks are open:
