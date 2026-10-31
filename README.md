@@ -42,6 +42,15 @@ Universal Basic Compute, GoodDollar, Circles, Kinesis and Akash already explore 
 
 Contributors are encouraged to submit sources, worked counterexamples and objections. No token purchases or financial participation are requested.
 
+## First contributions welcome
+
+No AI account, investment, coding background or connection to the original proposer is required to join the research. Two bounded starter tasks are open:
+
+- [Verify three prior-art references from primary sources — good first issue #9](https://github.com/Christopher-Charman/open-resource-dividend/issues/9)
+- [Compare real physical metal redemption minimums and costs — good first issue #10](https://github.com/Christopher-Charman/open-resource-dividend/issues/10)
+
+The project benefits from evidence-based criticism as much as supportive contributions.
+
 ## Community stewardship
 
 [Join the public discussion on volunteering and maintaining ORD](https://github.com/Christopher-Charman/open-resource-dividend/discussions/5). The project welcomes contributors who question the hypothesis as well as those who support it. No contributor requires the founder's permission to fork or propose research; invited collaborators can independently maintain routine project work. The original proposer may remain the account owner without controlling every research decision. [Governance](GOVERNANCE.md) · [Stewardship roadmap](COMMUNITY_HANDOFF.md) · [Code of conduct](CODE_OF_CONDUCT.md).
