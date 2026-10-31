@@ -38,6 +38,12 @@ For example, an illustrative **$100/year reference value for each of 8.3 billion
 
 **Candidate architecture under review:** [RFC 0002](research/RFC_0002_ISSUER_NEUTRAL_DISTRIBUTION.md) asks whether ORD could simply distribute *existing* independently held claims, without minting its own currency. It is a hypothesis, **not** a selected monetary protocol. [Open discussion](https://github.com/Christopher-Charman/open-resource-dividend/discussions/12).
 
+## First live external-ledger observation
+
+ORD has now [cross-checked actual PAX Gold token supply](research/LIVE_PAXG_CHAIN_EVIDENCE.md) at **Ethereum mainnet finalised block 26,315,983** through **two independent public RPC operators**. Both matched **442,885.899659 PAXG**, the block hash, 18-decimal precision and deployed contract code. The [open-source read-only verifier](research/paxg_chain_observer.py) and [exact observation JSON](research/observations/paxg_ethereum_block_26315983.json) permit independent inspection.
+
+**Scope:** this is verified **on-chain supply**, not an audit of gold bars, all issuer liabilities, legal title or an ORD-funded distribution. No wallet, provider account, token transfer or financial service was involved.
+
 ## Reproduce the research
 
 The illustrative accounting and financing examples need only **Python 3.10+ standard library**—no wallet, account, package installation, chain, paid CI or proprietary service.
