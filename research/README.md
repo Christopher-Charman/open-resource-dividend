@@ -11,6 +11,10 @@ The aim of this folder is **falsifiable economic work**, not another coin launch
 | What is the gap between digital divisibility and metal delivery? | [Wholesale redemption evidence](REDEMPTION_EVIDENCE.md) | LME/LBMA publish wholesale physical lot/bar standards. These **do not** establish cost-effective small-holder delivery or legal title |
 | Does ORD need to issue its own token? | [RFC 0001](RFC_0001_RESOURCE_CLAIMS.md) | Three non-equivalent resource-claims architectures remain in open examination; closed compute credits are a distinct proposal |
 
+## External funding and purchasing-power research
+
+The [value and funding note](VALUE_AND_FUNDING.md) joins an openly specified [price/cost scenario](value_funding_inputs.json) with a standard-library [calculator](value_funding.py). It asks what *real settled external income* would be needed for a modest global physical-resource entitlement, and how much hypothetical metal the model would need to acquire. The calculator never invents a funded trust or treats a USD benchmark as token backing. Bulk price impact, retail delivery and actual capital ownership remain unanswered.
+
 ## How to reproduce
 
 With Python 3.10+ and no dependencies, from a fresh clone:
