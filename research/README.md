@@ -19,6 +19,10 @@ The [value and funding note](VALUE_AND_FUNDING.md) joins an openly specified [pr
 
 The [title and custody comparison](TITLE_AND_CUSTODY.md) uses primary LBMA and LME materials to distinguish allocated bar ownership and transferable warehouse warrants from unallocated contractual promises owed by a clearer. Both can be recorded digitally; the legal rights are not equivalent. It proposes a reviewable assurance package for physical asset title, liens, custody, liabilities, redemption and independent auditing, but establishes no jurisdiction-specific ORD rights.
 
+## Three-metal quantity and reference-value comparison
+
+[THREE_METAL_COMPARISON.md](THREE_METAL_COMPARISON.md) now covers gold, silver and copper in their original intended roles. It separately cites WGC gold mine and aboveground stock data, Silver Institute 2025 silver mine supply, and COCHILCO copper mine flow. Its reproducible [scenario](three_metal_inputs.json) and [standard-library calculator](three_metal_envelope.py) never infer that any of these privately/publicly owned resources belong to ORD. The USD quotations are entirely hypothetical comparison inputs, **not** a basket exchange rate or peg.
+
 ## How to reproduce
 
 With Python 3.10+ and no dependencies, from a fresh clone:

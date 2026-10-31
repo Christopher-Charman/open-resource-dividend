@@ -22,6 +22,10 @@ These results help experts disprove assumptions. They do **not** establish a fun
 
 The [purchasing-power envelope](research/VALUE_AND_FUNDING.md) reports assumed annual funding, price quotations, friction, retained physical claims and bulk metal demand—not just grams of historic world production. Under its unverified $100/person/year benchmark, it calculates a ~$946B recurring funding requirement and ~$23.6T illustrative endowment at 4% yield. **These are not commitments or projections**; the next specialist contributions should challenge the cost structure, market-depth assumptions, real legal asset sources and price impacts.
 
+## Three-metal comparison now available
+
+The source-backed [Au/Ag/Cu comparative envelope](research/THREE_METAL_COMPARISON.md) and [reproducible calculation](research/three_metal_envelope.py) extend prior copper-only work to gold, silver and copper. Key open expert questions are the true source and ownership of endowment wealth, whether tiny holdings have practical redemption rights, market depth for very large purchases, and whether different legally backed metal claims should remain independently denominated.
+
 ## Workstreams (independent contributions are encouraged)
 
 | Priority | Research question | Concrete independent deliverable | Existing discussion |

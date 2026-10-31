@@ -58,6 +58,12 @@ The result is deliberately sceptical about using one metal at fixed market quote
 
 The [new primary-source title/custody review](research/TITLE_AND_CUSTODY.md) compares LBMA allocated and unallocated bullion holdings with the LME's electronic metal-warrant system. It explains why even a fully audited transaction ledger can represent a **credit claim against an institution** rather than individually enforceable physical ownership. A proposed resource-backed dividend must specify which right its recipients actually hold.
 
+## Gold, silver and copper: the original resource basket
+
+The new [three-metal research comparison](research/THREE_METAL_COMPARISON.md) covers **all three materials in the original concept**, using separately sourced 2025 mine-production figures. At explicitly assumed prices, even an entirely hypothetical transfer of **1% of annual world mine output in each metal** would represent only about **$1.05 of commodity reference value per person** across 8.3 billion people before costs. No ownership or donation of that production is established.
+
+That conclusion does not rule out transfers of existing aboveground metal stock or independently financed ownership. It shows why identifying a lawful funding source matters more than inventing a ledger.
+
 ## First contributions welcome
 
 No AI account, investment, coding background or connection to the original proposer is required to join the research. Two bounded starter tasks are open:

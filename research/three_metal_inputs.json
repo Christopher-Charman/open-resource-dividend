@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026-10-31",
+  "notes": "COUNTERFACTUAL production-flow fraction, not real reserves, entitlement, sustainable income, asset acquisition, or a market quote",
+  "assumed_population": 8300000000,
+  "hypothetical_fraction_of_2025_world_mine_flow_basis_points": [
+    100,
+    1000
+  ],
+  "illustrative_annual_reference_value_per_person_usd": 100,
+  "metals": [
+    {
+      "symbol": "Au",
+      "label": "gold",
+      "mine_2025_metric_tonnes": "3671.6",
+      "price_usd_per_troy_ounce_ASSUMED": "4000",
+      "above_ground_2025_stock_metric_tonnes_NOT_AVAILABLE": "220700",
+      "source_production": "https://www.gold.org/goldhub/research/gold-demand-trends/gold-demand-trends-full-year-2025/supply",
+      "source_stock": "https://www.gold.org/goldhub/research/market-primer/gold-market-primer-market-size-and-structure",
+      "note": "WGC/Metals Focus gold mine production estimate and end-2025 above-ground gold stock; stock is privately/institutionally owned, not ORD collateral"
+    },
+    {
+      "symbol": "Ag",
+      "label": "silver",
+      "mine_2025_million_troy_ounces": "846.6",
+      "price_usd_per_troy_ounce_ASSUMED": "75",
+      "source_production": "https://silverinstitute.org/elevated-lease-rates-regional-liquidity-tightness-and-robust-investor-interest-resulted-in-record-silver-prices-in-2025/",
+      "note": "Silver Institute/Metals Focus 2025 world mine supply; quoted in millions of troy ounces; mined flow not silver stock or owned warehouse bars"
+    },
+    {
+      "symbol": "Cu",
+      "label": "copper",
+      "mine_2025_metric_tonnes": "23665300",
+      "price_usd_per_metric_tonne_ASSUMED": "14000",
+      "source_production": "https://boletin.cochilco.cl/productos/boletin.asp?anio=2026&mes=08&tabla=tabla34",
+      "note": "COCHILCO 2025 mine production copper content; not Grade A cathode, available stock or ORD holdings"
+    }
+  ],
+  "reporting_unit": "USD (external hypothetical price reference only, not the units/peg/backing of an ORD asset)",
+  "source_date_scope": "WGC 2025 mine & end-2025 gold stock published 2026; Silver Institute April 2026 2025 supply; COCHILCO August 2026 2025 mine flow; population rounded 2026 assumption"
+}
