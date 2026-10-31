@@ -41,6 +41,15 @@ python3 research/value_funding.py
 
 Its [inputs](research/value_funding_inputs.json) are intentionally rounded **hypothetical** funding sums, copper market prices, operating expenses and an endowment-return assumption. The output compares physical copper amounts with estimated world mine production and computes a reverse annual funding requirement for a reference benchmark. There is no committed endowment or price feed. Do not report the US dollar reference as an ORD peg or a promised payment. See [value and funding research](research/VALUE_AND_FUNDING.md).
 
+## Issuer-neutral allocation over already-owned rights
+
+Run the [synthetic externally-issued-claims scenario](examples/scenarios/issuer_neutral.json):
+
+    python3 examples/issuer_neutral_distribution.py
+    python3 -m unittest discover -s examples -p 'test_*.py' -v
+
+This tests a **distribution of existing holdings** from two imaginary independent issuers rather than creating an ORD token. The current model has no custody connection, real inventory proof, electronic signatures, legal title evidence or identity verification. Its `delivery_assumed` event is explicitly not an independent physical-delivery confirmation. See [RFC 0002](research/RFC_0002_ISSUER_NEUTRAL_DISTRIBUTION.md).
+
 ## Exploring funding assumptions
 
 The editable sample lives at [examples/scenarios/volatile_copper.json](examples/scenarios/volatile_copper.json).

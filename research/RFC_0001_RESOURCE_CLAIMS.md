@@ -36,6 +36,8 @@ Every person receives credits restricted to inference services, or a unit that i
 
 **Additional primary legal and custody evidence:** [TITLE_AND_CUSTODY.md](TITLE_AND_CUSTODY.md) compares LBMA allocated versus unallocated bullion accounts and LME dematerialised metal warrants. It shows that a digitally transferable claim may be a general credit exposure instead of legally segregated metal ownership. This comparison is a crucial discriminant between options A, B and C, not evidence that any option already works in ORD.
 
+**New executable candidate:** [RFC 0002](RFC_0002_ISSUER_NEUTRAL_DISTRIBUTION.md) and its [synthetic multi-custodian model](../examples/issuer_neutral_distribution.py) now test architecture C without creating new ORD claims. This is a research example awaiting independent community criticism, **not** an adoption of architecture C, a verified issuer or a funded pool.
+
 ## Tests any design must survive
 
 | Scenario | Required answer |

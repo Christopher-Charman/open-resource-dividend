@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "asset_id": "SYN-CU-VAULT-A",
+      "issuer_id": "synthetic-issuer-A",
+      "custodian_id": "synthetic-vault-A",
+      "metal": "Cu",
+      "atomic_unit": "gram",
+      "legal_rights_reference": "UNVERIFIED-CU-TERMS-A",
+      "declared_total_claims": 1000,
+      "reported_reserves": 1000
+    },
+    {
+      "asset_id": "SYN-AU-VAULT-B",
+      "issuer_id": "synthetic-issuer-B",
+      "custodian_id": "synthetic-vault-B",
+      "metal": "Au",
+      "atomic_unit": "milligram",
+      "legal_rights_reference": "UNVERIFIED-AU-TERMS-B",
+      "declared_total_claims": 120,
+      "reported_reserves": 120
+    }
+  ],
+  "initial_holdings": [
+    {
+      "asset_id": "SYN-CU-VAULT-A",
+      "account": "synthetic-copper-donor",
+      "units": 1000
+    },
+    {
+      "asset_id": "SYN-AU-VAULT-B",
+      "account": "synthetic-gold-donor",
+      "units": 120
+    }
+  ],
+  "events": [
+    {
+      "type": "transfer",
+      "asset_id": "SYN-CU-VAULT-A",
+      "from": "synthetic-copper-donor",
+      "to": "universal-fund",
+      "units": 90
+    },
+    {
+      "type": "transfer",
+      "asset_id": "SYN-AU-VAULT-B",
+      "from": "synthetic-gold-donor",
+      "to": "universal-fund",
+      "units": 24
+    },
+    {
+      "type": "dividend",
+      "asset_id": "SYN-CU-VAULT-A",
+      "pool": "universal-fund",
+      "recipients": [
+        "Frank",
+        "Bob",
+        "Casey"
+      ],
+      "units_each": 20,
+      "retained_buffer": 30
+    },
+    {
+      "type": "dividend",
+      "asset_id": "SYN-AU-VAULT-B",
+      "pool": "universal-fund",
+      "recipients": [
+        "Frank",
+        "Bob"
+      ],
+      "units_each": 8,
+      "retained_buffer": 8
+    },
+    {
+      "type": "transfer",
+      "asset_id": "SYN-CU-VAULT-A",
+      "from": "Frank",
+      "to": "Bob",
+      "units": 4
+    },
+    {
+      "type": "transfer",
+      "asset_id": "SYN-CU-VAULT-A",
+      "from": "Bob",
+      "to": "independent-compute-provider",
+      "units": 10
+    },
+    {
+      "type": "request_redemption",
+      "asset_id": "SYN-AU-VAULT-B",
+      "holder": "Frank",
+      "request_id": "synthetic-gold-redemption-1",
+      "units": 2
+    },
+    {
+      "type": "cancel_redemption",
+      "request_id": "synthetic-gold-redemption-1"
+    },
+    {
+      "type": "request_redemption",
+      "asset_id": "SYN-CU-VAULT-A",
+      "holder": "Bob",
+      "request_id": "synthetic-copper-redemption-1",
+      "units": 5
+    },
+    {
+      "type": "delivery_assumed",
+      "request_id": "synthetic-copper-redemption-1"
+    }
+  ]
+}

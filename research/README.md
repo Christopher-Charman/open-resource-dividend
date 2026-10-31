@@ -23,6 +23,10 @@ The [title and custody comparison](TITLE_AND_CUSTODY.md) uses primary LBMA and L
 
 [THREE_METAL_COMPARISON.md](THREE_METAL_COMPARISON.md) now covers gold, silver and copper in their original intended roles. It separately cites WGC gold mine and aboveground stock data, Silver Institute 2025 silver mine supply, and COCHILCO copper mine flow. Its reproducible [scenario](three_metal_inputs.json) and [standard-library calculator](three_metal_envelope.py) never infer that any of these privately/publicly owned resources belong to ORD. The USD quotations are entirely hypothetical comparison inputs, **not** a basket exchange rate or peg.
 
+## New: issuer-neutral resource dividend candidate
+
+[RFC 0002](RFC_0002_ISSUER_NEUTRAL_DISTRIBUTION.md) develops the hypothesis that ORD **need not issue a new coin**. Instead, an independent fund transfers pre-existing, independently evidenced resource claims. The [synthetic model](../examples/issuer_neutral_distribution.py) keeps issuer, custodian, metal unit and underlying contractual right separate, rejects unfunded dividends and records pending redemption liabilities without falsely treating them as delivered metal. No actual legal rights or issuer balances are verified.
+
 ## How to reproduce
 
 With Python 3.10+ and no dependencies, from a fresh clone:
