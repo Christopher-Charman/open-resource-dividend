@@ -156,6 +156,8 @@ A falsification criterion for the funding thesis is: **no voluntary or otherwise
 7. How does a recipient prove uniqueness without permitting universal surveillance or excluding people without conventional identity documents?
 8. What does "universal" mean when metals, jurisdictions and lawful eligibility are heterogeneous?
 
+**Reproducible illustration:** A four-period, no-dependency [scenario](examples/scenarios/volatile_copper.json) and [simulator](examples/funding_scenarios.py) now expose changing recipient counts, intermittent real-asset contributions (assumed delivered), cost arrears and missed payout targets. Run them using [DEVELOPMENT.md](DEVELOPMENT.md). The example is *not* evidence of an economically viable funding source.
+
 **Summary:** The funding mechanism is independent of the ledger and of AI tokens. A genuinely non-fiat universal resource dividend is a **distribution of enforceable ownership funded by actual assets**, not a command to the ledger to invent wealth.
 
 *This note is provisional. It is not legal, tax, investment or financial advice, and does not imply that physical reserves or tokens exist.*

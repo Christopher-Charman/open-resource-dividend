@@ -1,0 +1,36 @@
+{
+  "name": "Volatile hypothetical copper trust (integer units, not a forecast)",
+  "metal": "Cu",
+  "initial_endowment_units": 1000,
+  "target_per_person_units": 9,
+  "periods": [
+    {
+      "label": "P1",
+      "recipients": 100,
+      "contribution_units": 0,
+      "operating_cost_units": 0,
+      "buffer_units": 100
+    },
+    {
+      "label": "P2",
+      "recipients": 125,
+      "contribution_units": 100,
+      "operating_cost_units": 10,
+      "buffer_units": 100
+    },
+    {
+      "label": "P3",
+      "recipients": 90,
+      "contribution_units": 0,
+      "operating_cost_units": 5,
+      "buffer_units": 50
+    },
+    {
+      "label": "P4",
+      "recipients": 100,
+      "contribution_units": 1000,
+      "operating_cost_units": 25,
+      "buffer_units": 150
+    }
+  ]
+}

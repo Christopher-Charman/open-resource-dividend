@@ -2,6 +2,8 @@
 
 This repository is an **open research proposal**, not a funded product or token sale. Contributions should improve its accuracy, challenge its assumptions or identify precedent.
 
+See the [developer quick-start](DEVELOPMENT.md), [source/evidence method](RESEARCH_METHOD.md), and [research roadmap](ROADMAP.md). The GitHub issue templates are plain Markdown prompts, not forms; you can still open a free-form issue or Discussion.
+
 Please open a GitHub issue or pull request with: (1) an exact claim or model assumption; (2) reasoning or a reproducible counterexample; (3) dated primary sources where available; (4) an explicit distinction between observation, inference and proposal.
 
 Useful contributions include material-reserve accounting, economics of universal distributions, physical commodity law and custody, open monetary governance, privacy-preserving eligibility, fraud and double-pledge threat modelling, and competing alternative designs.
