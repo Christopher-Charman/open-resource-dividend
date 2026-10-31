@@ -76,6 +76,12 @@ The [live external-project assessment](research/EXISTING_PROJECTS_DUE_DILIGENCE.
 
 **Key finding:** GoodCollective supplies a particularly relevant *funded-pool distribution pattern*; Paxos and Kinesis already provide physical-metal instruments, but their actual redemption minimums, issuer powers and jurisdictional requirements mean none is a verified drop-in universal ORD backing asset. No partnership, integrated live provider or real reserve exists.
 
+## Verified provider interfaces and owner-rights limitations
+
+The [provider transfer-interface review](research/TRANSFER_INTERFACE_FINDINGS.md) now examines **actual Paxos v2 transfer, status/readback and Sandbox documentation**, plus Kinesis native network transfers and GoodCollective's UBI contracts. A [dependency-free offline evidence validator](examples/provider_transfer_evidence.py) can reconcile synthetic Paxos-shaped debit/credit records without confusing a transaction status with **independently established legal gold ownership**.
+
+A material source finding: **PAXG's legal terms permit certain future storage fees financed through further token issuance**, potentially diluting holders; this is a contractual possibility, **not evidence of a currently charged fee**. The same terms specify freeze powers, customer-verification requirements and high direct physical-redemption minimums. This illustrates why ORD's **openness and non-dilution objectives cannot be delegated uncritically to an existing issuer**.
+
 ## First contributions welcome
 
 No AI account, investment, coding background or connection to the original proposer is required to join the research. Two bounded starter tasks are open:

@@ -34,6 +34,10 @@ The [issuer-neutral distribution RFC](research/RFC_0002_ISSUER_NEUTRAL_DISTRIBUT
 
 Source-level review now identifies [GoodCollective's funded UBI pool](https://github.com/GoodDollar/GoodCollective/blob/master/packages/contracts/contracts/UBI/UBIPool.sol) as a technical donor, **not** an ORD metal-title service. [Paxos and Kinesis](research/EXISTING_PROJECTS_DUE_DILIGENCE.md) provide real gold/silver claim precedents but impose significant individual physical-delivery minima and holder/issuer controls. [This interoperability specification](research/INTEROPERABILITY_SPEC.md) documents the actual rights-evidence, total liabilities, transfer and redemption steps a candidate asset must satisfy. Next external research should establish whether **any existing provider can legally transfer independently enforceable fractional property to worldwide recipients**; absent evidence, no real tokens or custodians should be admitted.
 
+## Real provider interface feasibility
+
+The [transfer API research](research/TRANSFER_INTERFACE_FINDINGS.md) distinguishes Paxos's authenticated transfer/status interface from gold-bar ownership, reserve attestation and physical delivery. The [offline consistency checker](examples/provider_transfer_evidence.py) validates fabricated provider-shaped records without treating them as actual transactions or externally verified settlements. The next external test is **provider-authorised, two-sided sandbox readback with no real funds**, not a new custom token. Separate legal title, custodial audit and whether the issuer contract permits dilution/freezes remain unresolved.
+
 ## Workstreams (independent contributions are encouraged)
 
 | Priority | Research question | Concrete independent deliverable | Existing discussion |

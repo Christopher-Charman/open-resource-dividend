@@ -18,6 +18,10 @@ For an evidence-linked examination of **current issuer contracts, redemption cos
 | **Universal Basic Compute** | AI compute-budget concept, including the idea of using, selling or donating capacity. [Altman, 2025](https://blog.samaltman.com/three-observations); [2024 interview transcript](https://lawwu.github.io/transcripts/nSM0xd8xHUM.html). | Compute access is the principal asset; Frank's economic freedom should not depend on choosing an AI provider or consuming AI. |
 | **Warehouse receipts / tokenised metal / commodity money** | Pre-existing systems of transferring contractual or proprietary claims to stored inventory. [LBMA account distinctions](https://www.lbma.org.uk/publications/the-otc-guide/precious-metal-accounts). | Neither a warehouse receipt nor a token automatically ensures affordable retail physical exit or funded universal endowment. |
 
+### Material transfer and contractual evidence
+
+Paxos publishes OAuth-protected [v2 transfer and status endpoints](https://docs.paxos.com/api-reference/endpoints/paxos-transfers/create-paxos-transfer) that support transaction-accounting workflows, **not an independently audited legal-title API**. Its [PAXG terms](https://www.paxos.com/terms-and-conditions/pax-gold-terms-conditions) allow specified freeze/upgrade powers and **potential future holder dilution for storage fees (§15.2)**; ORD must not describe the token as immutable or necessarily zero-fee under all contractual conditions. Kinesis documents [native KAU/KAG sending/receiving](https://support.kinesis.money/hc/en-gb/articles/40077246157725-Move-KAU-KAG), not proof of a public third-party custody-title API. See [exact transfer-interface diligence](research/TRANSFER_INTERFACE_FINDINGS.md).
+
 ## Materially closer components found
 
 **GoodCollective provides a working funded-pool distribution pattern. Paxos and Kinesis provide actual commodity-backed instruments with documented legal/operational constraints. Windfall Trust directly addresses the economic source of wealth from AI.** ORD should study their interfaces and independent evidence before building a new monetary authority.
