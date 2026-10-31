@@ -54,6 +54,10 @@ The [reproducible economic value study](research/VALUE_AND_FUNDING.md) investiga
 
 The result is deliberately sceptical about using one metal at fixed market quotes: copper-only purchases at this scale vastly exceed historical annual mined output. USD is a **comparison numeraire**, not a dollar peg or a monetary-issuance rule. This research is a feasibility challenge, not an intended payout.
 
+## Physical ownership must be more than a digital promise
+
+The [new primary-source title/custody review](research/TITLE_AND_CUSTODY.md) compares LBMA allocated and unallocated bullion holdings with the LME's electronic metal-warrant system. It explains why even a fully audited transaction ledger can represent a **credit claim against an institution** rather than individually enforceable physical ownership. A proposed resource-backed dividend must specify which right its recipients actually hold.
+
 ## First contributions welcome
 
 No AI account, investment, coding background or connection to the original proposer is required to join the research. Two bounded starter tasks are open:
