@@ -35,6 +35,12 @@ Run `python3 examples/compare_books.py`: a synthetic ten-unit copper transaction
 
 For the independently calculated economic scale envelope, see [research/README.md](../research/README.md). The accounting demonstrations cannot establish real inventory, legal ownership, delivery rights, external witnesses or completeness of all liabilities.
 
+## No new issuer: two external claim types
+
+The [issuer-neutral reference](issuer_neutral_distribution.py) reads the [Frank/Bob JSON scenario](scenarios/issuer_neutral.json). Separate fictional copper and gold receipt issuers contribute pre-existing claims to one funded pool; transfers, allowances, requests and cancellation remain separated by external asset ID. The code has **no ORD minting operation** and prevents an asset class or unowned claim from being silently substituted. It also models a pending physical redemption as an outstanding obligation, not an immediate token burn.
+
+This is an **unsigned accounting experiment**. Balancing declared claims against declared inventory is not an independent reserve audit, and the example does not verify recipient identities or real owner consent. More details: [RFC 0002](../research/RFC_0002_ISSUER_NEUTRAL_DISTRIBUTION.md).
+
 ## Limitations that must not be confused with guarantees
 
 - `deposit_assumed_verified` assumes custody, legal title, purity and no competing liens; it **does not** verify them.
