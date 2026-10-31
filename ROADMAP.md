@@ -26,6 +26,10 @@ The [purchasing-power envelope](research/VALUE_AND_FUNDING.md) reports assumed a
 
 The source-backed [Au/Ag/Cu comparative envelope](research/THREE_METAL_COMPARISON.md) and [reproducible calculation](research/three_metal_envelope.py) extend prior copper-only work to gold, silver and copper. Key open expert questions are the true source and ownership of endowment wealth, whether tiny holdings have practical redemption rights, market depth for very large purchases, and whether different legally backed metal claims should remain independently denominated.
 
+## Architecture C explored without creating an ORD coin
+
+The [issuer-neutral distribution RFC](research/RFC_0002_ISSUER_NEUTRAL_DISTRIBUTION.md) and offline model now demonstrate transfers of *already-held* externally issued, issuer-specific gold/copper claims through a funded fund. They reject unbacked allocations, preserve distinct legal-rights classes and keep pending delivery requests as liabilities. The live research gap is **independent real-world title/issuer liability verification, lawful funding and universally accessible eligibility**, not adding new token infrastructure.
+
 ## Workstreams (independent contributions are encouraged)
 
 | Priority | Research question | Concrete independent deliverable | Existing discussion |
