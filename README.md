@@ -57,6 +57,14 @@ The project benefits from evidence-based criticism as much as supportive contrib
 
 The personal-account owner retains GitHub-specific administrative controls. This distinction is stated openly: community stewardship is being built; it is **not yet a proven independent maintainer group**. [Independent-maintainer acceptance task](https://github.com/Christopher-Charman/open-resource-dividend/issues/7).
 
+## New: quantitative feasibility and independent audit challenge
+
+The [independently reproducible research package](research/README.md) now examines the proposal rather than assuming it works. Using dated copper production data, it shows that even an entirely **hypothetical** transfer of 1% of one year's world copper mine output would provide only about **28.5 grams of copper content per person across 8.3 billion people**, before costs. No actual metal is held or pledged to ORD.
+
+The [dual-book audit example](examples/compare_books.py) deliberately finds a shortfall between an internally consistent claims ledger and a separate physical-inventory declaration. It **does not** claim to certify any real reserves. [Three alternative resource-claim structures](research/RFC_0001_RESOURCE_CLAIMS.md) remain open for community scrutiny; a new issuer or token is not assumed necessary.
+
+Source-linked findings: [physical scarcity study](research/COMMODITY_SCALE.md) · [wholesale vs retail redemption](research/REDEMPTION_EVIDENCE.md) · [RFC 0001](research/RFC_0001_RESOURCE_CLAIMS.md).
+
 ## Reproducible open research
 
 All examples use the Python standard library, synthetic metal units and **no real assets or identities**. Contributors can reproduce the stock-flow model, independently reconstruct its event history, and run a four-period funding shortfall scenario from a fresh clone. The checks validate only arithmetic and event consistency under assumed custody; they do not attest gold, silver or copper.
