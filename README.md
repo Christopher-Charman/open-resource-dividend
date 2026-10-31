@@ -2,7 +2,7 @@
 
 **Open research proposal: an independently verifiable, physically redeemable universal entitlement for an AI-transformed economy.**
 
-[Read the discussion white paper](WHITEPAPER.md) · [Prior art](PRIOR_ART.md) · [Open questions](OPEN_QUESTIONS.md) · [Contributing](CONTRIBUTING.md)
+[Read the discussion white paper](WHITEPAPER.md) · [Funding feasibility](FUNDING_MODELS.md) · [Prior art](PRIOR_ART.md) · [Open questions](OPEN_QUESTIONS.md) · [Contributing](CONTRIBUTING.md)
 
 > **Research only · v0.1 · 31 October 2026.** No tokens exist, no physical reserves are held, no redemption or universal allowance is funded, and no economic or legal feasibility has been demonstrated. Nothing here constitutes an investment offering or recommendation.
 
