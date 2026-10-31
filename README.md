@@ -46,7 +46,7 @@ Contributors are encouraged to submit sources, worked counterexamples and object
 
 [Join the public discussion on volunteering and maintaining ORD](https://github.com/Christopher-Charman/open-resource-dividend/discussions/5). The project welcomes contributors who question the hypothesis as well as those who support it. No contributor requires the founder's permission to fork or propose research; invited collaborators can independently maintain routine project work. The original proposer may remain the account owner without controlling every research decision. [Governance](GOVERNANCE.md) · [Stewardship roadmap](COMMUNITY_HANDOFF.md) · [Code of conduct](CODE_OF_CONDUCT.md).
 
-The personal-account owner retains GitHub-specific administrative controls. This distinction is stated openly: community stewardship is being built; it is **not yet a proven independent maintainer group**.
+The personal-account owner retains GitHub-specific administrative controls. This distinction is stated openly: community stewardship is being built; it is **not yet a proven independent maintainer group**. [Independent-maintainer acceptance task](https://github.com/Christopher-Charman/open-resource-dividend/issues/7).
 
 ## Scope and participation
 
