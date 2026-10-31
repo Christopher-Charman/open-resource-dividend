@@ -15,6 +15,9 @@ This document is a falsifiable research note, **not a claim of patent novelty or
 
 ## Evidence and links
 - https://lawwu.github.io/transcripts/nSM0xd8xHUM.html — Universal Basic Compute interview transcript.
+- https://futureoflife.org/project/the-windfall-trust/ — Windfall Trust proposal, global AI-generated wealth sharing.
+- https://pfd.alaska.gov/Division-Info/about-us — Alaska's mineral-derived resident dividend.
+- https://apfc.org/the-fund/fund-structure/ — funding and two-account structure of Alaska's Permanent Fund.
 - https://blog.samaltman.com/three-observations — 2025 compute-budget discussion.
 - https://whitepaper.gooddollar.org/ and https://www.gooddollar.org/ — basic income and funding.
 - https://docs.aboutcircles.com/overview/how-it-works — personal and group currencies.
