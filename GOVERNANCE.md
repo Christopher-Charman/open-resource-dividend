@@ -1,54 +1,69 @@
 # Community governance for Open Resource Dividend
 
-**Status: adopted project process, 31 October 2026.** This governs the *public research project*, not a live currency, legal trust, reserve issuer or financial entity.
+**Status: proposed for public review · 31 October 2026.** These rules concern this open research repository, not a live asset, currency, reserve issuer or financial institution.
 
-## Purpose and principles
+## Founding and ownership
 
-ORD belongs to its contributors and the public research community. The person who first proposed or published it has **no permanent veto, reserved vote, exclusive licence, special economic rights or guaranteed maintainer position**. The proposal may be revised, rejected or replaced by stronger evidence. Contributions, including counterexamples, belong in the public record.
+**Christopher Charman remains the original proposer and GitHub repository owner.** That history is neither erased nor made into a permanent veto over research conclusions. The project is intended to be developed, challenged and maintained by people other than its originator. Ownership of the GitHub account, authorship attribution and participation in open project decisions are different roles.
 
-"Open" means that research, source, participation rules, decision history and review evidence are inspectable and reusable. It **does not** yet mean the GitHub repository is independently owned: see [the custody and succession plan](COMMUNITY_HANDOFF.md). Current administrators can technically override the rules while the repository remains in a personal account; declaring community governance does not remove that technical power.
+The repo may remain in the founder's personal GitHub account indefinitely. A transfer to a neutral organisation is **optional**, not a condition of genuine open participation. Such a transfer would require a separate public proposal and the relevant owners' consent; there is no standing authorisation to move the repository.
 
-**No token issuance, fundraising, custody, entitlement, corporate control or external deployment** is authorised by this document. Any such project would require a separately disclosed legal, technical, security and governance basis.
+### What independence means—and does not mean
 
-## Participation
+People must be able to read, use, fork, review and propose changes without personal permission. Accepted community collaborators should be able to merge PRs, manage issues and publish updates without requiring the founder to perform every operation. Public decisions are evaluated on evidence and documented in discussion.
 
-Anyone may read, copy within the published licences, fork, open issues, submit pull requests and challenge prior work. There is no requirement to use AI, contribute funds, identify with the original proposer, or agree with the hypothesis. Civil disagreement is welcome; see [Code of Conduct](CODE_OF_CONDUCT.md).
+**Current technical limitation:** GitHub personal-account repositories have one account owner with administrative privileges. Collaborators can write, merge pull requests, manage issues and releases but cannot independently perform every owner-only action, such as controlling repository access and visibility. This is a genuine residual dependency while the repo remains in a personal account. Community-led continuation remains possible through licensed forks even if account administration becomes unavailable. Do not represent full administrative independence as achieved until evidence establishes it.
 
-Contributors retain their own authorship. Contributions are submitted under the repository's existing applicable licences: **CC BY 4.0** for original research text; **MIT** for example software. The project does not require copyright assignment or an exclusive contributor licence agreement. Contributors must have rights to submit their materials.
+GitHub references:
+- https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/repository-access-and-collaboration/permission-levels-for-a-personal-account-repository
+- https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/repository-access-and-collaboration/inviting-collaborators-to-a-personal-repository
 
-## Open decisions
+## Open participation
 
-- **Routine, reversible changes**: typos, formatting, citations and test corrections can be merged following ordinary public PR review when available. While one maintainer exists, corrections can be merged with exact before/after source evidence; avoid unnecessary ceremony.
-- **Substantive research changes**: changes to core economic assumptions, funding, claims, reserve accounting, findings or normative principles require a public issue or GitHub Discussion with evidence and an invitation for dissent. Allow a reasonable review window, normally **at least seven calendar days**, before adopting a material position. A serious, relevant unresolved objection requires a response, not silent closure.
-- **Governance, ownership, licensing or financial-scope changes**: public RFC, normally **at least 21 days** of review, and explicit evidence of support from **at least two independent established maintainers** before adoption. Until such maintainers exist, proposals remain drafts; no sole founder vote should masquerade as community approval.
-- **Security and privacy corrections**: may be made sooner where delay could harm people, but should receive a public explanation once disclosure is safe. Do not post secrets or private identifiers in public issues.
+Anyone may read, reuse under the published licences, fork, submit issues/PRs, and dispute any claim, including the foundational economic hypothesis. No requirement to use AI, endorse the proposal, donate money or become personally acquainted with the founder.
 
-When multiple maintainers exist, seek consensus from the maintainers and participants most affected. Consensus means serious objections have been addressed, not unanimous approval. If consensus cannot be reached after an RFC window, a published decision by **two-thirds of non-conflicted active maintainers, with at least two people assenting**, is sufficient for ordinary substantive proposals. Governance or ownership changes require **two-thirds and at least three independent assenting maintainers** once that many exist. If fewer than three exist, constitutional changes stay in public RFC rather than being silently adopted. A tie or unmet threshold leaves the current rules unchanged.
+- Research writing and original documentation: [CC BY 4.0](LICENSE.md).
+- Example source code: [MIT](LICENSE-CODE.md).
+- No exclusive contributor licence agreement or copyright assignment to the originator is required. Contributors must have the necessary rights to license what they submit.
+- Recognise sources and material intellectual contributions. Preserve criticism and corrections as part of the record.
+- No production token issuance, real asset custody, fundraising, governance of economic assets or investment promotion is authorised by this document.
 
-Document accepted, rejected and deferred decisions, supporting evidence, dissent and a stable link to the discussion. Silence from the founder is **not** a veto. Silence from the community is **not** proof of consent for high-impact changes.
+## Public decision path
 
-## Becoming a maintainer
+1. **Discuss:** use an issue or [GitHub Discussions](https://github.com/Christopher-Charman/open-resource-dividend/discussions) for material changes and open research questions.
+2. **Support claims:** cite primary evidence, separate observations from inference and note unresolved objections.
+3. **Propose change:** submit a PR to a specific versioned file or model, with the corresponding discussion if a consequential choice is proposed.
+4. **Review openly:** participants and maintainers explain acceptance, objection or rejection; criticisms are assessed on substance, not status or agreement with the founder.
+5. **Record:** merge or decline with links to evidence, dissent, effective date and remaining risks. A change of research conclusion is not a failure.
 
-A contributor may volunteer or be nominated by another contributor in a public discussion. Normally the nominee should have a record of **at least two substantive contributions or sustained constructive review**, familiarity with the project's caveats, and acceptance of [the code of conduct](CODE_OF_CONDUCT.md). A public nomination remains open for **seven days**. Established maintainers decide under the consensus rules above, recusing themselves for conflicts. During bootstrap, the present administrator can grant collaborator permissions, but this is a transparent **temporary technical act**, not unilateral authority to define permanent community policy.
+Small reversible editorial corrections do **not** require a formal RFC or a waiting period. For changes to the governance process, contributor rights, licensing, or public claims of legal/economic status, seek broad public review before merging and record dissent. There is no arbitrary voting rule that prevents ordinary improvements while only one contributor exists; the actual GitHub permissions and contributor consent still apply.
 
-Maintainers are custodians of public evidence and contributor experience, **not owners of the research conclusions**. They should be replaceable, declare relevant conflicts, and avoid financial interests controlling the project. Activity and decision-making are public except legitimate confidential reports.
+**The founder's silence is not a governance veto.** Equally, an author or current administrator's ability to merge a PR does not imply a public consensus. Until independent maintainers emerge, consequential governance decisions should be described accurately as *provisional steward decisions*, not community ratification.
 
-Maintainership can be relinquished at any time. A maintainer inactive for **90 days** may be moved to emeritus status by active maintainers after public notice and a reasonable opportunity to respond. Revocation for abuse follows due process to the extent safe; do not expose reporters or enable retaliation.
+## Becoming and remaining a maintainer
 
-## Founder independence and succession
+Any contributor can volunteer through [community stewardship Discussion #5](https://github.com/Christopher-Charman/open-resource-dividend/discussions/5). A practical route:
 
-The founder's historical attribution is respected, but not a prerequisite for contribution, decisions or maintenance. No password, personal server, proprietary service, private repository, paid CI, API key or private approval is necessary to read, fork, test or propose changes.
+- Make or review constructive, evidence-based contributions; document relevant skills and conflicts of interest.
+- Show willingness to review others' work and maintain a source-first, non-promotional research environment.
+- Ask publicly for collaborator access. Existing maintainer(s) should discuss suitability openly, respect privacy and secure affirmative acceptance.
+- The current account owner must technically send collaborator invitations under GitHub's personal-repository model. This technical role is not a special authority over the correctness of the research.
+- Once a collaborator has accepted, verify their independent ability to merge a safe documentation PR or maintain ordinary issues—without the founder doing the work on their behalf.
 
-The desired home is a **neutral GitHub organisation with multiple independent administrators**, not a project dependent on one personal account. The actual move requires an available organisation and willing maintainers. Until transfer, this is an **explicitly incomplete operational independence objective**; see [COMMUNITY_HANDOFF.md](COMMUNITY_HANDOFF.md).
+No strangers should be granted write access automatically. The goal is more independent stewards with clearly understood permissions, not a token sale, popularity contest or centrally chosen successor.
 
-All published content remains forkable under its licences if administrators disappear, disagree, or stop responding. The right to fork is an important fail-safe, not proof the canonical GitHub repository has been transferred.
+Maintainers can step down. When someone becomes inactive, public acknowledgement and an orderly transition are preferable to indefinite reliance on them. Serious moderation decisions should use [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md), minimise sensitive disclosure and disclose conflicts.
 
-## Conflicts of interest and financial boundaries
+## Conflicts and capture
 
-Maintainers must disclose when they represent or have a material financial interest in a proposed token, custodian, compute provider, platform or investment. They must recuse themselves from decisions where those interests materially conflict. Researchers may still submit evidence without being excluded solely for their affiliations.
+No individual, AI company, custodian, mining company, investment promoter or compute marketplace should have an exclusive right to set research conclusions or issue an "official" token. A maintainer with relevant financial or commercial interests should disclose them and abstain from decisions directly affecting that interest. Do not silently remove inconvenient counterevidence.
 
-Project decisions cannot promise real money, ownership, dividend amounts or backing. No one may sell or solicit "official ORD tokens" on the authority of this research repo. Any future production effort requires explicit independent governance, rights verification, financial/legal review and a distinct decision process.
+An account owner may still technically change repository settings, remove contributors or archive the repository. The project's open licences, documented public history and forkability offer a continuity path but cannot eliminate that platform reality. A more robust organisational owner can be discussed later **if the community wants it**, without implying the original proposer must leave.
 
-## Amending this document
+## Security, privacy and licence changes
 
-Open a governance RFC, follow the longer review window and multi-maintainer threshold, preserve history and dissent, and state the effective date. Until an independent quorum exists, substantive governance rules must not be silently rewritten by the current account holder.
+Address immediate security or privacy hazards promptly. Licence changes require respect for each copyright holder's rights; governance votes cannot retroactively seize existing contributors' rights. Financial or live protocol governance would require a new, explicit legal/technical framework, not an amendment to a research README.
+
+## Improvement of these rules
+
+The rules are intended to evolve with community participation. Propose changes in public, preserve version history, explain contested decisions and make no claim that community consent has occurred when it has not. The repository owner can remain the original owner while the research and ordinary maintenance become community-led.
