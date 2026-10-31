@@ -2,7 +2,7 @@
 
 **Open research proposal: an independently verifiable, physically redeemable universal entitlement for an AI-transformed economy.**
 
-**New here? [Start with the two-minute overview](START_HERE.md).** This is an open research project intended for community maintenance, with [transparent governance](GOVERNANCE.md) and a [founder-independent contribution plan](COMMUNITY_HANDOFF.md). The original proposer remains the GitHub repository owner.
+**New here? [Start with the two-minute overview](START_HERE.md) or [critical FAQ](FAQ.md).** This is an open research project intended for community maintenance, with [transparent governance](GOVERNANCE.md) and a [founder-independent contribution plan](COMMUNITY_HANDOFF.md). The original proposer remains the GitHub repository owner.
 
 [White paper](WHITEPAPER.md) · [Funding feasibility](FUNDING_MODELS.md) · [Architecture and assurance](ARCHITECTURE.md) · [Reproduce the examples](DEVELOPMENT.md) · [Prior art](PRIOR_ART.md) · [Roadmap](ROADMAP.md) · [Contribute](CONTRIBUTING.md) · [Community discussion](https://github.com/Christopher-Charman/open-resource-dividend/discussions/5)
 
