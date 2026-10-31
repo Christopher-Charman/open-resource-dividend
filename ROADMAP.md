@@ -18,6 +18,10 @@
 
 These results help experts disprove assumptions. They do **not** establish a funded universal payment or a physically audited collateral pool.
 
+## Funding feasibility research now quantified
+
+The [purchasing-power envelope](research/VALUE_AND_FUNDING.md) reports assumed annual funding, price quotations, friction, retained physical claims and bulk metal demand—not just grams of historic world production. Under its unverified $100/person/year benchmark, it calculates a ~$946B recurring funding requirement and ~$23.6T illustrative endowment at 4% yield. **These are not commitments or projections**; the next specialist contributions should challenge the cost structure, market-depth assumptions, real legal asset sources and price impacts.
+
 ## Workstreams (independent contributions are encouraged)
 
 | Priority | Research question | Concrete independent deliverable | Existing discussion |

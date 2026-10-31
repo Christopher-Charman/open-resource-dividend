@@ -145,6 +145,12 @@ For each period `t`, publicly report:
 
 A falsification criterion for the funding thesis is: **no voluntary or otherwise legitimate resource-income source can meet the desired universal distribution under plausible costs, access and risk**. The system should publish that result instead of moving to unbacked issuance.
 
+### A quantitative challenge to a meaningful payout
+
+The [value and funding feasibility study](research/VALUE_AND_FUNDING.md) turns the distinction between **backing** and **income** into an explicit sensitivity model. At an assumed 8.3 billion recipients, a hypothetical resource entitlement equivalent to **$100 per person per year** would need roughly **$946 billion of settled external income** given the deliberately illustrative cost/spread/buffer assumptions in the file; a 4% realised endowment yield would arithmetically imply about **$23.6 trillion** of capital. No such endowment or income stream has been pledged or identified.
+
+That calculation is not an endorsement of fiat backing, a nominal payout target, a return assumption or a proposal to buy the world's copper. USD is the **external market quote** used to compare the purchasing power of legally acquired physical claims. At large global volumes, unchanged wholesale quotations are demonstrably unreliable modelling assumptions.
+
 ## 6. Next research questions
 
 1. Can a legally independent endowment earn *real* income in metal or reliably acquire physical claims without claiming the same metals twice?

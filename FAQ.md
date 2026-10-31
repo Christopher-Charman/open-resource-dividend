@@ -26,6 +26,10 @@ That would invent liabilities without backing. A dividend pool must own existing
 
 The [research calculator](research/COMMODITY_SCALE.md) shows that even a purely hypothetical 1% contribution of 2025 worldwide mine copper output would amount to about **28.5 grams of copper content per person per year** over 8.3 billion people. There is **no evidence any such metal is available to ORD**, and mined copper is not necessarily deliverable Grade A copper. These figures express a **quantity bound**, not a commodity price, a basic-income amount or a prediction.
 
+### How much would a meaningful recurring resource entitlement cost?
+
+A [public scenario calculator](research/VALUE_AND_FUNDING.md) asks what genuine outside income could purchase in physical copper claims. For illustration only, providing $100 of quoted metal value per year to 8.3 billion people requires about $946 billion of annual settled funding under a specific set of assumed expenses and retained reserves. At an assumed 4% endowment yield, that corresponds arithmetically to about $23.6 trillion of invested capital. No such endowment or yield is real, and acquiring the necessary copper at a fixed spot price is implausible. The project does not propose a dollar-pegged token.
+
 ### Would an immutable ledger prevent corruption?
 
 It makes an independently witnessed transaction history more difficult to rewrite secretly. It does **not** establish that physical metal exists or has unencumbered legal title. In fact, the [dual-book audit illustration](examples/compare_books.py) shows an internally consistent journal with *ten* units of copper liabilities but only *eight* units of separately declared inventory. The ledger is mathematically consistent; the declared collateral is insufficient. Even a matched declaration is not yet a verified audit.
@@ -33,6 +37,10 @@ It makes an independently witnessed transaction history more difficult to rewrit
 ### Can anyone redeem fractions of a wholesale bar?
 
 Not established. Wholesale physical markets have delivery units such as 25-tonne LME copper lots and large LBMA Good Delivery bars. Smaller private holdings can be transferred or aggregated, but **small-holder delivery rights, handling costs, title and insolvency protection must be demonstrated separately**. See [real delivery evidence](research/REDEMPTION_EVIDENCE.md).
+
+### Would I legally own actual metal or an IOU from a company?
+
+That is **not yet decided**, and the distinction matters. The [LBMA's official market account guide](https://www.lbma.org.uk/publications/the-otc-guide/precious-metal-accounts) differentiates allocated holdings linked to specific identified bars from unallocated balances owed by a clearing institution. The [LME's electronic warrant system](https://www.lme.com/en/sustainability-and-physical-markets/warehousing/lme-warrants) is another example of actual metal title documentation. Our [legal-title research note](research/TITLE_AND_CUSTODY.md) explains what must be established for an ORD holder. None of these precedents presently issues, backs or guarantees any ORD claims.
 
 ### Is the idea proven novel or economically viable?
 

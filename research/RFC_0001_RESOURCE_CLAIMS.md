@@ -34,6 +34,8 @@ Every person receives credits restricted to inference services, or a unit that i
 
 **Problem for the original ORD objective:** Frank would be dependent on provider exchange rates or on finding a buyer for a closed service even if he prefers not to use AI. It can be a separate public benefit, but it is not a substitute for an open, physically redeemable resource claim.
 
+**Additional primary legal and custody evidence:** [TITLE_AND_CUSTODY.md](TITLE_AND_CUSTODY.md) compares LBMA allocated versus unallocated bullion accounts and LME dematerialised metal warrants. It shows that a digitally transferable claim may be a general credit exposure instead of legally segregated metal ownership. This comparison is a crucial discriminant between options A, B and C, not evidence that any option already works in ORD.
+
 ## Tests any design must survive
 
 | Scenario | Required answer |
