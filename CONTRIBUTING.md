@@ -10,4 +10,6 @@ Useful contributions include material-reserve accounting, economics of universal
 
 No fundraising, token issuance, financial solicitation or custody operations are part of this repository. Please keep discussion non-promotional. Preserve source attributions and avoid claims that open code alone verifies off-chain assets.
 
+For first-time readers, the [two-minute introduction](START_HERE.md) explains the core hypothesis. If you want to challenge it numerically, use the [non-financial stock-flow example](examples/README.md) as a starting point. No new blockchain or external service is required. Research text and example code have [separate licences](LICENSE.md) ([MIT for code](LICENSE-CODE.md)).
+
 The core concept is exploratory. Well-supported objections and findings that falsify it are contributions, not failures.
