@@ -27,6 +27,13 @@ The [title and custody comparison](TITLE_AND_CUSTODY.md) uses primary LBMA and L
 
 [RFC 0002](RFC_0002_ISSUER_NEUTRAL_DISTRIBUTION.md) develops the hypothesis that ORD **need not issue a new coin**. Instead, an independent fund transfers pre-existing, independently evidenced resource claims. The [synthetic model](../examples/issuer_neutral_distribution.py) keeps issuer, custodian, metal unit and underlying contractual right separate, rejects unfunded dividends and records pending redemption liabilities without falsely treating them as delivered metal. No actual legal rights or issuer balances are verified.
 
+## Existing project assessment and technical donors
+
+- [Verified primary-source ecosystem diligence](EXISTING_PROJECTS_DUE_DILIGENCE.md) reviews real issuer title terms, gold/silver audits and redemption fees, current GoodDollar/Circles source licences, GoodCollective's actual UBI contract and the Windfall Trust.
+- [Interoperability contract](INTEROPERABILITY_SPEC.md) specifies what it would take to move legally existing property through an independent distribution pool, without inventing new issuance or treating a token transaction as proof of metal delivery.
+
+The existing synthetic issuer-neutral sample does not connect to any of those providers. All external issuer/source claims remain independently reviewable and no provider is approved for ORD.
+
 ## How to reproduce
 
 With Python 3.10+ and no dependencies, from a fresh clone:
