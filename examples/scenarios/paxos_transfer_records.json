@@ -1,0 +1,32 @@
+{
+  "intent": {
+    "client_ref_id": "ORD-SYNTHETIC-NOT-SUBMITTED-0001",
+    "asset": "PAXG",
+    "from_profile_id": "synthetic-funder-profile",
+    "to_profile_id": "synthetic-recipient-profile",
+    "amount": "0.125"
+  },
+  "transfers": [
+    {
+      "id": "synthetic-debit-001",
+      "group_id": "synthetic-group-001",
+      "type": "PAXOS_TRANSFER_DEBIT",
+      "status": "COMPLETED",
+      "direction": "DEBIT",
+      "profile_id": "synthetic-funder-profile",
+      "asset": "PAXG",
+      "amount": "0.125",
+      "ref_id": "ORD-SYNTHETIC-NOT-SUBMITTED-0001"
+    },
+    {
+      "id": "synthetic-credit-001",
+      "group_id": "synthetic-group-001",
+      "type": "PAXOS_TRANSFER_CREDIT",
+      "status": "COMPLETED",
+      "direction": "CREDIT",
+      "profile_id": "synthetic-recipient-profile",
+      "asset": "PAXG",
+      "amount": "0.125"
+    }
+  ]
+}
