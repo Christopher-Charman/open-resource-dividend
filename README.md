@@ -64,6 +64,12 @@ The new [three-metal research comparison](research/THREE_METAL_COMPARISON.md) co
 
 That conclusion does not rule out transfers of existing aboveground metal stock or independently financed ownership. It shows why identifying a lawful funding source matters more than inventing a ledger.
 
+## Working issuer-neutral distribution reference
+
+The [RFC 0002 candidate](research/RFC_0002_ISSUER_NEUTRAL_DISTRIBUTION.md) and [dependency-free demonstration](examples/issuer_neutral_distribution.py) show how a **fund that already holds existing external resource claims** could allocate those rights to Frank, Bob and other holders without minting a new ORD currency. Copper and gold claims from independent fictional custodians remain distinct, and pending physical-redemption requests remain liabilities until separately resolved.
+
+The example also demonstrates why a synthetic account balance **cannot prove** physical gold, copper, legal ownership, signed consent, eligible humans or a funded real-world dividend. This is a research option for public criticism, not an adopted monetary standard or launched financial service.
+
 ## First contributions welcome
 
 No AI account, investment, coding background or connection to the original proposer is required to join the research. Two bounded starter tasks are open:
