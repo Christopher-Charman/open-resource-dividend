@@ -1,57 +1,55 @@
-# Towards independent community stewardship
+# Community stewardship and founder-independent continuation
 
-**Status as observed 31 October 2026: NOT YET INDEPENDENT.**
+**Status: work in progress · 31 October 2026.** ORD is publicly readable, forkable, open for issues, PRs and Discussions, but has not yet recruited or verified independent maintainers.
 
-The repository is public, forkable and licensed for reuse, but it is still housed under `Christopher-Charman/open-resource-dividend` on a **personal GitHub account**. No separate community organisation or independent administrator has been verified. As a result, the current account holder remains able to change repository settings, permissions, or availability. [GOVERNANCE.md](GOVERNANCE.md) expresses public commitments; it cannot technically bind GitHub account administration.
+**Ownership decision:** The original proposer **may remain the repository owner**. This document does **not** propose or authorise a forced repository transfer, removal of the founder's attribution, or creation of a new GitHub organisation.
 
-## What independent stewardship should mean
+## Goal
 
-1. **Open intellectual work** — white paper, models, objections, attribution, history, issue/PR discussions and licences are publicly available; no founder approval for forks.
-2. **Open entry to maintenance** — a published, achievable path from contributor to maintainer, independent of friendship, employer, ideology, AI usage or endorsement of ORD economics.
-3. **Shared operational custody** — a community GitHub organisation with multiple consenting, unrelated administrators; an additional independent person can operate the repo if the founder is unavailable.
-4. **Independent knowledge and processes** — no essential server or credentials owned by a sole individual, no paid/third-party CI requirement, and reproducible work from a fresh clone using freely available tools.
-5. **Accountable decisions** — publicly documented evidence, disagreements, conflict handling, transparent selection/removal and clear financial boundaries.
+Make it realistic for contributors to evaluate, develop, challenge and maintain ORD **without depending on the originator's daily participation, personal servers, credentials, AI subscriptions or approval**. The originator's identity and historical authorship can remain visible while the research stands on independently reproducible sources and community decisions.
 
-## Current evidence and gaps
+## What can be decentralised under a personal GitHub owner?
 
-| Property | State | Evidence or missing condition |
+GitHub's documented personal-repository collaborator model allows accepted collaborators to push, review and merge PRs, manage issues/labels and produce releases. This supports day-to-day founder-independent maintenance. However, only the personal account owner has full repository administrative powers, including access/visibility management; no collaborator consent or policy file removes those rights.
+
+As such:
+- **Open research continuity** can be achieved on the existing repo with accepted contributors and collaborators.
+- **Day-to-day operational independence** can be demonstrated by a non-founder completing routine maintainer work.
+- **Complete GitHub administration independence** cannot be claimed while a single personal account retains owner-only operations. A neutral organisation is an *optional future technical option*, not an assumed endpoint.
+
+Primary documentation: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/repository-access-and-collaboration/permission-levels-for-a-personal-account-repository
+
+## Current evidence and outstanding acceptance
+
+| Condition | Status | Evidence or needed verification |
 | --- | --- | --- |
-| Public repository and reusable research/software licences | **Established** | Repository visibility, CC BY 4.0 research and MIT example |
-| Contributors can suggest changes and fork | **Established** | Public GitHub repo, issues and ordinary pull-request workflow |
-| Open research review process | **Documented** | [GOVERNANCE.md](GOVERNANCE.md) and [CONTRIBUTING.md](CONTRIBUTING.md) |
-| Discussion forum | **To verify live** | Repository Discussions feature must be enabled and read back |
-| Two or more independent maintainers | **Not established** | Public nominations and affirmative acceptances required |
-| Community-owned GitHub organisation | **Not established** | Neutral organisation name/ownership agreed; creation and membership consent required |
-| Ownership transfer from personal account | **Not complete** | Requires real target organisation, permission and independent acceptance |
-| No-single-person administration | **Not complete** | Organisation owners/admins configured and independently verified |
-| Autonomous ongoing responsiveness | **Not guaranteed** | Depends on active humans or legitimately operated community processes |
+| Public, noncommercial research repository | **Verified** | GitHub visibility is public; no token/fundraising launch |
+| Public research and code licences | **Verified** | CC BY 4.0 text and MIT example |
+| Open, documented contribution path | **Documented** | CONTRIBUTING, Governance, README and issue templates |
+| Public project discussion | **Verified** | GitHub has_discussions=true; [Discussion #5](https://github.com/Christopher-Charman/open-resource-dividend/discussions/5) |
+| Original owner remains recognised | **Preserved** | Account under Christopher-Charman; attribution in project history |
+| Non-founder maintainer invited and accepted | **Not yet verified** | Requires volunteer consent and actual GitHub collaborator invitation |
+| Non-founder safely merges a genuine PR | **Not yet verified** | Independent effect and PR/commit readback needed |
+| Two or more active unrelated maintainers | **Not yet verified** | Independent individuals voluntarily take responsibility |
+| Complete independence from one admin account | **Not achieved and not required for day-to-day collaboration** | Personal-account technical restriction; can revisit if needed |
+| Guaranteed unattended responsiveness | **Not claimed** | Depends on willing humans; do not invent an agent or monitoring promise |
 
-These statuses are dated evidence, not automatically refreshed claims.
+## Practical, non-coercive sequence
 
-## Handoff milestones
+1. **Invite critique and maintainers:** [Discussion #5](https://github.com/Christopher-Charman/open-resource-dividend/discussions/5) is the public contact point. Reviewers can contribute without endorsing the economic idea.
+2. **Evaluate demonstrated contributions:** ordinary research, engineering, open governance and critical review; do not choose on personal loyalty or public profile alone.
+3. **Invite consenting collaborators:** once a candidate is ready, the personal-account owner sends GitHub's native collaborator invitation. Do not ask for credentials or create fake identities.
+4. **Verify independence in practice:** a non-founder completes a real, low-risk public PR or issue maintenance step, using only GitHub and normal free developer tools. Preserve source and destination readback.
+5. **Share maintenance:** at least two independently active collaborators can triage, review and merge, and remain accountable to public discussion. No dependency on the original host, private repository or commercial CI.
+6. **Improve resilience:** publish low-cost export/fork instructions, contributor documentation, open licences and independent research datasets where legal. If the original owner disappears, a public fork can continue work, with transparent attribution, though a fork cannot become the canonical original repo by magic.
+7. **Optional later:** only if collectively desired, discuss moving to a community-owned organisation with its own willing owners and admin controls. That would be a **separate decision**, never a prerequisite assumed here.
 
-**A — Invite independent stewardship.** Keep a public invitation open to contributors, reviewers, governance specialists, maintainers and translators. A candidate must affirmatively consent and must not be assigned responsibility without agreement. Accumulate and acknowledge useful contributions. No fixed founder-selects-successor rule.
+## Continuity and boundaries
 
-**B — Establish a caretaker group.** Identify at least two independent active people (preferably three or more) who consent to a shared stewardship agreement, disclose relevant conflicts and can participate in governance. Document their role and a tested non-founder source-maintenance path.
+The founder may remain the official GitHub owner and contribute as much or as little as desired. Community participants need not consult the founder for ordinary research discussion, editing, forks or normal maintainer review once granted collaborator privileges. **Onboarding a new collaborator and changing administrative settings still require owner action on this hosting arrangement.**
 
-**C — Choose a neutral organisational home.** Propose available name(s) and permissions in public discussion. Confirm that the organisation is not controlled by one individual or a commercial beneficiary. Set multiple organisation owners from independent accounts, minimum privilege for ordinary contributors, and a documented recovery path. **Do not invent an organisation, owner account or member consent.**
+The repository is intentionally free of reliance on credentials, private hosting, paid GitHub Actions or one AI provider. Contributors can clone and run the educational model using the Python standard library. No live resource backing or entitlement is provided.
 
-**D — Transfer the *existing* repository.** An administrator with authority transfers it to the chosen organisation via GitHub's native transfer process. GitHub says issue and pull-request history and repository links are preserved/redirected, subject to the documented conditions. Before transfer, record base SHA and current settings; after, independently read back visibility, owner, contributors' access, issues, forks, redirects, licences, discussions and rules. The original owner should retain only ordinary community permissions, not sole administrative control.
+This is a *research governance* strategy. Rights over future financial instruments, custody arrangements, trademarks or legal organisations are **not** allocated by this plan.
 
-**E — Verify independence.** A non-founder maintainer can accept a real, non-sensitive PR through the community-owned repository without invoking the founder, private accounts, personal servers or private CI. At least two independent people hold recoverable organisation administration; the original proposer is no longer the single required operator. The repository remains public and independently forkable.
-
-Do not describe independence as complete merely because a policy document exists, a volunteer expresses interest or a transfer invitation is sent.
-
-## Continuity when the owner is unavailable
-
-Before an organisation exists, anyone can legally fork the published research and continue under its licences, respecting attribution and third-party rights. A fork is a continuation of research, **not an automatic transfer of the original repository, its issues, or its governance authority**. Volunteers should transparently link to the original history, avoid claiming to represent absent people and publish their own decision records.
-
-After transfer, the organisation's independently consenting administrators should manage repo roles and recovery. No requirement for the originator to approve ordinary work belongs in the destination project charter.
-
-## Discussion and next steps
-
-Volunteer through a public issue or Discussion. Explain what you can maintain, prior work/experience, and whether you wish to help set up neutral shared governance. No identity documents, private credentials, monetary contributions or commitments to issue a token are requested.
-
-GitHub repository transfer documentation: https://docs.github.com/en/repositories/creating-and-managing-repositories/transferring-a-repository
-
-The public project is valuable even if the economic hypothesis is falsified. Continued community inquiry, not preservation of any person's theory, is the objective.
+[Community discussion](https://github.com/Christopher-Charman/open-resource-dividend/discussions/5) · [Governance](GOVERNANCE.md) · [Contributing](CONTRIBUTING.md) · [Code of conduct](CODE_OF_CONDUCT.md)
