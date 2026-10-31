@@ -45,6 +45,14 @@ These are **related precedents**, not ORD deployments. See [source links and com
 
 We have documented candidate funding approaches in [FUNDING_MODELS.md](FUNDING_MODELS.md). A [tiny, dependency-free stock-flow example](examples/README.md) demonstrates accounting conservation **under assumed physical verification**, not real-world feasibility.
 
+## Research questions open for review
+
+- [Can a fully backed universal dividend be funded sustainably?](https://github.com/Christopher-Charman/open-resource-dividend/issues/2)
+- [What proves physical metal ownership, custody and all outstanding liabilities?](https://github.com/Christopher-Charman/open-resource-dividend/issues/3)
+- [Can you identify closer prior art or disprove the proposed differentiation?](https://github.com/Christopher-Charman/open-resource-dividend/issues/4)
+
+Contributors are encouraged to submit sources, worked counterexamples and objections. No token purchases or financial participation are requested.
+
 ## How to contribute
 
 Read the [white paper](WHITEPAPER.md), [open questions](OPEN_QUESTIONS.md), and [contribution guide](CONTRIBUTING.md). An objection with a worked counterexample is as useful as a supportive suggestion. Please identify stronger precedents, check underlying economic assumptions, or propose an independently auditable route to funded distribution.
