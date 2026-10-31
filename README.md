@@ -42,6 +42,10 @@ Universal Basic Compute, GoodDollar, Circles, Kinesis and Akash already explore 
 
 Contributors are encouraged to submit sources, worked counterexamples and objections. No token purchases or financial participation are requested.
 
+## Community challenge: should ORD issue a currency at all?
+
+The [open research Discussion #12](https://github.com/Christopher-Charman/open-resource-dividend/discussions/12) compares separate metal receipts, a legally specified basket, and an **issuer-neutral distribution layer over existing backed assets**. Independent criticism, better precedents and clear evidence against these alternatives are expressly invited.
+
 ## First contributions welcome
 
 No AI account, investment, coding background or connection to the original proposer is required to join the research. Two bounded starter tasks are open:
