@@ -38,6 +38,10 @@ It makes an independently witnessed transaction history more difficult to rewrit
 
 Not established. Wholesale physical markets have delivery units such as 25-tonne LME copper lots and large LBMA Good Delivery bars. Smaller private holdings can be transferred or aggregated, but **small-holder delivery rights, handling costs, title and insolvency protection must be demonstrated separately**. See [real delivery evidence](research/REDEMPTION_EVIDENCE.md).
 
+### Why only gold, silver and copper, and how much would the three provide?
+
+They are **initial research candidates**, not a selected fixed basket or exclusive definition of scarcity. The [three-metal analysis](research/THREE_METAL_COMPARISON.md) uses separately sourced 2025 mine output for all three and deliberately hypothetical price quotations. An invented contribution of 1% of each metal's entire annual global mine flow would provide about $1.05 in market-reference value per person across 8.3 billion people, before costs. **No such contribution exists**, and mined flow is not the same as available metal or existing aboveground holdings. Other resources, backing structures and even an issuer-neutral distribution method remain open proposals.
+
 ### Would I legally own actual metal or an IOU from a company?
 
 That is **not yet decided**, and the distinction matters. The [LBMA's official market account guide](https://www.lbma.org.uk/publications/the-otc-guide/precious-metal-accounts) differentiates allocated holdings linked to specific identified bars from unallocated balances owed by a clearing institution. The [LME's electronic warrant system](https://www.lme.com/en/sustainability-and-physical-markets/warehousing/lme-warrants) is another example of actual metal title documentation. Our [legal-title research note](research/TITLE_AND_CUSTODY.md) explains what must be established for an ORD holder. None of these precedents presently issues, backs or guarantees any ORD claims.
