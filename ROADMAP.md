@@ -30,6 +30,10 @@ The source-backed [Au/Ag/Cu comparative envelope](research/THREE_METAL_COMPARISO
 
 The [issuer-neutral distribution RFC](research/RFC_0002_ISSUER_NEUTRAL_DISTRIBUTION.md) and offline model now demonstrate transfers of *already-held* externally issued, issuer-specific gold/copper claims through a funded fund. They reject unbacked allocations, preserve distinct legal-rights classes and keep pending delivery requests as liabilities. The live research gap is **independent real-world title/issuer liability verification, lawful funding and universally accessible eligibility**, not adding new token infrastructure.
 
+## Concrete reuse pathway from verified existing projects
+
+Source-level review now identifies [GoodCollective's funded UBI pool](https://github.com/GoodDollar/GoodCollective/blob/master/packages/contracts/contracts/UBI/UBIPool.sol) as a technical donor, **not** an ORD metal-title service. [Paxos and Kinesis](research/EXISTING_PROJECTS_DUE_DILIGENCE.md) provide real gold/silver claim precedents but impose significant individual physical-delivery minima and holder/issuer controls. [This interoperability specification](research/INTEROPERABILITY_SPEC.md) documents the actual rights-evidence, total liabilities, transfer and redemption steps a candidate asset must satisfy. Next external research should establish whether **any existing provider can legally transfer independently enforceable fractional property to worldwide recipients**; absent evidence, no real tokens or custodians should be admitted.
+
 ## Workstreams (independent contributions are encouraged)
 
 | Priority | Research question | Concrete independent deliverable | Existing discussion |
