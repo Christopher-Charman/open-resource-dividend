@@ -33,6 +33,14 @@ The [source data](research/scale_inputs.json) comes from dated primary published
 
 Read [research/README.md](research/README.md) and [research/COMMODITY_SCALE.md](research/COMMODITY_SCALE.md). Never present this simulation as a proof-of-reserves, title certificate, investment valuation or a fixed-income projection.
 
+## Purchasing-power and funding sensitivity
+
+```bash
+python3 research/value_funding.py
+```
+
+Its [inputs](research/value_funding_inputs.json) are intentionally rounded **hypothetical** funding sums, copper market prices, operating expenses and an endowment-return assumption. The output compares physical copper amounts with estimated world mine production and computes a reverse annual funding requirement for a reference benchmark. There is no committed endowment or price feed. Do not report the US dollar reference as an ORD peg or a promised payment. See [value and funding research](research/VALUE_AND_FUNDING.md).
+
 ## Exploring funding assumptions
 
 The editable sample lives at [examples/scenarios/volatile_copper.json](examples/scenarios/volatile_copper.json).
