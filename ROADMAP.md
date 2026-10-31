@@ -1,0 +1,37 @@
+# ORD roadmap and meaningful ways to help
+
+**Status: exploratory research — no token or financial launch.** This roadmap expresses research questions, not commitments, deadlines, investments or a licence to create an issuer.
+
+## Ready for contributors now
+
+- [Read the idea in two minutes](START_HERE.md).
+- [Read the economic hypothesis](WHITEPAPER.md) and [funding mechanisms](FUNDING_MODELS.md).
+- [Run the local illustrative model](DEVELOPMENT.md) and challenge it with a counterexample.
+- [Discuss community maintenance](https://github.com/Christopher-Charman/open-resource-dividend/discussions/5). The original proposer remains GitHub owner, while routine research and maintenance should become community-led.
+
+## Workstreams (independent contributions are encouraged)
+
+| Priority | Research question | Concrete independent deliverable | Existing discussion |
+| --- | --- | --- | --- |
+| 1 | **How is a meaningful universal claim actually funded?** | Source-backed, multi-period flow-of-funds comparison including funding origin, expenses, shocks and failure criteria | [#2](https://github.com/Christopher-Charman/open-resource-dividend/issues/2) |
+| 1 | **Can holders legally redeem for metal?** | Metal- and jurisdiction-specific custody/title, costs, insolvency and double-pledge assurance table | [#3](https://github.com/Christopher-Charman/open-resource-dividend/issues/3) |
+| 1 | **Is the synthesis already in the literature?** | Prior-art comparison with primary URLs, dates and true implementation scope | [#4](https://github.com/Christopher-Charman/open-resource-dividend/issues/4) |
+| 1 | **Can others maintain it?** | Non-founder contributor accepts a role and independently performs a real PR review/merge | [#7](https://github.com/Christopher-Charman/open-resource-dividend/issues/7) |
+| 2 | What does an independently verifiable claims protocol require? | Evidence types, event-state specification, replay checks and independent checkpoint strategy | [Architecture](ARCHITECTURE.md) |
+| 2 | Can universal allocation respect privacy and human eligibility? | Competing anti-duplication and privacy designs, including exclusion and appeal failures | [Open questions](OPEN_QUESTIONS.md) |
+| 2 | Can redeemed resources and compute be exchanged without provider privilege? | Open market interface comparison, liquidity assumptions and counterexamples | [Open questions](OPEN_QUESTIONS.md) |
+
+## Project maturity
+
+| Stage | State | What would establish it? |
+| --- | --- | --- |
+| Public initial idea and precedent research | **Established** | Versioned white paper, source-linked comparison and public discussion |
+| Synthetic claims and funding models | **Illustrative only** | Deterministic examples, independent replay checks and transparent assumptions |
+| Economic feasibility at global scale | **Unverified** | Evidence-backed endowment source and conservative cost/coverage projections |
+| Actual metal title and reserve assurance | **Unverified** | Independent custodial, legal and third-party audit design |
+| Independent maintained repository | **In progress** | A consenting non-founder maintainer independently accepts and merges a change |
+| Live token, real dividends, redeemable assets | **Not planned or authorised** | Would require new explicit decisions, legal analysis, independent audit and financial/security acceptance |
+
+A useful next pull request is not necessarily a new protocol. A sourced objection to the **funding feasibility** or **enforceable ownership** assumption may be more valuable.
+
+No promises of launch timing, guaranteed payments, community staffing or commercial adoption are made.
