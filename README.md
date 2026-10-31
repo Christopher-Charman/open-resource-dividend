@@ -2,7 +2,7 @@
 
 **Open research proposal: an independently verifiable, physically redeemable universal entitlement for an AI-transformed economy.**
 
-**New here? [Start with the two-minute overview](START_HERE.md).** This is an open research project intended for community maintenance, with [transparent governance](GOVERNANCE.md) and a [founder-independent contribution plan](COMMUNITY_HANDOFF.md). The original proposer remains the GitHub repository owner.
+**New here? [Start with the two-minute overview](START_HERE.md) or [critical FAQ](FAQ.md).** This is an open research project intended for community maintenance, with [transparent governance](GOVERNANCE.md) and a [founder-independent contribution plan](COMMUNITY_HANDOFF.md). The original proposer remains the GitHub repository owner.
 
 [White paper](WHITEPAPER.md) · [Funding feasibility](FUNDING_MODELS.md) · [Architecture and assurance](ARCHITECTURE.md) · [Reproduce the examples](DEVELOPMENT.md) · [Prior art](PRIOR_ART.md) · [Roadmap](ROADMAP.md) · [Contribute](CONTRIBUTING.md) · [Community discussion](https://github.com/Christopher-Charman/open-resource-dividend/discussions/5)
 
@@ -56,6 +56,14 @@ The project benefits from evidence-based criticism as much as supportive contrib
 [Join the public discussion on volunteering and maintaining ORD](https://github.com/Christopher-Charman/open-resource-dividend/discussions/5). The project welcomes contributors who question the hypothesis as well as those who support it. No contributor requires the founder's permission to fork or propose research; invited collaborators can independently maintain routine project work. The original proposer may remain the account owner without controlling every research decision. [Governance](GOVERNANCE.md) · [Stewardship roadmap](COMMUNITY_HANDOFF.md) · [Code of conduct](CODE_OF_CONDUCT.md).
 
 The personal-account owner retains GitHub-specific administrative controls. This distinction is stated openly: community stewardship is being built; it is **not yet a proven independent maintainer group**. [Independent-maintainer acceptance task](https://github.com/Christopher-Charman/open-resource-dividend/issues/7).
+
+## New: quantitative feasibility and independent audit challenge
+
+The [independently reproducible research package](research/README.md) now examines the proposal rather than assuming it works. Using dated copper production data, it shows that even an entirely **hypothetical** transfer of 1% of one year's world copper mine output would provide only about **28.5 grams of copper content per person across 8.3 billion people**, before costs. No actual metal is held or pledged to ORD.
+
+The [dual-book audit example](examples/compare_books.py) deliberately finds a shortfall between an internally consistent claims ledger and a separate physical-inventory declaration. It **does not** claim to certify any real reserves. [Three alternative resource-claim structures](research/RFC_0001_RESOURCE_CLAIMS.md) remain open for community scrutiny; a new issuer or token is not assumed necessary.
+
+Source-linked findings: [physical scarcity study](research/COMMODITY_SCALE.md) · [wholesale vs retail redemption](research/REDEMPTION_EVIDENCE.md) · [RFC 0001](research/RFC_0001_RESOURCE_CLAIMS.md).
 
 ## Reproducible open research
 

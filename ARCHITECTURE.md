@@ -60,13 +60,19 @@ The independent `examples/replay_audit.py` reads the complete event log and reco
 | Repository maintainer disappears | Reproducible clone and local tools, permissive project licences, documented governance and successor community—not a private API |
 | Someone presents research as an investment product | Clear non-operational scope, no token/wallet/deposit addresses, active correction of misleading claims |
 
-## 5. What is explicitly outside the current repository
+## 5. Why an internally valid ledger does not establish collateral
+
+The [independent dual-book comparator](examples/compare_books.py) reconstructs a synthetic journal's liabilities and compares them with a separate inventory declaration. Its ten-unit copper claim example has only eight units of separately declared copper, revealing a two-unit shortfall **despite a hash-consistent event history**. Matched arithmetic still returns **UNVERIFIED_PHYSICAL_AND_LEGAL_BACKING** because no physical inspection, legal title audit, complete liability scope or independently witnessed checkpoint is authenticated by the program. This is a deliberately falsifiable teaching example, not a reserve certificate.
+
+See [the quantitative resource study](research/COMMODITY_SCALE.md) and [redemption evidence](research/REDEMPTION_EVIDENCE.md) for additional non-ledger constraints.
+
+## 6. What is explicitly outside the current repository
 
 No asset-custody API, financial contract, smart contract mainnet, KYC identity database, trading venue, price oracle, investment solicitation, actual proof-of-reserves or claim of authorisation. The non-financial example's source code must **never** be deployed as a ledger controlling real assets.
 
 A future production project would require separate legal, audit, security and community decisions, and a complete formal definition of physical asset rights. Nothing in the v0.1 paper or research tests grants that decision.
 
-## 6. Domain and source references
+## 7. Domain and source references
 
 - [Funding note](FUNDING_MODELS.md) — pool/issuance distinction and candidate sources.
 - [Simulated example](examples/README.md) — reproducibility and limitations.

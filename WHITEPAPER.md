@@ -77,6 +77,8 @@ claims allocated in period <= verified funded pool at period start
 
 The **central unsolved economic problem** is the ongoing source of that funded pool at global scale. Possibilities for analysis—not approved mechanisms—include voluntary contributions, rights to actual resource-derived revenues, a legally constituted resource trust, or market-purchased reserve additions. No one of these is assumed feasible, universal or politically neutral.
 
+**Empirical feasibility research (31 October 2026):** A [dated, reproducible copper scale envelope](research/COMMODITY_SCALE.md) uses 2025 worldwide copper mine production and an approximate 2026 population to quantify the material requirements of a universal allocation. Under an *unfunded counterfactual* of 1% of annual mine output, the calculation yields only ~28.5 grams of copper content per person, before fees or converting raw output to deliverable custody stock. This is **not an available resource pool or evidence of viable income**. A separate [dual-book demonstration](examples/compare_books.py) confirms why internally consistent append-only records cannot establish the actual reserves. Candidate mechanisms remain open in [RFC 0001](research/RFC_0001_RESOURCE_CLAIMS.md).
+
 ### 6. Frank and Bob: an essential counterexample to provider-tied compute
 
 Frank rarely uses AI. Bob wants more computational capacity than his periodic entitlement can purchase. Frank freely offers some of his resource claims—or the metal he has redeemed—in exchange for goods or services Bob can supply. Bob can then buy inference from whichever operator offers suitable terms. Frank still benefits from the AI-driven economy without consuming AI. He may decline any offer and retain his assets.

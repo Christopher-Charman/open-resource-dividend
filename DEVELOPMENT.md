@@ -19,6 +19,20 @@ python3 examples/funding_scenarios.py
 
 The tests check logical properties **inside a synthetic model**, not whether metal exists. The scenario output is deterministic, in abstract metal units (not market prices or forecasts). It is appropriate to run the three model commands separately, not as a service or financial system.
 
+## Quantitative research and dual-book assurance demo
+
+The repository contains an intentionally small independent economic-data calculation and an example of a materially false reserve claim:
+
+```bash
+python3 research/scale_envelope.py
+python3 -m unittest discover -s research -p 'test_*.py' -v
+python3 examples/compare_books.py
+```
+
+The [source data](research/scale_inputs.json) comes from dated primary published market and population statistics. The numbers represent a **counterfactual portion of global mine output**, not physical resources available to ORD. The comparator reports **UNVERIFIED_PHYSICAL_AND_LEGAL_BACKING**, even if declared stock covers all claims: it cannot authenticate a warehouse or prove no hidden obligations.
+
+Read [research/README.md](research/README.md) and [research/COMMODITY_SCALE.md](research/COMMODITY_SCALE.md). Never present this simulation as a proof-of-reserves, title certificate, investment valuation or a fixed-income projection.
+
 ## Exploring funding assumptions
 
 The editable sample lives at [examples/scenarios/volatile_copper.json](examples/scenarios/volatile_copper.json).

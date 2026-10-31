@@ -53,6 +53,8 @@ We have documented candidate funding approaches in [FUNDING_MODELS.md](FUNDING_M
 
 Contributors are encouraged to submit sources, worked counterexamples and objections. No token purchases or financial participation are requested.
 
+Before endorsing anything, read [the FAQ](FAQ.md) and [quantified feasibility analysis](research/COMMODITY_SCALE.md). No ORD assets exist and the economic thesis remains unverified.
+
 ## How to contribute
 
 Read the [white paper](WHITEPAPER.md), [open questions](OPEN_QUESTIONS.md), and [contribution guide](CONTRIBUTING.md). An objection with a worked counterexample is as useful as a supportive suggestion. Please identify stronger precedents, check underlying economic assumptions, or propose an independently auditable route to funded distribution.

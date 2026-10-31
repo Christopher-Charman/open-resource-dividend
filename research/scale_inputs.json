@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026-10-31",
+  "description": "Non-financial comparison inputs. Figures are an annual material flow and an approximate population, NOT owned/custodied ORD assets.",
+  "world_copper_mine_production_2025_tonnes": 23665300,
+  "world_population_2026_assumption": 8300000000,
+  "lme_grade_a_copper_lot_tonnes": 25,
+  "hypothetical_contributed_share_basis_points": [10, 100, 1000, 10000],
+  "illustrative_annual_per_person_target_grams": [10, 100, 1000],
+  "source_notes": {
+    "copper": {
+      "source": "Comisión Chilena del Cobre (COCHILCO), August 2026 Monthly Electronic Bulletin, Table 29, 2025 World Total 23,665.3 thousand metric tonnes copper content",
+      "uri": "https://boletin.cochilco.cl/productos/boletin.asp?anio=2026&mes=08&tabla=tabla34",
+      "measurement": "2025 worldwide copper mine output, copper content; mined flow, not refined deliverable cathode"
+    },
+    "population": {
+      "source": "UN World Population Prospects 2024 medium-variant projection; round-number 2026 assumption rather than a live census",
+      "uri": "https://population.un.org/wpp",
+      "note": "Approximate 8.3 billion for 2026, explicitly rounded; use revised UN data for precise headcount comparisons"
+    },
+    "delivery": {
+      "source": "London Metal Exchange, Copper Grade A physical contract specification",
+      "uri": "https://www.lme.com/Metals/Non-ferrous/LME-Copper/Contract-specifications",
+      "note": "LME Grade A copper physical warrant 25 tonnes (plus/minus 2%), a wholesale contract; not a claim that ORD holders must redeem in LME lots"
+    }
+  }
+}
