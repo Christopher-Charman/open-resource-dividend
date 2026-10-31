@@ -66,6 +66,10 @@ The [independent dual-book comparator](examples/compare_books.py) reconstructs a
 
 See [the quantitative resource study](research/COMMODITY_SCALE.md) and [redemption evidence](research/REDEMPTION_EVIDENCE.md) for additional non-ledger constraints.
 
+### Physical title versus unallocated credit risk
+
+The [primary-source custody analysis](research/TITLE_AND_CUSTODY.md) records why LBMA **allocated** metal (identified bars held for a client) is different from **unallocated** metal (a general contractual exposure to a clearer), and why LME's electronic warrant ownership record does not itself grant private fractional token holders legal title. This matters directly to ORD: public settlement and token fungibility do not prove what happens to Frank's metal if an issuer or vault fails. Independent legal and physical verification must precede any actual backed claim.
+
 ## 6. What is explicitly outside the current repository
 
 No asset-custody API, financial contract, smart contract mainnet, KYC identity database, trading venue, price oracle, investment solicitation, actual proof-of-reserves or claim of authorisation. The non-financial example's source code must **never** be deployed as a ledger controlling real assets.
