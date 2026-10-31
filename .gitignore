@@ -1,0 +1,5 @@
+# Local Python test artefacts; no build outputs are needed for this research repo.
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
