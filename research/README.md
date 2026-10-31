@@ -15,6 +15,10 @@ The aim of this folder is **falsifiable economic work**, not another coin launch
 
 The [value and funding note](VALUE_AND_FUNDING.md) joins an openly specified [price/cost scenario](value_funding_inputs.json) with a standard-library [calculator](value_funding.py). It asks what *real settled external income* would be needed for a modest global physical-resource entitlement, and how much hypothetical metal the model would need to acquire. The calculator never invents a funded trust or treats a USD benchmark as token backing. Bulk price impact, retail delivery and actual capital ownership remain unanswered.
 
+## Legal ownership versus institutional IOUs
+
+The [title and custody comparison](TITLE_AND_CUSTODY.md) uses primary LBMA and LME materials to distinguish allocated bar ownership and transferable warehouse warrants from unallocated contractual promises owed by a clearer. Both can be recorded digitally; the legal rights are not equivalent. It proposes a reviewable assurance package for physical asset title, liens, custody, liabilities, redemption and independent auditing, but establishes no jurisdiction-specific ORD rights.
+
 ## How to reproduce
 
 With Python 3.10+ and no dependencies, from a fresh clone:
