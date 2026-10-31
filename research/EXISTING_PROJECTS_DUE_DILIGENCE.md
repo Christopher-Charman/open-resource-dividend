@@ -49,7 +49,20 @@ Attestation cadence (monthly or semiannual) differs from continuous independent 
 | Real income source | Windfall Trust concept; resource-derived endowments | Published proposals and existing general precedent | Committed, independently owned and actually settled financial resources at meaningful scale |
 | Competitive AI spending | Akash provider marketplace | Documented provider bids and lease mechanisms | Any resource-claim-to-market payment route; no required AI expenditure by ORD participants |
 
-## 5. Architecture implications
+## 5. GoodCollective source-level implementation findings
+
+The public `GoodDollar/GoodCollective` repository was inspected **beyond its README**, using the following source files (observed as of 31 October 2026, listed blob SHAs are Git object identifiers):
+
+| Source | Inspected behaviour | ORD-compatible insight or limitation |
+| --- | --- | --- |
+| [`UBIPool.sol`](https://github.com/GoodDollar/GoodCollective/blob/master/packages/contracts/contracts/UBI/UBIPool.sol), blob `9209776a7bf869162200ffdfedd90cd1dffc4b0d` | `distributionFormula()` and `_calcNextDailyUBI()` calculate claims from **current reward-token pool balance**, claim cycle, participation, minimum active users, maximum claim amount and settings. `_claim()` uses `safeTransfer` from the pool rather than a direct issue of underlying precious metal. | This is a **real source-level analogue** of distributing existing available balances, not evidence of external gold/silver/copper ownership. Its payout cadence and active-user assumptions should be evaluated against a genuinely universal entitlement. |
+| [`UBIPool.sol` membership and uniqueness](https://github.com/GoodDollar/GoodCollective/blob/master/packages/contracts/contracts/UBI/UBIPool.sol) | Uses `IIdentityV2(...).getWhitelistedRoot(claimer)`, last-claim tracking, optional member restrictions, `maxPeriodClaimers`, and a pool-manager role. `setUBISettings()` and `setPoolSettings()` can be called by the manager. | Not a proof that all humans worldwide can register or appeal. Importing this model wholesale would import external uniqueness service and manager discretion. Rights protection and eligibility must be independently justified. |
+| [`UBIPoolFactory.sol`](https://github.com/GoodDollar/GoodCollective/blob/master/packages/contracts/contracts/UBI/UBIPoolFactory.sol), blob `530bf299335db0b1d83aaf7af5d3434e569d157a` | Can create pools through proxies; factory administrator controls implementation changes and fee information, including an upgradeable beacon. | Reuse must explicitly address admin/upgrade and fee authority; **"open source" is not the same as "independently governed."** |
+| [`UBIPool.claim.test.ts`](https://github.com/GoodDollar/GoodCollective/blob/master/packages/contracts/test/UBIPool/UBIPool.claim.test.ts), blob `9b5aadf22e16c3eb0467c7100899e70a687b4251` | Tests zero-funding days, resuming after refill, maximum members, a shared whitelisted identity root and claim amount limits, using *synthetic minted test G$*. | Excellent **test-case donor** for reviewing an ORD-funded claims algorithm; test minting is not real underlying asset funding, and copying the code directly would not prove rights transfer. No GoodCollective source has been copied. |
+
+**Implementation direction derived from inspected code:** The first reusable component is **distribution logic constrained by a pool's existing balance and eligibility rules**. The major parts ORD cannot inherit automatically are **actual commodity-title transfer, legal counterparty risk, independent evidence of custody and liabilities, verified universal identity, and governance of adjustable manager/upgrade settings**. A separate adapter for each real issuer's actual ownership law would be needed before a live experiment; no such adapter is authorised or verified here.
+
+## 6. Architecture implications
 
 1. **Do not build a new token issuer merely because an open funded-pool model exists.** Instead identify whether an independently evidenced external legal property claim can be transferred from a funded entity to an actual recipient through an authorised route.
 2. **Do not equate verified token balance with physical ownership.** Require issuer-specific rights/beneficiary structure, physical custody, legal transfer and complete liabilities, not just on-chain supply.
@@ -59,7 +72,7 @@ Attestation cadence (monthly or semiannual) differs from continuous independent 
 6. **Leave Akash optional.** Frank must not have to consume compute; Bob can pick any supplier.
 7. **Respect source licences.** GoodCollective and GoodProtocol README/licence files were inspected; MIT applies to those source repositories. Current Circles v2 is AGPL-3.0. **ORD includes no transplanted third-party code** as part of this evidence review.
 
-## 6. Concrete next implementation research
+## 7. Concrete next implementation research
 
 **Research priority: understand GoodCollective's funded distribution pattern and test it against rights-bearing asset classes, before considering any integration.** The [ORD issuer-neutral reference](RFC_0002_ISSUER_NEUTRAL_DISTRIBUTION.md) already transfers synthetic existing claims. A credible next *external* step requires lawful provider documentation of (1) asset-holder legal ownership, (2) third-party transfer authorisation, (3) individual registration/eligibility constraints, (4) custodian API or transfer standards, (5) independent liabilities-and-reserves evidence, (6) real redemption limits/costs, and (7) security/legal approvals for handling actual value. No asset/recipient/partner has been admitted.
 
