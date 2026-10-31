@@ -34,6 +34,14 @@ The central question is **where real, recurring and legally owned backing for a 
 
 Universal Basic Compute, GoodDollar, Circles, Kinesis and Akash already explore overlapping components. This repository makes **no claim of having invented those ideas**, and no exhaustive originality search has been completed. See [the source-linked comparison](PRIOR_ART.md).
 
+## Research questions open for review
+
+- [Can a fully backed universal dividend be funded sustainably?](https://github.com/Christopher-Charman/open-resource-dividend/issues/2)
+- [What proves physical metal ownership, custody and all outstanding liabilities?](https://github.com/Christopher-Charman/open-resource-dividend/issues/3)
+- [Can you identify closer prior art or disprove the proposed differentiation?](https://github.com/Christopher-Charman/open-resource-dividend/issues/4)
+
+Contributors are encouraged to submit sources, worked counterexamples and objections. No token purchases or financial participation are requested.
+
 ## Scope and participation
 
 This repository contains **research documents and one non-financial accounting illustration**. It contains no token smart contracts, no mainnet, no fundraising, no financial promotion, and no affiliated third-party provider. Contributions that disprove an assumption or identify a closer precedent are welcome.
