@@ -1,38 +1,33 @@
 # Prior art and differentiation
-**Snapshot: 31 October 2026 · Non-exhaustive discovery review**
 
-This document is a falsifiable research note, **not a claim of patent novelty or that nobody else has connected these ideas**. If a closer predecessor is found, update this record with its public evidence and revise the proposal.
+**Research snapshot: 31 October 2026 · evidence-led, non-exhaustive**
 
-| Work | Demonstrated/proposed mechanism | Material difference from ORD |
-|---|---|---|
-| Sam Altman, Universal Basic Compute (2024; renewed 2025) | Universal distribution of access to AI compute; users can consume, resell or donate. | Provider/compute capacity is the primary asset, rather than redeemable physical metal claims and open non-AI exchange. |
-| Future of Life Institute — Windfall Trust | Proposed universal basic wealth/income backed by a shared trust funded from economic windfalls of advanced AI; active research includes funding and governance. | Very close in motivation and distributive ownership; not a proposal for individually redeemable Au/Ag/Cu claims, provider-neutral physical exchange and conserved metal liabilities. 
-| Alaska Permanent Fund | Mineral-derived public royalty revenues are invested and earnings support recurring payments to eligible residents. | Public, fiat-paid and geographically scoped; not a privately governed globally redeemable physical metal standard. |
-| GoodDollar | Blockchain-mediated daily universal basic income and a reserve-backed token model funded by other economic activity. | Stablecoin/DeFi reserve model rather than direct gold/silver/copper title and delivery. |
-| Circles UBI | Personal-currency issuance and peer-to-peer trust exchange. | No underlying metal collateral; distinct monetary rules. |
-| Kinesis Money | Transferable KAU/KAG claims linked to physical gold/silver; physical audits and redemption conditions. | No global universal resource dividend, no copper in the referenced product, no open research into AI-economy distribution. |
-| Akash Network | Competitive computing capacity market, independent providers and bidding. | Not a general physical commodity claim or universal-income system. |
-| Tokenised warehouse receipts / commodity collateral projects | Digitising transfer of title or entitlement to metal or inventory. | Often issuer-specific assets and eligibility; universal distribution and neutral AI exchange are separate questions. |
-| Commodity money and resource-dividend literature | Physical scarcity standards and universal/resource-derived distributions. | Longstanding predecessors; ORD does not claim these ideas as new. |
+**ORD does not claim to have invented universal basic income, tokenised precious metals, reserve auditing, open ledgers, shared AI windfalls, or competitive cloud computing.** The specific synthesis being tested is *universally available funded ownership of independently verified, physically redeemable resource claims with voluntary market exchange and without exclusive dependence on an AI provider.*
 
-## Evidence and links
-- https://lawwu.github.io/transcripts/nSM0xd8xHUM.html — Universal Basic Compute interview transcript.
-- https://futureoflife.org/project/the-windfall-trust/ — Windfall Trust proposal, global AI-generated wealth sharing.
-- https://pfd.alaska.gov/Division-Info/about-us — Alaska's mineral-derived resident dividend.
-- https://apfc.org/the-fund/fund-structure/ — funding and two-account structure of Alaska's Permanent Fund.
-- https://blog.samaltman.com/three-observations — 2025 compute-budget discussion.
-- https://whitepaper.gooddollar.org/ and https://www.gooddollar.org/ — basic income and funding.
-- https://docs.aboutcircles.com/overview/how-it-works — personal and group currencies.
-- https://kinesis.money/audits/ — published metal inspections; **physical audits are periodic and not instantaneous redemption guarantees**.
-- https://akash.network/docs/learn/core-concepts/providers-leases/ — provider marketplace.
-- https://doi.org/10.1016/j.bar.2025.101730 — proof of reserves and liabilities.
-- https://www.fca.org.uk/firms/cryptoassets — UK regulation; a public academic paper is not permission to market tokens.
+For an evidence-linked examination of **current issuer contracts, redemption costs, GitHub source and deployment constraints**, read **[Existing systems due diligence](research/EXISTING_PROJECTS_DUE_DILIGENCE.md)**. Those details materially narrow any claim of originality or immediate feasibility.
 
-## What, if anything, is distinctive?
-The **working hypothesis** is that *universal ownership of real, individually redeemable resource claims* combined with *unrestricted voluntary exchange* and *independent append-only verification* could preserve economic exit in an AI-abundant future. No AI provider has a special issuance privilege, nor does the recipient have to use AI at all. This describes a synthesis, not a tested monetary outcome or an assertion of exclusivity.
+| Existing work | Actual or proposed relevant mechanism | Why it does not already establish ORD |
+| --- | --- | --- |
+| **Paxos PAX Gold** | Existing gold-token terms expressly describe beneficial pro-rata ownership of allocated bars and third-party reserve attestations. [PAXG terms](https://www.paxos.com/terms-and-conditions/pax-gold-terms-conditions), [attestations](https://www.paxos.com/paxg-transparency). | No universal funded distribution, no silver/copper in PAXG; physical bar redemption requires at least **430 PAXG**, verified customer access and fees. Freeze/upgrade controls are documented. |
+| **Kinesis KAU/KAG** | Transferable units of allocated gold and silver, provider-published independent semiannual physical audits. [Audit page](https://kinesis.money/audits/), [redemption](https://support.kinesis.money/hc/en-gb/articles/38687923843741-Redeeming-Gold-and-Silver-in-App). | No worldwide universal dividend, no copper in these currencies; physical withdrawal increments **100 KAU / 200 KAG** and published administration/delivery fees. Separate wrappers require separate reserve/liability audit. |
+| **GoodDollar and GoodCollective** | Existing UBI claim/distribution system, funded daily payments and publicly available **MIT** GoodCollective dynamic-member UBI pools. [GoodDollar](https://www.gooddollar.org/), [GoodCollective source](https://github.com/GoodDollar/GoodCollective), [UBI pool contract](https://github.com/GoodDollar/GoodCollective/blob/master/packages/contracts/contracts/UBI/UBIPool.sol). | G$ payouts do not directly convey independently enforceable gold/silver/copper legal title. Pool managers, external identity and implementation upgrades have consequential controls. **Strong source-level distribution donor**, not an ORD custody provider. |
+| **Circles v2** | Personal CRC issued at one per hour, social trust graph, 7% annual demurrage and group currencies. [Current v2 project](https://github.com/aboutcircles/circles-contracts-v2), [documentation](https://docs.aboutcircles.com/overview/how-it-works/personal-currency). | Personal CRC minting is not backed by independently inspected metal. Current v2 reference is **AGPL-3.0**, not the older Circles v1 white paper. |
+| **Future of Life Institute — Windfall Trust** | A proposed shared AI-windfall trust funding universal basic wealth/income, with legal, investment and governance research. [Project description](https://futureoflife.org/project/the-windfall-trust/). | A compelling **AI-era funding precedent**, not verified actual settled metal income or a fully operational worldwide beneficiary trust based on public evidence reviewed. |
+| **Alaska Permanent Fund** | Public mineral-related resource revenue invested for resident dividend payments. [Alaska PFD](https://pfd.alaska.gov/Division-Info/about-us), [fund structure](https://apfc.org/the-fund/fund-structure/). | Public, geographically scoped, cash dividend; not voluntarily contributed globally redeemable bullion title. |
+| **Akash Network** | Competitive datacentre provider bids and compute leases with ACT payment escrow. [Provider/lease documentation](https://akash.network/docs/learn/core-concepts/providers-leases/). | Optional competitive **destination for spending**, not physical metal title, universal allocation or any proven resource-claim payment adapter. |
+| **Universal Basic Compute** | AI compute-budget concept, including the idea of using, selling or donating capacity. [Altman, 2025](https://blog.samaltman.com/three-observations); [2024 interview transcript](https://lawwu.github.io/transcripts/nSM0xd8xHUM.html). | Compute access is the principal asset; Frank's economic freedom should not depend on choosing an AI provider or consuming AI. |
+| **Warehouse receipts / tokenised metal / commodity money** | Pre-existing systems of transferring contractual or proprietary claims to stored inventory. [LBMA account distinctions](https://www.lbma.org.uk/publications/the-otc-guide/precious-metal-accounts). | Neither a warehouse receipt nor a token automatically ensures affordable retail physical exit or funded universal endowment. |
 
-## Research needed before any novelty statement
-1. Search scholarship, patents, open-source repositories and non-English literature for combined metal-backed global UBI/resource dividends.
-2. Check public resource trusts and mineral-funded cash transfers as economic precedents.
-3. Compare legal/title structures for gold, silver and copper warehouse receipts.
-4. Invite technically rigorous corrections in issues with permanent source links and dates.
+## Materially closer components found
+
+**GoodCollective provides a working funded-pool distribution pattern. Paxos and Kinesis provide actual commodity-backed instruments with documented legal/operational constraints. Windfall Trust directly addresses the economic source of wealth from AI.** ORD should study their interfaces and independent evidence before building a new monetary authority.
+
+The combination remains **unverified**. In particular, a GitHub contract that transfers balances cannot independently ensure legal title passes, the recipient is a distinct eligible human, the issuer has accounted for every liability, or a commodity can be redeemed without relying on a single custodian.
+
+## Licence and research discipline
+
+Current [GoodCollective](https://github.com/GoodDollar/GoodCollective) and [GoodProtocol](https://github.com/GoodDollar/GoodProtocol) source licences were independently checked as **MIT**. Current [Circles v2](https://github.com/aboutcircles/circles-contracts-v2) is **AGPL-3.0**. No upstream code has been included in ORD. Architectural inspiration and source links are distinct from permission to incorporate code under incompatible terms.
+
+Document closer prior art with dated primary sources and implementation scope; do not imply affiliation, audits of third parties by ORD, intellectual-property novelty or existing partnerships. [Originality issue #4](https://github.com/Christopher-Charman/open-resource-dividend/issues/4) remains open.
+
+**Status:** source diligence research, not legal/investment advice or admission of an external asset into a real ORD pool.
