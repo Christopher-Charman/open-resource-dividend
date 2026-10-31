@@ -82,6 +82,10 @@ The [provider transfer-interface review](research/TRANSFER_INTERFACE_FINDINGS.md
 
 A material source finding: **PAXG's legal terms permit certain future storage fees financed through further token issuance**, potentially diluting holders; this is a contractual possibility, **not evidence of a currently charged fee**. The same terms specify freeze powers, customer-verification requirements and high direct physical-redemption minimums. This illustrates why ORD's **openness and non-dilution objectives cannot be delegated uncritically to an existing issuer**.
 
+## Existing gold-bar allocation is already publicly inspectable
+
+Paxos now provides an [address-based gold-bar lookup](https://www.paxos.com/pax-gold) and an [August 2026 description](https://www.paxos.com/blog/paxg-delta-based-allocation) of its event-driven holder-to-bar allocation system. ORD's [public allocation evidence review](research/PUBLIC_BAR_ALLOCATION_EVIDENCE.md) separates this valuable issuer-level precedent from independently verified vault inspection, legal rights and individual physical delivery. The [current Paxos fee schedule](https://support.paxos.com/articles/2899561282-PAX-Gold-Fees) also matters for any tiny universal entitlement.
+
 ## First contributions welcome
 
 No AI account, investment, coding background or connection to the original proposer is required to join the research. Two bounded starter tasks are open:

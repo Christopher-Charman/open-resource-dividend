@@ -40,6 +40,10 @@ The existing synthetic issuer-neutral sample does not connect to any of those pr
 
 This is a concrete no-credentials interface analysis, not a provider integration or proposed financial deployment.
 
+## Public per-holder metal assignment evidence
+
+The [bar-allocation evidence study](PUBLIC_BAR_ALLOCATION_EVIDENCE.md) identifies a **public source-based route** to compare independent on-chain PAXG balances with Paxos's address-based physical-bar allocations, its dated independent monthly attestation reports and actual legal/redemption terms. The issuer's lookup is not an independent audit; no personal account or wallet was accessed, and no supported no-auth machine API was established.
+
 ## How to reproduce
 
 With Python 3.10+ and no dependencies, from a fresh clone:
