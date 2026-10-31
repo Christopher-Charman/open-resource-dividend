@@ -12,4 +12,10 @@ No fundraising, token issuance, financial solicitation or custody operations are
 
 For first-time readers, the [two-minute introduction](START_HERE.md) explains the core hypothesis. If you want to challenge it numerically, use the [non-financial stock-flow example](examples/README.md) as a starting point. No new blockchain or external service is required. Research text and example code have [separate licences](LICENSE.md) ([MIT for code](LICENSE-CODE.md)).
 
+## Community stewardship
+
+Ordinary research contributions and forks need no invitation. If you would like to help review or merge work, volunteer in [community stewardship Discussion #5](https://github.com/Christopher-Charman/open-resource-dividend/discussions/5). The project has [governance rules](GOVERNANCE.md) and an [operational independence plan](COMMUNITY_HANDOFF.md), but has not yet verified a non-founder maintainer. The original proposer can remain the repository owner; no personal relationship or agreement with that person's economic hypothesis is required.
+
+Becoming a collaborator requires an invited and accepted GitHub account. The current personal-account owner is the technical sender of that invitation. Accepted collaborators can handle regular PRs and issues, while owner-only GitHub settings remain a separate limitation.
+
 The core concept is exploratory. Well-supported objections and findings that falsify it are contributions, not failures.

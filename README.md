@@ -2,9 +2,9 @@
 
 **Open research proposal: an independently verifiable, physically redeemable universal entitlement for an AI-transformed economy.**
 
-**New here? [Start with the two-minute overview](START_HERE.md).**
+**New here? [Start with the two-minute overview](START_HERE.md).** This is an open research project intended for community maintenance, with [transparent governance](GOVERNANCE.md) and a [founder-independent contribution plan](COMMUNITY_HANDOFF.md). The original proposer remains the GitHub repository owner.
 
-[White paper](WHITEPAPER.md) · [Funding feasibility](FUNDING_MODELS.md) · [Toy accounting example](examples/README.md) · [Prior art](PRIOR_ART.md) · [Open questions](OPEN_QUESTIONS.md) · [Contributing](CONTRIBUTING.md)
+[White paper](WHITEPAPER.md) · [Funding feasibility](FUNDING_MODELS.md) · [Toy accounting example](examples/README.md) · [Prior art](PRIOR_ART.md) · [Open questions](OPEN_QUESTIONS.md) · [Contributing](CONTRIBUTING.md) · [Community discussion](https://github.com/Christopher-Charman/open-resource-dividend/discussions/5)
 
 > **Research only · v0.1 · 31 October 2026.** No tokens exist, no physical reserves are held, no redemption or universal allowance is funded, and no economic or legal feasibility has been demonstrated. Nothing here constitutes an investment offering or recommendation.
 
@@ -41,6 +41,12 @@ Universal Basic Compute, GoodDollar, Circles, Kinesis and Akash already explore 
 - [Can you identify closer prior art or disprove the proposed differentiation?](https://github.com/Christopher-Charman/open-resource-dividend/issues/4)
 
 Contributors are encouraged to submit sources, worked counterexamples and objections. No token purchases or financial participation are requested.
+
+## Community stewardship
+
+[Join the public discussion on volunteering and maintaining ORD](https://github.com/Christopher-Charman/open-resource-dividend/discussions/5). The project welcomes contributors who question the hypothesis as well as those who support it. No contributor requires the founder's permission to fork or propose research; invited collaborators can independently maintain routine project work. The original proposer may remain the account owner without controlling every research decision. [Governance](GOVERNANCE.md) · [Stewardship roadmap](COMMUNITY_HANDOFF.md) · [Code of conduct](CODE_OF_CONDUCT.md).
+
+The personal-account owner retains GitHub-specific administrative controls. This distinction is stated openly: community stewardship is being built; it is **not yet a proven independent maintainer group**.
 
 ## Scope and participation
 
