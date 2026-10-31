@@ -38,6 +38,10 @@ Source-level review now identifies [GoodCollective's funded UBI pool](https://gi
 
 The [transfer API research](research/TRANSFER_INTERFACE_FINDINGS.md) distinguishes Paxos's authenticated transfer/status interface from gold-bar ownership, reserve attestation and physical delivery. The [offline consistency checker](examples/provider_transfer_evidence.py) validates fabricated provider-shaped records without treating them as actual transactions or externally verified settlements. The next external test is **provider-authorised, two-sided sandbox readback with no real funds**, not a new custom token. Separate legal title, custodial audit and whether the issuer contract permits dilution/freezes remain unresolved.
 
+## Public allocation evidence found; independent title still required
+
+[PUBLIC_BAR_ALLOCATION_EVIDENCE.md](research/PUBLIC_BAR_ALLOCATION_EVIDENCE.md) sets out a read-only, consent-respecting comparison of blockchain token balances, issuer-provided bar-lot allocations, month-end attestations and enforceable ownership/redemption conditions. Paxos already exposes a public holder-to-bar lookup, so ORD should **reuse the precedent instead of designing a redundant new bar allocator**. The remaining task is independent legal and physical verification, viable retail exit and legitimate universal funding.
+
 ## Workstreams (independent contributions are encouraged)
 
 | Priority | Research question | Concrete independent deliverable | Existing discussion |
