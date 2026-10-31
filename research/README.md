@@ -44,6 +44,10 @@ This is a concrete no-credentials interface analysis, not a provider integration
 
 The [bar-allocation evidence study](PUBLIC_BAR_ALLOCATION_EVIDENCE.md) identifies a **public source-based route** to compare independent on-chain PAXG balances with Paxos's address-based physical-bar allocations, its dated independent monthly attestation reports and actual legal/redemption terms. The issuer's lookup is not an independent audit; no personal account or wallet was accessed, and no supported no-auth machine API was established.
 
+## Actual Ethereum ledger observation: PAXG
+
+The [live chain-evidence study](LIVE_PAXG_CHAIN_EVIDENCE.md) and [read-only verifier](paxg_chain_observer.py) recorded PAXG's **442,885.899659-token** supply at Ethereum finalised block **26,315,983**, with matching block hash, bytecode and contract decimals across PublicNode and Nodely. The [exact JSON](observations/paxg_ethereum_block_26315983.json) preserves the observed result, while the script can inspect a fresh finalised block without credentials. The result proves a narrow **public chain-state observation**, not independent gold custody/title or complete liabilities.
+
 ## How to reproduce
 
 With Python 3.10+ and no dependencies, from a fresh clone:
