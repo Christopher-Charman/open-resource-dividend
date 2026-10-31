@@ -29,6 +29,12 @@ The [funding simulator](funding_scenarios.py) uses the editable [volatile copper
 
 For detailed commands and variable definitions, consult [DEVELOPMENT.md](../DEVELOPMENT.md).
 
+## Compare the two books, not just the hash chain
+
+Run `python3 examples/compare_books.py`: a synthetic ten-unit copper transaction log passes internal arithmetic, yet a separately **declared** inventory of eight units produces a two-unit deficit. This reveals an important missing assurance beyond event replay. Even a balanced declaration is **not an independent physical audit**.
+
+For the independently calculated economic scale envelope, see [research/README.md](../research/README.md). The accounting demonstrations cannot establish real inventory, legal ownership, delivery rights, external witnesses or completeness of all liabilities.
+
 ## Limitations that must not be confused with guarantees
 
 - `deposit_assumed_verified` assumes custody, legal title, purity and no competing liens; it **does not** verify them.
