@@ -34,6 +34,12 @@ The [title and custody comparison](TITLE_AND_CUSTODY.md) uses primary LBMA and L
 
 The existing synthetic issuer-neutral sample does not connect to any of those providers. All external issuer/source claims remain independently reviewable and no provider is approved for ORD.
 
+## Provider transfer evidence — local executable boundary
+
+[Provider transfer interface findings](TRANSFER_INTERFACE_FINDINGS.md) now link to **official Paxos v2 Create/Get/List Transfer, API access, Sandbox and legal-title terms**, along with Kinesis native transfer and GoodCollective source. The [Python verifier](../examples/provider_transfer_evidence.py) consumes **synthetic** paired Paxos-shaped debit/credit records and rejects inconsistent asset, amount, identity, status or group references. Even completed provider-shaped records **cannot** independently prove a real transfer, legal property, physical reserve or live redemption.
+
+This is a concrete no-credentials interface analysis, not a provider integration or proposed financial deployment.
+
 ## How to reproduce
 
 With Python 3.10+ and no dependencies, from a fresh clone:
