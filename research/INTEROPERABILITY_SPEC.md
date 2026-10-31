@@ -36,6 +36,12 @@ A **normal automated check should fail closed** when required evidence is expire
 4. **Circles v2 research donor:** current `aboutcircles/circles-contracts-v2` is AGPL-3.0. Trust networks and group currencies are intellectually relevant; **do not copy or mix source code into ORD's MIT sample without legal compatibility analysis**.
 5. **Optional compute sellers:** Akash proves that competing providers can offer paid compute, but its lease/ACT payment protocol is **not** an ORD resource-title settlement. ORD should not mandate Akash or any particular provider.
 
+### Actual API evidence: status is not title
+
+[The updated third-party interface review](TRANSFER_INTERFACE_FINDINGS.md) details Paxos v2's OAuth-protected `POST /transfer/paxos` and GET/List transfer records, source `ref_id`, debit/credit `group_id` and completed statuses. ORD's [offline fixture verifier](../examples/provider_transfer_evidence.py) checks consistency of two claimed legs but explicitly **does not authenticate their provenance**. No vendor account was accessed.
+
+Paxos's [12 December 2025 PAXG terms](https://www.paxos.com/terms-and-conditions/pax-gold-terms-conditions) also allow **potential future dilution by issuing additional PAXG for storage fees (§15.2)**, along with freeze/upgrade authority (§14); these are potential rights restrictions, not claims that any such action has occurred. A claimant's real property rights must therefore be examined independently of balance and reserve calculations.
+
 ## Demonstration that would actually advance the claim
 
 The smallest legitimate external integration trial would be a **no-financial-value, provider-documented sandbox** (only if genuinely supported), with:
