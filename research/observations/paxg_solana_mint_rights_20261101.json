@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "observation_type": "MULTI_OPERATOR_CURRENT_SOLANA_MINT_RIGHTS",
+  "historical_cutoff_supply_verified": false,
+  "mint": "5GgRAEmv8ZxF2PR5hY72Qs5x1bnQ6UK2RbTPoqJ3wSwW",
+  "network": "Solana mainnet-beta",
+  "genesis_hash": "5eykt4UsFv8P8NJdTREpY1vzqKqZKvdpKuc147dw2N9d",
+  "token_program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+  "observed_utc_approx": "2026-11-01T00:44:30+00:00",
+  "observations": [
+    {
+      "rpc_host": "api.mainnet-beta.solana.com",
+      "slot": 463894814,
+      "block_timestamp_utc": "2026-11-01T00:44:30+00:00",
+      "raw_supply": "3215284434",
+      "decimals": 6
+    },
+    {
+      "rpc_host": "solana.api.pocket.network",
+      "slot": 463894814,
+      "block_timestamp_utc": "2026-11-01T00:44:30+00:00",
+      "raw_supply": "3215284434",
+      "decimals": 6
+    },
+    {
+      "rpc_host": "solana-rpc.publicnode.com",
+      "slot": 463894816,
+      "block_timestamp_utc": "2026-11-01T00:44:31+00:00",
+      "raw_supply": "3215284434",
+      "decimals": 6
+    }
+  ],
+  "current_supply": "3215.284434",
+  "mint_authority": "vrmi2ELTKnUYZnNMiv6nkZv5SKptA2uu9nFSYrehgj1",
+  "freeze_authority": "2apBGMsS6ti9RyF5TwQTDswXBWskiJP2LD4cUEDqYJjk",
+  "permanent_delegate": "2apBGMsS6ti9RyF5TwQTDswXBWskiJP2LD4cUEDqYJjk",
+  "mint_close_authority": "2apBGMsS6ti9RyF5TwQTDswXBWskiJP2LD4cUEDqYJjk",
+  "transfer_hook_authority": "2apBGMsS6ti9RyF5TwQTDswXBWskiJP2LD4cUEDqYJjk",
+  "active_transfer_hook_program": null,
+  "transfer_fee_config_authority": "2apBGMsS6ti9RyF5TwQTDswXBWskiJP2LD4cUEDqYJjk",
+  "current_fee_basis_points": 0,
+  "permanent_delegate_rights_source": "https://solana.com/docs/tokens/extensions/permanent-delegate",
+  "historical_mint_supply_as_of_2026_09_30_21_utc": null,
+  "historical_mint_supply_reason": "Solana standard getTokenSupply reads current state; free independent historical getAccountInfo(account,{slot}) unavailable in verified public access; Alchemy Account Archive explicitly paid.",
+  "historical_account_archive_docs": "https://www.alchemy.com/docs/solana/account-archive",
+  "mint_authority_history_attempt": "146 mint-authority signature records spanning 2026-09-25 through 2026-10-31; 145 post-cutoff; high RPC rate-limit error rate made transaction replay incomplete and not authoritative for possible burns by alternate authorities.",
+  "permanent_delegate_can_transfer_and_burn_without_holder_permission_under_token2022": true,
+  "observed_actual_delegate_intervention": false,
+  "actual_legal_title_or_gold_reserves_verified": false
+}

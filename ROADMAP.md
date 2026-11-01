@@ -56,7 +56,7 @@ The [Sep 30 historical Ethereum investigation](research/PAXG_ARCHIVE_ETHEREUM_CU
 
 ## Two of four PAXG networks now independently checked at cutoff
 
-[Base historic ledger verification](research/PAXG_BASE_AND_OTHER_NETWORKS.md) independently measured **235.001500 PAXG** at the September KPMG cutoff using Alchemy public and dRPC archive nodes; prior Ethereum evidence measured **432,505.935219**. Both differ from KPMG's whole-token displayed counts only by a small fraction, subject to an **unverified rounding convention**. Robinhood Chain has corroborated header boundaries but not repeatable independently sourced token state; Solana has no verified September mint-state read. These—not new token machinery—are the next source-verification opportunities.
+[Base historic ledger verification](research/PAXG_BASE_AND_OTHER_NETWORKS.md) independently measured **235.001500 PAXG** at the September KPMG cutoff using Alchemy public and dRPC archive nodes; prior Ethereum evidence measured **432,505.935219**. Both differ from KPMG's whole-token displayed counts only by a small fraction, subject to an **unverified rounding convention**. [Robinhood Chain now has three independently corroborated historic supply reads](research/PAXG_ROBINHOOD_SOLANA_RIGHTS_EVIDENCE.md): **5.000602 PAXG** at the exact September cutoff. Solana remains the only KPMG-listed network without independently read-back historic mint supply; current Solana Token-2022 mint authority and permanent delegate are independently corroborated and present a material rights-governance question. These—not new token machinery—are the next source-verification opportunities.
 
 ## Workstreams (independent contributions are encouraged)
 

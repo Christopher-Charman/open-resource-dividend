@@ -54,7 +54,7 @@ An [additional historical-chain investigation](research/PAXG_ARCHIVE_ETHEREUM_CU
 
 ## Independent Base token supply now verified too
 
-Alongside the existing Ethereum archive evidence, [two independent public archive providers](research/PAXG_BASE_AND_OTHER_NETWORKS.md) have now verified **235.001500 PAXG on Base** at the exact September KPMG report cutoff. The report displays **235 whole tokens**. Both figures are consistent with *hypothetical* nearest-whole reporting, but the accountant's rounding convention is not independently established. Robinhood's cutoff **block headers** are corroborated; historic token state and Solana's historic mint state remain unverified. [Reproduce the Base read-only check](research/paxg_other_evm_cutoff.py).
+Alongside the existing Ethereum archive evidence, [two independent public archive providers](research/PAXG_BASE_AND_OTHER_NETWORKS.md) have now verified **235.001500 PAXG on Base** at the exact September KPMG report cutoff. The report displays **235 whole tokens**. Both figures are consistent with *hypothetical* nearest-whole reporting, but the accountant's rounding convention is not independently established. [Robinhood's historic token supply is now independently confirmed by three RPC operators](research/PAXG_ROBINHOOD_SOLANA_RIGHTS_EVIDENCE.md), bringing the independently checked September token networks to **three of four**. Solana's **current** Token-2022 mint has a [confirmed permanent delegate](research/observations/paxg_solana_mint_rights_20261101.json) capable of holder-independent transfers or burns, but its **September historical supply remains unverified**. [Reproduce the Base read-only check](research/paxg_other_evm_cutoff.py).
 
 ## Reproduce the research
 

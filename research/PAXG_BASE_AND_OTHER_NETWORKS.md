@@ -2,6 +2,8 @@
 
 **Public read-only research, 1 November 2026. No ORD custody, issuance, wallet, paid API, or financial transaction.**
 
+**Evidence update, 1 November 2026:** The Robinhood historical-state gap described below was **subsequently resolved** using three independently operated archive RPC services. Read the [new direct Robinhood observation and Solana mint-rights findings](PAXG_ROBINHOOD_SOLANA_RIGHTS_EVIDENCE.md) and the [verified state receipt](observations/paxg_robinhood_block_76821239.json). The earlier investigation is retained here as dated provenance, not as the current accepted state.
+
 The [original September KPMG examination](KPMG_SEPTEMBER_2026_ATTESTATION.md) reports PAXG token supply on **four chains** at **2026-09-30 21:00:00 UTC**. [Ethereum was previously cross-checked](PAXG_ARCHIVE_ETHEREUM_CUTOFF.md). This study independently verifies **Base** at that cutoff and preserves specific reproducible *negative* results for Robinhood and Solana, without claiming a four-chain reserve reconciliation.
 
 ## Base: two independent archival operators agree

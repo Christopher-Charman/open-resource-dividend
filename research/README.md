@@ -60,6 +60,10 @@ The [primary report examination](KPMG_SEPTEMBER_2026_ATTESTATION.md) and [source
 
 The [Base and remaining networks report](PAXG_BASE_AND_OTHER_NETWORKS.md) includes **two independently observed Base RPC states** at KPMG's exact September cutoff: **235.001500 PAXG**, compared to **235 whole PAXG** in the report. [Source observations](observations/paxg_remaining_networks_20260930.json), the [read-only verifier](paxg_other_evm_cutoff.py) and its focused tests are public. Robinhood Chain's historical **block header** is crosschecked, but the token supply was not stably corroborated; a later Solana mint-supply query is explicitly **not historical September evidence**.
 
+## Robinhood historical supply and Solana holder-rights verification
+
+[Independent Robinhood and Solana primary evidence](PAXG_ROBINHOOD_SOLANA_RIGHTS_EVIDENCE.md) advances KPMG-cutoff verification to **three of four token networks**: Ethereum, Base and **Robinhood**, whose `5.000602` PAXG historic supply was corroborated by Pinax, dRPC and Pocket at the same cutoff block. [Solana's Token-2022 mint metadata](observations/paxg_solana_mint_rights_20261101.json) was independently checked through three public RPCs; it includes a **permanent delegate that can transfer or burn account balances without holder signatures** under Solana's documented semantics. Solana's historical September mint supply still requires a real archival snapshot.
+
 ## How to reproduce
 
 With Python 3.10+ and no dependencies, from a fresh clone:
