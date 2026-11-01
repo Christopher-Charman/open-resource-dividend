@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "observation_type": "INDEPENDENT_ARCHIVAL_EVM_CONTRACT_STATE",
+  "cutoff_utc": "2026-09-30T21:00:00+00:00",
+  "chain": "Robinhood",
+  "chain_id": 4663,
+  "contract": "0x121BbE58fe4684057FB66d2dd535A19e16B4f66F",
+  "block_number": 76821239,
+  "block_hash": "0x84fda2283dd7f328d2c8487b2337567a1c69418aba53b4b774c34dde68cf8365",
+  "block_time_utc": "2026-09-30T20:59:59+00:00",
+  "next_block_number": 76821240,
+  "next_block_hash": "0x2ea4e53598d56d57032abe4a283ec1f3c69aed15ac58059d67e8aec793e0e210",
+  "next_block_time_utc": "2026-09-30T21:00:00+00:00",
+  "supply_atomic": "5000602000000000000",
+  "decimals": 18,
+  "supply_tokens": "5.000602",
+  "report_displayed_whole_tokens": "5",
+  "difference_to_report": "0.000602",
+  "code_size_bytes": 2052,
+  "code_sha256": "20a6d3df9e472dc509b5e3bb553e2186605401a16f018058f0cefd23e1033d70",
+  "independent_archival_rpc_hosts": [
+    "robinhood.rpc.pinax.network",
+    "robinhood.drpc.org",
+    "robinhood.api.pocket.network"
+  ],
+  "all_three_agreed_on_chain_block_supply_decimals_bytecode": true,
+  "report_rounding_rule_confirmed": false,
+  "legal_title_verified": false,
+  "physical_gold_verified": false,
+  "complete_four_chain_supply_verified": false,
+  "provenance": "Three independent live read-only eth_chainId, eth_getBlockByNumber, eth_call totalSupply/decimals, eth_getCode responses, 2026-11-01"
+}
