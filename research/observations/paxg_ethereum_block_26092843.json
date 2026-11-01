@@ -1,0 +1,35 @@
+{
+  "all_liabilities_verified": false,
+  "asset_redemption_verified": false,
+  "block_hash": "0x8188886a9f46bc06f64a47ae89a8464328ca388130addd91d9d78cb97838dfd3",
+  "block_number": 26092843,
+  "block_timestamp_utc": "2026-09-30T20:59:59+00:00",
+  "contract_address": "0x45804880De22913dAFE09f4980848ECE6EcbAf78",
+  "contract_reference": "https://github.com/paxosglobal/paxos-gold-contract",
+  "ethereum_chain_id": 1,
+  "individual_bar_allocation_verified": false,
+  "legal_title_verified": false,
+  "no_transaction_or_wallet_access": true,
+  "node_agreement": true,
+  "node_observations": [
+    {
+      "code_sha256": "0cc3661444715ecc358c2e32cb85a3175cfe9ab09b3bcd9b436e0f7c2d0a4e66",
+      "code_size_bytes": 1506,
+      "decimals": 18,
+      "rpc_host": "eth-mainnet.g.alchemy.com",
+      "total_supply_atomic_units": "432505935219000000000000"
+    },
+    {
+      "code_sha256": "0cc3661444715ecc358c2e32cb85a3175cfe9ab09b3bcd9b436e0f7c2d0a4e66",
+      "code_size_bytes": 1506,
+      "decimals": 18,
+      "rpc_host": "eth.drpc.org",
+      "total_supply_atomic_units": "432505935219000000000000"
+    }
+  ],
+  "observed_utc": "2026-11-01T00:04:27.024752+00:00",
+  "physical_reserves_verified": false,
+  "scope": "PUBLIC_ETHEREUM_CHAIN_STATE_ONLY",
+  "supply_token_units": "432505.935219",
+  "warning": "Chain state is NOT evidence of commodity custody, legal ownership or complete obligations."
+}

@@ -50,6 +50,10 @@ The [PAXG two-node fixed-block verification](research/LIVE_PAXG_CHAIN_EVIDENCE.m
 
 The [KPMG September 2026 PAXG evidence](research/KPMG_SEPTEMBER_2026_ATTESTATION.md) confirms the **exact reporting instant** and the **four reported network columns**, with a source hash of the original PDF and a local accounting checker. A two-RPC Ethereum header read identifies the last block before the report's 21:00 UTC instant. **Historic ERC-20 state and the other three chains have not yet been independently reconciled**. The next material research task is real same-cutoff independently sourced token supplies, preferably from authorised archival nodes, plus legal/custody and inclusion analysis—not a repeated report-calculation test.
 
+## September independent Ethereum archival readback now accepted
+
+The [Sep 30 historical Ethereum investigation](research/PAXG_ARCHIVE_ETHEREUM_CUTOFF.md) used two independent read-only archive-capable RPC providers to verify PAXG `totalSupply() = 432,505.935219` at the exact last block before KPMG's 21:00 UTC cutoff. This is consistent with KPMG's **432,506** Ethereum tokens at whole-token precision, conditional on the unverified display policy. Three other networks' historic supplies, independent owner rights, vault inspection and universal distributable funding remain outstanding; no new issuer or token is required to answer those questions.
+
 ## Workstreams (independent contributions are encouraged)
 
 | Priority | Research question | Concrete independent deliverable | Existing discussion |
