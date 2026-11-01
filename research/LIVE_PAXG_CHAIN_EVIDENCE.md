@@ -70,6 +70,8 @@ To establish a specific reserve-supply relation at a monthly cutoff, a researche
 
 The public gold contract itself includes issuer-administered roles and corresponding powers; it should **not** be characterised as a neutral monetary asset merely because on-chain supply is reproducible. Exact contractual terms remain central to the economic-rights evaluation.
 
+**Further independent-accountant evidence (31 October):** We have now obtained and read the actual [KPMG September PAXG attestation](KPMG_SEPTEMBER_2026_ATTESTATION.md) and preserved its SHA-256 and four-network reported totals in [JSON](observations/paxg_kpmg_2026_09_30.json). The report's cutoff is **2026-09-30 21:00 UTC**, bracketed by Ethereum blocks **26,092,843** and **26,092,844** through two independent public RPCs. The reported 435,306 PAXG total covers Ethereum **432,506**, Solana **2,560**, Robinhood Chain **5** and Base **235**. The October 31 observed Ethereum supply above is **not** equivalent to September's four-network obligations; historic chain supply has not been independently read at that older cutoff. The original PDF source and narrow accountant opinion have been preserved for researchers.
+
 ## Next economically meaningful validation
 
 The next material proof layer is not another synthetic token model. It is **a dated, independent accountant's PAXG reserve attestation paired to chain supply at the exact reporting cutoff**, with explicit evidence for whether the accountant verified vault inventories, legal rights and the *entirety of liabilities*. Until that is established, ORD cannot conclude physical backing from this chain observation alone.
