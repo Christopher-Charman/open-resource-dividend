@@ -22,6 +22,41 @@ A public blockchain may record both identically. **The ledger's technical transf
 
 These precedents are **not** independent legal opinions about ORD and do not establish a single law that governs a worldwide holder. The description concerns the market rules as currently published, not any contract this repository has executed.
 
+## UK statutory stress test: fractional bulk title is conditional (1 November 2026)
+
+**Primary law, not an ORD legal opinion.** The [Sale of Goods Act 1979, section 20A](https://www.legislation.gov.uk/ukpga/1979/54/section/20A), and [section 20B](https://www.legislation.gov.uk/ukpga/1979/54/section/20B), provide a particularly relevant *conditional* model for fractional interests in an identified bulk of goods. The [Electronic Trade Documents Act 2023](https://www.legislation.gov.uk/ukpga/2023/38/contents) supplies a separate possible route to **possessable electronic trade documents**. Neither statute turns an arbitrary token into enforceable title to gold, silver or copper.
+
+| Primary provision | Narrow legal effect to test | Critical limit for ORD |
+| --- | --- | --- |
+| [Sale of Goods Act 1979 §20A(1)–(3)](https://www.legislation.gov.uk/ukpga/1979/54/section/20A) | Where a **contract for sale** specifies a quantity of unascertained goods from an **identified bulk** and the buyer has **paid** for some/all of them, the buyer can become an owner in common of an undivided share of that bulk (unless otherwise agreed). | A donated claim, pooled custody receipt, unallocated account balance or freely transferred token **does not automatically satisfy** the sale/payment/identified-bulk conditions. A legal expert must identify the actual transfer and property structure. |
+| [Sale of Goods Act 1979 §20A(4)](https://www.legislation.gov.uk/ukpga/1979/54/section/20A) | If the aggregate calculated shares would exceed the bulk, buyers' **undivided property shares are proportionately reduced** to fit the available bulk. | **Co-ownership is not an assurance of 100% backing**: legal allocation of an existing shortfall does not create missing metal. |
+| [Sale of Goods Act 1979 §20B(1)–(3)](https://www.legislation.gov.uk/ukpga/1979/54/section/20B) | Co-owners are deemed to consent to specified deliveries/dealings with other co-owners' portions; the statute does not impose a duty on one buyer to compensate another buyer for a shortfall. | A fractionally held lot needs explicit warehouse control, shortfall remedies, and independently verified **total** claims, rather than a promise that every owner can withdraw the original quoted mass. |
+| [Electronic Trade Documents Act 2023 §§1–3](https://www.legislation.gov.uk/ukpga/2023/38/contents) | A qualifying trade document, potentially including a **warehouse receipt**, may be possessed electronically when its **reliable system** distinguishes the document from copies, protects integrity, enables demonstrable **exclusive exercise of control**, and **divests** prior control on transfer. It then has the same effect as its paper equivalent. | [Official explanatory notes, paragraphs 21–22](https://www.legislation.gov.uk/ukpga/2023/38/notes/division/6/index.htm) specifically caution that warehouse receipts are **not documents of title at common law**. Electronic possession is **not automatically ownership of the metal**, nor an independent assay or lien check. |
+| [Electronic Trade Documents Act 2023 §5](https://www.legislation.gov.uk/ukpga/2023/38/section/5) | The Act permits an **opt-out** of the electronic-possession effects and excludes certain uncertificated securities. | A token labelled 'warehouse receipt' must be tested against the actual contractual terms and statutory scope; merely implementing a transferable data record is insufficient. |
+
+### Reproducible shortage counterexample
+
+Suppose a hypothetical, physically identifiable **100 kg** copper bulk is subject to two **paid sale contracts** for **80 kg** (buyer A) and **50 kg** (buyer B). Assume §20A's conditions apply and the parties have not agreed otherwise. The total promised is **130 kg**, but the identified bulk contains **100 kg**. Applying §20A(4) to the share formula in §20A(3):
+
+```text
+A's proportional property share = 100 kg × (80 / 130) = 61.538461... kg
+B's proportional property share = 100 kg × (50 / 130) = 38.461538... kg
+Total undivided property shares                      = 100 kg
+Uncovered quantity promised by the two sale contracts = 30 kg
+```
+
+This is a **mathematical illustration of a statutory shortfall rule**, not an assertion that a particular court has adjudicated these facts, that contractual remedies disappear, or that ORD has sold copper. Section 20B(3) does **not** itself make A compensate B for the other's shortage; contractual recourse against a seller or warehouse requires separate examination. An append-only token ledger recording 80 + 50 kg would still record **130 kg of promises against 100 kg of goods**. Proportional reduction of property shares is not proof that the liabilities were covered.
+
+For comparison, if the identified 100 kg bulk had instead been sold as **40 kg + 60 kg** under the same assumed conditions, the arithmetic would fit; that would **still not independently establish** inventory existence, absence of encumbrances, sale validity, current warehouse access, or protection from an operator's insolvency.
+
+### Electronic receipt control is not the same as independent holder control
+
+The [2023 Act's official explanatory notes, paragraphs 38–40](https://www.legislation.gov.uk/ukpga/2023/38/notes/division/6/index.htm), clarify that a system administrator may also have the **ability** to exercise control without automatically disqualifying the document, provided the required exclusive **exercise** of control is maintained. Thus **statutory eligibility does not itself prove ORD's stronger, voluntary holder-control objective**. The [Law Commission's primary reform record](https://lawcom.gov.uk/project/electronic-trade-documents/) also highlights cross-border conflicts of laws. The UK statute cannot simply be presumed to decide rights in a foreign vault or make every holder's token redeemable worldwide.
+
+**Concrete due-diligence questions for one proposed UK-governed arrangement:** Identify the legal seller/transferor, governing law, specific warehouse and bulk/serials, whether §20A applies to each acquisition (or what alternative trust/bailment structure applies), documentary evidence of price/payment if relevant, title and lien searches, all competing co-owners and other claims, the current physical quantity and independent assay, the exact electronic document and its terms/opt-outs, the system's control/divestibility audit, the right to direct warehouse delivery or assign the right to another custodian, insolvency treatment, and actual small-lot delivery charges. **If a recipient is gifted existing claims, explain why legal title follows the gift instead of assuming §20A's sale rules automatically extend to it.**
+
+**Research conclusion:** UK law supplies *possible building blocks*, not a ready-made global, legally insulated ORD asset. Independent physical inspection, complete liability accounting, enforceable individual rights, and affordable non-issuer exit remain separate necessary evidence.
+
 ## Holder-centred questions
 
 Consider Frank, who receives a legally funded small metal entitlement and does not use AI:
