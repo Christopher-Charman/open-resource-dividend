@@ -91,4 +91,4 @@ Christopher Charman remains the original GitHub repository owner, but **the rese
 
 Original research/documentation: [CC BY 4.0](LICENSE.md). Illustrative code: [MIT](LICENSE-CODE.md). Upstream material retains its own licence; current [Circles v2](https://github.com/aboutcircles/circles-contracts-v2) code is AGPL-3.0 and is **not** copied into ORD.
 
-For a citable fixed snapshot, see [ORD Research v0.7 — KPMG cutoff and independent Ethereum state](https://github.com/Christopher-Charman/open-resource-dividend/releases/tag/v0.7.0) ([earlier v0.6](https://github.com/Christopher-Charman/open-resource-dividend/releases/tag/v0.6.0)). Current work and corrections are on `main`. **ORD is public research, not a currency launch or financial solicitation.**
+For a citable fixed snapshot, see [ORD Research v0.8 — independent Ethereum and Base verification](https://github.com/Christopher-Charman/open-resource-dividend/releases/tag/v0.8.0) ([earlier v0.7](https://github.com/Christopher-Charman/open-resource-dividend/releases/tag/v0.7.0)). Current work and corrections are on `main`. **ORD is public research, not a currency launch or financial solicitation.**
