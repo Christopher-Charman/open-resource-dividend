@@ -58,6 +58,16 @@ python3 research/paxg_chain_observer.py
 
 This queries two independent **public read-only Ethereum JSON-RPC providers** at the same finalised block and compares chain ID, block hash, ERC-20 total supply/decimals and deployed code. The [historical observation](research/observations/paxg_ethereum_block_26315983.json) and [evidence boundary](research/LIVE_PAXG_CHAIN_EVIDENCE.md) describe exact data and limitations. Old block queries require archive-capable nodes. No actual vault inspection, legal title, wallet access or transaction is involved; the script refuses every effectful RPC method.
 
+## Reconcile an independently examined primary report without inventing proof
+
+```bash
+python3 research/attestation_cutoff_reconciler.py
+# If you separately downloaded the original issuer-hosted PDF:
+python3 research/attestation_cutoff_reconciler.py --source-pdf /path/to/report.pdf
+```
+
+This is the [September 2026 original PAXG KPMG examination](research/KPMG_SEPTEMBER_2026_ATTESTATION.md), not an ORD financial endorsement. Source SHA-256, all four reported networks, named vaults, the KPMG opinion scope, and Ethereum block-header cutoff bracketing are recorded. A clean accounting sum does **not** promote actual historical supply, asset title or direct delivery to independently verified.
+
 ## Exploring funding assumptions
 
 The editable sample lives at [examples/scenarios/volatile_copper.json](examples/scenarios/volatile_copper.json).
