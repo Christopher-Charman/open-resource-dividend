@@ -95,7 +95,7 @@ This creates a tradeoff worth testing:
 
 Options 1–3 should be compared against actual custody terms, losses, spreads and bankruptcy rights. A publicly tradeable token that is practically never physically redeemable is a different financial promise than the proposed independently redeemable resource entitlement.
 
-Existing [LME/LBMA wholesale specifications](REDEMPTION_EVIDENCE.md) illustrate delivery friction but **do not** prove retail minimums or specific small-holder fees.
+The [redemption evidence](REDEMPTION_EVIDENCE.md) now clearly separates **published Kinesis/Paxos customer redemption thresholds and fee schedules** from **LME/LBMA wholesale settlement specifications**, with actual terms, illustrative prices and conditions. No source establishes globally available, legally independent **retail copper** redemption or an ORD partnership.
 
 ## 4. What could make the economics work differently?
 
