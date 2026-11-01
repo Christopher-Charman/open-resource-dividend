@@ -52,6 +52,10 @@ We've now reviewed the [issuer-hosted September 2026 KPMG report](research/KPMG_
 
 An [additional historical-chain investigation](research/PAXG_ARCHIVE_ETHEREUM_CUTOFF.md) reproduced **432,505.935219 PAXG** on Ethereum at the exact last block before the September KPMG report cutoff, using **two independent archive-capable public RPC providers**. KPMG reports **432,506 whole PAXG** for Ethereum: the numbers are *consistent with nearest-whole-token presentation*, but the rounding convention is not confirmed. The [live comparison script](research/paxg_attestation_ethereum_check.py) intentionally leaves the other three PAXG networks, physical custody, legal title and global resource distribution **unverified**.
 
+## Independent Base token supply now verified too
+
+Alongside the existing Ethereum archive evidence, [two independent public archive providers](research/PAXG_BASE_AND_OTHER_NETWORKS.md) have now verified **235.001500 PAXG on Base** at the exact September KPMG report cutoff. The report displays **235 whole tokens**. Both figures are consistent with *hypothetical* nearest-whole reporting, but the accountant's rounding convention is not independently established. Robinhood's cutoff **block headers** are corroborated; historic token state and Solana's historic mint state remain unverified. [Reproduce the Base read-only check](research/paxg_other_evm_cutoff.py).
+
 ## Reproduce the research
 
 The illustrative accounting and financing examples need only **Python 3.10+ standard library**—no wallet, account, package installation, chain, paid CI or proprietary service.
