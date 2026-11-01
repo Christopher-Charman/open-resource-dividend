@@ -84,7 +84,7 @@ This reverse result is a nominal *benchmark*, not a fixed dollar payout proposal
 
 ## 3. Practical exit: a fractional entitlement can be worth less than a redemption fee
 
-At the hypothetical **$10B income / $14,000 copper quote** case, annual reference metal value per person is about **$1.05**. If a future custodian charged even a **hypothetical** $5 to process a small physical delivery, a one-year entitlement would not economically support an individual withdrawal. *No such $5 fee has been verified or offered by any partner.*
+At the hypothetical **$10B income / $14,000 copper quote** case, annual reference metal value per person is about **$1.05**. Even a purely hypothetical $5 delivery-processing charge would exceed that amount; no copper retail fee or right is established. More usefully, [the actual sourced gold/silver provider comparison](REDEMPTION_EVIDENCE.md) finds that **Kinesis publishes 100 KAU (100 g gold) / 200 KAG (200 troy oz silver) physical-delivery increments, 0.45% of value plus a fixed $100 administration charge and variable shipment costs**. Paxos requires **430 PAXG plus fees** for direct allocated gold-bar delivery to eligible verified customers. At this paper's independently labelled hypothetical metal prices, that implies significant accumulation even for a funded **$100/year** entitlement; see the fully worked table. None are ORD-approved outlets, and the comparison does not rule out voluntary secondary-market sales or lawful competing aggregation.
 
 This creates a tradeoff worth testing:
 
