@@ -100,7 +100,7 @@ Wheaton Precious Metals describes metal streaming as upfront financing plus an a
 
 ### Real-world redemption has operational friction
 
-Kinesis's existing bullion system illustrates collateral-backed gold/silver tokens, third-party audits and physical redemption. Its help material lists minimum delivery multiples and fees. This is a caution against assuming that microscopic per-person gold/silver/copper allotments could be cheaply redeemed as physical bullion on demand.
+[Verified Kinesis customer redemption terms](https://support.kinesis.money/hc/en-gb/articles/38687923843741-Redeeming-Gold-and-Silver-in-App) require **100 KAU or 200 KAG delivery increments**, a **0.45% charge plus $100 administration**, and separately quoted packing and postage. [Paxos's direct allocated-gold redemption terms](https://www.paxos.com/terms-and-conditions/pax-gold-terms-conditions) require **430 PAXG per London Good Delivery bar plus fees and verified-customer access**. The [fully worked economic comparison](research/REDEMPTION_EVIDENCE.md) shows why a small but genuinely backed universal allocation may not afford direct physical delivery even when transfers or secondary trading are possible. These are **provider-published conditions**, not endorsement, actual ORD title, guaranteed global access or proof that other competing exits cannot exist.
 
 - Kinesis redemption rules: https://support.kinesis.money/hc/en-gb/articles/12439302237085-How-to-redeem-physical-gold-and-silver
 - Kinesis audit archive: https://kinesis.money/audits/
