@@ -32,9 +32,10 @@ CONFIG = {
         "contract": "0x121BbE58fe4684057FB66d2dd535A19e16B4f66F",
         "prior_block": 76821239,
         "reported_whole_tokens": "5",
-        # Do not treat Robinhood as corroborated by default: no two
-        # independently serving historic-state endpoints established yet.
-        "nodes": None,
+        # Three independent public operators were observed agreeing on
+        # historic block, supply, decimals and code at this exact cutoff.
+        # Use two of them by default; Pocket can independently cross-check.
+        "nodes": ("https://robinhood.rpc.pinax.network", "https://robinhood.drpc.org"),
     },
 }
 
