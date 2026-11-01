@@ -35,7 +35,7 @@ CONFIG = {
         # Three independent public operators were observed agreeing on
         # historic block, supply, decimals and code at this exact cutoff.
         # Use two of them by default; Pocket can independently cross-check.
-        "nodes": ("https://robinhood.rpc.pinax.network", "https://robinhood.drpc.org"),
+        "nodes": ("https://robinhood.rpc.pinax.network", "https://robinhood.api.pocket.network"),
     },
 }
 
