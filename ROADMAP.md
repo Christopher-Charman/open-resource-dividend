@@ -54,6 +54,10 @@ The [KPMG September 2026 PAXG evidence](research/KPMG_SEPTEMBER_2026_ATTESTATION
 
 The [Sep 30 historical Ethereum investigation](research/PAXG_ARCHIVE_ETHEREUM_CUTOFF.md) used two independent read-only archive-capable RPC providers to verify PAXG `totalSupply() = 432,505.935219` at the exact last block before KPMG's 21:00 UTC cutoff. This is consistent with KPMG's **432,506** Ethereum tokens at whole-token precision, conditional on the unverified display policy. Three other networks' historic supplies, independent owner rights, vault inspection and universal distributable funding remain outstanding; no new issuer or token is required to answer those questions.
 
+## Two of four PAXG networks now independently checked at cutoff
+
+[Base historic ledger verification](research/PAXG_BASE_AND_OTHER_NETWORKS.md) independently measured **235.001500 PAXG** at the September KPMG cutoff using Alchemy public and dRPC archive nodes; prior Ethereum evidence measured **432,505.935219**. Both differ from KPMG's whole-token displayed counts only by a small fraction, subject to an **unverified rounding convention**. Robinhood Chain has corroborated header boundaries but not repeatable independently sourced token state; Solana has no verified September mint-state read. These—not new token machinery—are the next source-verification opportunities.
+
 ## Workstreams (independent contributions are encouraged)
 
 | Priority | Research question | Concrete independent deliverable | Existing discussion |

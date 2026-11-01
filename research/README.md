@@ -56,6 +56,10 @@ The [primary report examination](KPMG_SEPTEMBER_2026_ATTESTATION.md) and [source
 
 [Two archive-capable public nodes](PAXG_ARCHIVE_ETHEREUM_CUTOFF.md) returned identical **432,505.935219 PAXG** at Ethereum block 26,092,843, immediately before the KPMG report's September 30 21:00 UTC cutoff. This is compatible with the report's **432,506 whole-token** Ethereum presentation if rounded to the nearest integer, but that actual reporting policy has not been independently established. The [live revalidation program](paxg_attestation_ethereum_check.py) and [observation record](observations/paxg_ethereum_block_26092843.json) preserve the result; **Solana, Robinhood Chain and Base have not been independently cross-checked**.
 
+## Base cross-provider historical state and other-chain limits
+
+The [Base and remaining networks report](PAXG_BASE_AND_OTHER_NETWORKS.md) includes **two independently observed Base RPC states** at KPMG's exact September cutoff: **235.001500 PAXG**, compared to **235 whole PAXG** in the report. [Source observations](observations/paxg_remaining_networks_20260930.json), the [read-only verifier](paxg_other_evm_cutoff.py) and its focused tests are public. Robinhood Chain's historical **block header** is crosschecked, but the token supply was not stably corroborated; a later Solana mint-supply query is explicitly **not historical September evidence**.
+
 ## How to reproduce
 
 With Python 3.10+ and no dependencies, from a fresh clone:

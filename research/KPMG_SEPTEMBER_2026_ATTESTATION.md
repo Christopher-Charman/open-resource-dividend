@@ -42,6 +42,8 @@ Both independent public RPC providers, PublicNode and Nodely, returned identical
 
 A third-party analyst's [October 31 comparison](https://altstreet.investments/platforms/reviews/paxos) reports having read the Ethereum supply at the exact September 30 cutoff, but **we do not promote that analyst's result to a primary independently read-back ORD observation**. Independent replication with an authorised archival state interface is still required.
 
+**Further external work (1 November 2026):** The [Base and other-networks report](PAXG_BASE_AND_OTHER_NETWORKS.md) independently reproduced Base's exact cutoff PAXG state (**235.001500**) from two separate public archive RPCs, consistent with the report's **235 whole PAXG** if nearest-whole reporting is assumed. Robinhood's historic block timing is independently corroborated but supply not stably confirmed; the recorded later Solana mint-supply observation is **not a historical cutoff observation**. This replaces the earlier blanket statement that all three remaining networks were wholly unexamined; independently verified complete four-network token supply is still missing.
+
 ## The boundaries of KPMG's assurance versus ORD's aspirations
 
 1. **Accountant opinion:** independent professional examination of a defined *management assertion*, at one instant, using stated criteria. It is not an ORD-conducted physical audit or a guarantee of continuous future solvency.
