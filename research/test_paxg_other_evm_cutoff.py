@@ -65,7 +65,7 @@ class MultiChainCutoffTests(unittest.TestCase):
         self.assertEqual(
             {__import__("urllib.parse", fromlist=["urlsplit"]).urlsplit(u).hostname
              for u in CONFIG["Robinhood"]["nodes"]},
-            {"robinhood.rpc.pinax.network", "robinhood.drpc.org"},
+            {"robinhood.rpc.pinax.network", "robinhood.api.pocket.network"},
         )
         with self.assertRaises(ObservationError):
             observe_chain("Robinhood", (HOSTS[0], HOSTS[0]))
