@@ -46,6 +46,10 @@ The [transfer API research](research/TRANSFER_INTERFACE_FINDINGS.md) distinguish
 
 The [PAXG two-node fixed-block verification](research/LIVE_PAXG_CHAIN_EVIDENCE.md) established real PAXG on-chain token supply at one Ethereum mainnet finalised block, using **two independent RPC providers** with matching contract bytecode and block hash. The result is archived as a machine-readable research observation, not a physical reserve certificate. The next non-synthetic evidence target is a **dated independent gold-reserve attestation**, reconciled with chain supply at the same reporting cutoff, followed by enforceable title and redemption analysis. No personal wallet data or transaction is needed for aggregate supply research.
 
+## September independent gold attestation now source-examined
+
+The [KPMG September 2026 PAXG evidence](research/KPMG_SEPTEMBER_2026_ATTESTATION.md) confirms the **exact reporting instant** and the **four reported network columns**, with a source hash of the original PDF and a local accounting checker. A two-RPC Ethereum header read identifies the last block before the report's 21:00 UTC instant. **Historic ERC-20 state and the other three chains have not yet been independently reconciled**. The next material research task is real same-cutoff independently sourced token supplies, preferably from authorised archival nodes, plus legal/custody and inclusion analysis—not a repeated report-calculation test.
+
 ## Workstreams (independent contributions are encouraged)
 
 | Priority | Research question | Concrete independent deliverable | Existing discussion |
