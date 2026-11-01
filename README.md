@@ -44,6 +44,10 @@ ORD has now [cross-checked actual PAX Gold token supply](research/LIVE_PAXG_CHAI
 
 **Scope:** this is verified **on-chain supply**, not an audit of gold bars, all issuer liabilities, legal title or an ORD-funded distribution. No wallet, provider account, token transfer or financial service was involved.
 
+## Original independent accountant's gold reserve examination
+
+We've now reviewed the [issuer-hosted September 2026 KPMG report](research/KPMG_SEPTEMBER_2026_ATTESTATION.md), not merely the token issuer's transparency page. It states **435,306 reported PAXG liabilities across four networks** and **435,306 fine troy ounces of gold** at its **30 September, 21:00 UTC** cutoff. Two independent Ethereum nodes corroborated the exact block timestamps surrounding that instant. The [reproducible report verifier](research/attestation_cutoff_reconciler.py) checks the published arithmetic but **does not falsely claim historic on-chain supply, personal legal title or independent physical vault inspection have been verified by ORD**.
+
 ## Reproduce the research
 
 The illustrative accounting and financing examples need only **Python 3.10+ standard library**—no wallet, account, package installation, chain, paid CI or proprietary service.

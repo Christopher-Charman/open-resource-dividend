@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "research_status": "PRIMARY_ISSUER_HOSTED_INDEPENDENT_ACCOUNTANTS_REPORT_EXAMINED_NOT_NEW_AUDIT",
+  "report": {
+    "source_pdf": "https://framerusercontent.com/assets/uwWybrLRlgkC4vexP3yLyrQVeV0.pdf",
+    "source_discovery": "https://www.paxos.com/paxg-transparency",
+    "sha256": "2611a159b29fc28dd4f438528c5aa38330002e4848e20cbdd8b02ec2864f87a1",
+    "bytes": 490005,
+    "pages": 8,
+    "issuer": "Paxos Trust Company, National Association",
+    "accountant": "KPMG LLP",
+    "accountant_report_date": "2026-10-23",
+    "accountant_opinion_scope": "Management assertion on Exhibits A, B, C fairly stated in all material respects",
+    "accountant_website_information_excluded": true,
+    "as_of_utc": "2026-09-30T21:00:00+00:00",
+    "as_of_local": "2026-09-30 17:00 America/New_York",
+    "reported_redeemable_tokens": "435306",
+    "reported_redemption_assets_fine_troy_oz": "435306",
+    "reported_surplus_fine_troy_oz": "0",
+    "reported_unprocessed_timing_difference": "0",
+    "chains": [
+      {
+        "name": "Ethereum",
+        "tokens": "432506",
+        "contract": "0x45804880De22913dAFE09f4980848ECE6EcbAf78"
+      },
+      {
+        "name": "Solana",
+        "tokens": "2560",
+        "contract": "5GgRAEmv8ZxF2PR5hY72Qs5x1bnQ6UK2RbTPoqJ3wSwW"
+      },
+      {
+        "name": "Robinhood",
+        "tokens": "5",
+        "contract": "0x121BbE58fe4684057FB66d2dd535A19e16B4f66F"
+      },
+      {
+        "name": "Base",
+        "tokens": "235",
+        "contract": "0xe904AEA5E1b110c9174728fA2efFc8aeD19E98Ef"
+      }
+    ],
+    "reported_vaults": [
+      "Brink's Global Services Ltd.",
+      "Industrial and Commercial Bank of China Ltd (ICBC) Standard Bank"
+    ],
+    "reported_metal_supplier": "StoneX Group Inc.",
+    "physical_location_independently_verified_by_ord": false,
+    "legal_title_independently_verified_by_ord": false,
+    "report_related_sources_outside_opinion": true
+  },
+  "public_chain_header_evidence": {
+    "chain": "Ethereum",
+    "chain_id": 1,
+    "cutoff_previous_block": {
+      "number": 26092843,
+      "hash": "0x8188886a9f46bc06f64a47ae89a8464328ca388130addd91d9d78cb97838dfd3",
+      "timestamp_utc": "2026-09-30T20:59:59+00:00"
+    },
+    "cutoff_next_block": {
+      "number": 26092844,
+      "hash": "0x33898bb860ae3e8aaedb6157e3e9f6172aa4931887b2fef707f2fa735cb9e1a3",
+      "timestamp_utc": "2026-09-30T21:00:11+00:00"
+    },
+    "observed_from": [
+      "ethereum-rpc.publicnode.com",
+      "eth.nodely.dev"
+    ],
+    "block_hash_and_timestamp_agreed": true,
+    "historical_contract_supply_observed": null,
+    "historical_supply_reason": "Public RPC providers rejected or lacked archive eth_call access for cutoff state; chain headers alone cannot verify totalSupply."
+  },
+  "not_equivalent_to_october_observation": {
+    "source": "research/observations/paxg_ethereum_block_26315983.json",
+    "reason": "Different time and only Ethereum; cannot subtract from September all-network total and interpret as reserve mismatch."
+  }
+}
