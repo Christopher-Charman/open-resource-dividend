@@ -60,11 +60,15 @@ class MultiChainCutoffTests(unittest.TestCase):
             with self.assertRaises(ObservationError):
                 observe_chain("Base", HOSTS)
 
-    def test_robinhood_requires_two_real_archive_nodes(self):
+    def test_robinhood_rejects_fake_independence_and_has_real_archive_routes(self):
+        from paxg_other_evm_cutoff import CONFIG
+        self.assertEqual(
+            {__import__("urllib.parse", fromlist=["urlsplit"]).urlsplit(u).hostname
+             for u in CONFIG["Robinhood"]["nodes"]},
+            {"robinhood.rpc.pinax.network", "robinhood.drpc.org"},
+        )
         with self.assertRaises(ObservationError):
-            observe_chain("Robinhood")
-        with self.assertRaises(ObservationError):
-            observe_chain("Base", (HOSTS[0], HOSTS[0]))
+            observe_chain("Robinhood", (HOSTS[0], HOSTS[0]))
 
 
 if __name__ == "__main__":
