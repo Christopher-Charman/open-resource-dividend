@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "observed_date": "2026-11-01",
+  "cutoff_utc": "2026-09-30T21:00:00+00:00",
+  "accountant_source": "research/observations/paxg_kpmg_2026_09_30.json",
+  "Base": {
+    "status": "TWO_INDEPENDENT_RPC_HISTORICAL_STATE_AGREEMENT",
+    "chain_id": 8453,
+    "asset_id": "0xe904AEA5E1b110c9174728fA2efFc8aeD19E98Ef",
+    "prior_block": 52006326,
+    "prior_hash": "0x64da095197b644d97fd4e7ddb32af141119a0ad900e052724a69a3d238156fe0",
+    "prior_utc": "2026-09-30T20:59:59+00:00",
+    "next_block": 52006327,
+    "next_hash": "0xffa7f0fd775e510f66dd3f5725f3e5a695314858b2fcfbbdc673c658b5ae21a2",
+    "next_utc": "2026-09-30T21:00:01+00:00",
+    "contract_supply_atomic": "235001500000000000000",
+    "decimals": 18,
+    "token_supply": "235.0015",
+    "report_displayed_whole_tokens": "235",
+    "difference_to_report_display": "0.0015",
+    "report_nearest_whole_rounding_verified": false,
+    "contract_code_size_bytes": 2052,
+    "contract_code_sha256": "20a6d3df9e472dc509b5e3bb553e2186605401a16f018058f0cefd23e1033d70",
+    "independent_rpc_hosts": [
+      "base-mainnet.g.alchemy.com",
+      "base.drpc.org"
+    ]
+  },
+  "Robinhood": {
+    "status": "CUTOFF_HEADER_CROSSCHECKED_ARCHIVE_STATE_NOT_STABLY_REPRODUCED",
+    "chain_id": 4663,
+    "asset_id": "0x121BbE58fe4684057FB66d2dd535A19e16B4f66F",
+    "prior_block": 76821239,
+    "prior_hash": "0x84fda2283dd7f328d2c8487b2337567a1c69418aba53b4b774c34dde68cf8365",
+    "prior_utc": "2026-09-30T20:59:59+00:00",
+    "next_block": 76821240,
+    "next_hash": "0x2ea4e53598d56d57032abe4a283ec1f3c69aed15ac58059d67e8aec793e0e210",
+    "next_utc": "2026-09-30T21:00:00+00:00",
+    "header_consensus_sources": [
+      "rpc.mainnet.chain.robinhood.com",
+      "robinhood-rpc.publicnode.com",
+      "robinhood.api.pocket.network"
+    ],
+    "reported_whole_tokens": "5",
+    "independent_historical_supply_verified": false,
+    "nonrepeatable_observation": "A Pocket Network historical eth_call once returned 5.000602 tokens (18 decimals), while subsequent calls on the same endpoint and independent public endpoints returned missing-historical-state errors; not promoted to verified evidence",
+    "archive_access_restrictions": {
+      "robinhood-rpc.publicnode.com": "403 archive personal token required",
+      "rpc.mainnet.chain.robinhood.com": "historic trie state unavailable",
+      "robinhood.drpc.org": "400 unknown historical state",
+      "robinhood-mainnet-rpc.blockreq.com": "public endpoint only last 1024 blocks"
+    }
+  },
+  "Solana": {
+    "status": "CONTEMPORANEOUS_SUPPLY_ONLY_NOT_AT_KPMG_CUTOFF",
+    "mint": "5GgRAEmv8ZxF2PR5hY72Qs5x1bnQ6UK2RbTPoqJ3wSwW",
+    "report_whole_tokens": "2560",
+    "current_query_operator": "api.mainnet-beta.solana.com (single operator)",
+    "current_slot_observed": 463885046,
+    "current_mint_supply": "3215.284434",
+    "decimals": 6,
+    "historical_supply_at_cutoff_verified": false,
+    "note": "getTokenSupply returns state at a current context slot; no independent historical September 30 supply observation obtained. Present-day supply must not be compared to prior report as if synchronous."
+  },
+  "limitations": {
+    "all_network_supply_reconciled": false,
+    "report_rounding_verified": false,
+    "physical_gold_or_title_verified": false,
+    "external_archive_financial_provider_authorised": false
+  }
+}
