@@ -64,6 +64,10 @@ The [Base and remaining networks report](PAXG_BASE_AND_OTHER_NETWORKS.md) includ
 
 [Independent Robinhood and Solana primary evidence](PAXG_ROBINHOOD_SOLANA_RIGHTS_EVIDENCE.md) advances KPMG-cutoff verification to **three of four token networks**: Ethereum, Base and **Robinhood**, whose `5.000602` PAXG historic supply was corroborated by Pinax, dRPC and Pocket at the same cutoff block. [Solana's Token-2022 mint metadata](observations/paxg_solana_mint_rights_20261101.json) was independently checked through three public RPCs; it includes a **permanent delegate that can transfer or burn account balances without holder signatures** under Solana's documented semantics. Solana's historical September mint supply still requires a real archival snapshot.
 
+## Actual small-holder redemption cost evidence
+
+The [retail and wholesale exit comparison](REDEMPTION_EVIDENCE.md) now documents **current primary-source customer redemption minimums and charges** from Kinesis and Paxos, distinguishes the LME copper wholesale warrant from retail delivery, and works explicit illustrative gold, silver and copper quantities against a hypothetical $100-per-person annual dividend. It addresses the funding proposal's **practical physical-exit** requirement; it is not a provider partnership or live economic quote.
+
 ## How to reproduce
 
 With Python 3.10+ and no dependencies, from a fresh clone:
