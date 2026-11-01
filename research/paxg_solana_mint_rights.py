@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import argparse
 import json
+from decimal import Decimal
 from urllib.parse import urlsplit
 from urllib.request import Request, urlopen
 
@@ -116,7 +117,7 @@ def evaluate(nodes: tuple[str, str] = NODES) -> dict:
         "token_program": TOKEN_2022,
         "genesis_hash": GENESIS,
         "two_operator_agreement": True,
-        "current_supply": str(int(observations[0]["atomic_supply"]) / 1_000_000),
+        "current_supply": format(Decimal(observations[0]["atomic_supply"]) / Decimal(1_000_000), "f"),
         "observations": observations,
         "permanent_delegate_can_transfer_or_burn_without_holder_signature": True,
         "historical_2026_09_30_supply_independently_observed": False,
