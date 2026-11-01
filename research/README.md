@@ -48,6 +48,10 @@ The [bar-allocation evidence study](PUBLIC_BAR_ALLOCATION_EVIDENCE.md) identifie
 
 The [live chain-evidence study](LIVE_PAXG_CHAIN_EVIDENCE.md) and [read-only verifier](paxg_chain_observer.py) recorded PAXG's **442,885.899659-token** supply at Ethereum finalised block **26,315,983**, with matching block hash, bytecode and contract decimals across PublicNode and Nodely. The [exact JSON](observations/paxg_ethereum_block_26315983.json) preserves the observed result, while the script can inspect a fresh finalised block without credentials. The result proves a narrow **public chain-state observation**, not independent gold custody/title or complete liabilities.
 
+## Original KPMG September 2026 examination
+
+The [primary report examination](KPMG_SEPTEMBER_2026_ATTESTATION.md) and [source-hashed machine record](observations/paxg_kpmg_2026_09_30.json) now preserve the auditor's **actual four-network figures** (Ethereum, Solana, Robinhood, Base), reported gold custody amount, named vaults and precise examination cutoff. The [source arithmetic checker](attestation_cutoff_reconciler.py) intentionally distinguishes KPMG's examined management assertion from independent cross-network historical-state readback and an ORD physical/title audit.
+
 ## How to reproduce
 
 With Python 3.10+ and no dependencies, from a fresh clone:
