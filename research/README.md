@@ -52,6 +52,10 @@ The [live chain-evidence study](LIVE_PAXG_CHAIN_EVIDENCE.md) and [read-only veri
 
 The [primary report examination](KPMG_SEPTEMBER_2026_ATTESTATION.md) and [source-hashed machine record](observations/paxg_kpmg_2026_09_30.json) now preserve the auditor's **actual four-network figures** (Ethereum, Solana, Robinhood, Base), reported gold custody amount, named vaults and precise examination cutoff. The [source arithmetic checker](attestation_cutoff_reconciler.py) intentionally distinguishes KPMG's examined management assertion from independent cross-network historical-state readback and an ORD physical/title audit.
 
+## Historical Ethereum state independently reproduced at the reserve-report cutoff
+
+[Two archive-capable public nodes](PAXG_ARCHIVE_ETHEREUM_CUTOFF.md) returned identical **432,505.935219 PAXG** at Ethereum block 26,092,843, immediately before the KPMG report's September 30 21:00 UTC cutoff. This is compatible with the report's **432,506 whole-token** Ethereum presentation if rounded to the nearest integer, but that actual reporting policy has not been independently established. The [live revalidation program](paxg_attestation_ethereum_check.py) and [observation record](observations/paxg_ethereum_block_26092843.json) preserve the result; **Solana, Robinhood Chain and Base have not been independently cross-checked**.
+
 ## How to reproduce
 
 With Python 3.10+ and no dependencies, from a fresh clone:
