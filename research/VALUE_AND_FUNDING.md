@@ -39,6 +39,27 @@ Neither a blockchain nor a hypothetical endowment generates the first three real
 
 All combinations are openly specified in [value_funding_inputs.json](value_funding_inputs.json). The model is implemented in [value_funding.py](value_funding.py), using standard-library `Decimal` arithmetic and three focused tests. No actual market feed is fetched, no account receives anything, and there is no escrow, asset registration or reserve.
 
+## Fixed-cost break-even: a small funded pool can still be unable to operate
+
+The same illustrative inputs also expose a **funding viability threshold**, separate from physical backing. If fixed administration/custody cost is assumed to be **$50 million per year** and variable operating cost **1.5% of settled annual funding**, the budget must first cover:
+
+```text
+costs_due = 50,000,000 + 0.015 * settled_funding
+costs_paid = min(settled_funding, costs_due)
+unfunded_costs = costs_due - costs_paid
+cash_available_for_metal = settled_funding - costs_paid
+break_even_funding = 50,000,000 / (1 - 0.015) = $50,761,421.32
+```
+
+| Entirely hypothetical annual funding | Model operating costs due | Costs actually payable from that funding | Unfunded model cost gap | Cash available to acquire metal |
+| ---: | ---: | ---: | ---: | ---: |
+| **$1 million** | **$50.015 million** | **$1 million** | **$49.015 million** | **$0** |
+| **$100 million** | **$51.5 million** | **$51.5 million** | **$0** | **$48.5 million** |
+
+The first row is a **counterexample to treating modelled costs as paid even when they exceed settled funding**. The simulator now separately reports costs *due*, *paid* and *unfunded* for every scenario. An unpaid modelled cost is **not** a real invoice, debt, metal reserve or redeemable claim. Covering costs alone also produces no distributable dividend; funding sufficient for actual independently verified asset acquisition, title, custody, audit, delivery and recipients is an additional requirement.
+
+These numbers are **assumptions**, not an estimate of a real charity's operating budget. A smaller, leaner, independently audited structure might have lower fixed costs, but must demonstrate them rather than assuming them away. The [standard-library model](value_funding.py) and its focused regression test allow a reader to change the cost assumptions and reproduce this threshold without a price feed or financial account.
+
 ## 1. If $10 billion, $100 billion or $1 trillion were truly funded
 
 At an **assumed $14,000/tonne** copper reference quote:

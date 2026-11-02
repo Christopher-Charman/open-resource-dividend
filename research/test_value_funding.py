@@ -49,6 +49,26 @@ class ValueFundingTests(unittest.TestCase):
             20000000000000
         )
 
+    def test_underfunded_fixed_costs_are_not_counted_as_paid(self):
+        self.config["annual_funding_budgets_usd"] = [1_000_000, 100_000_000]
+        self.config["illustrative_quote_usd_per_tonne"] = [14_000]
+        report = model(self.config)
+        self.assertEqual(
+            Decimal(report["minimum_annual_funding_to_cover_model_costs_usd"]),
+            Decimal("50761421.32"),
+        )
+        low, funded = report["scenarios"]
+        self.assertEqual(low["assumed_operating_cost_due_usd"], "50015000.00")
+        self.assertEqual(low["assumed_cash_operating_cost_usd"], "1000000.00")
+        self.assertEqual(low["unfunded_operating_cost_usd"], "49015000.00")
+        self.assertFalse(low["operating_costs_fully_funded"])
+        self.assertEqual(low["hypothetical_metal_purchase_tonnes"], "0.000000")
+        self.assertEqual(funded["assumed_operating_cost_due_usd"], "51500000.00")
+        self.assertEqual(funded["assumed_cash_operating_cost_usd"], "51500000.00")
+        self.assertEqual(funded["unfunded_operating_cost_usd"], "0.00")
+        self.assertTrue(funded["operating_costs_fully_funded"])
+        self.assertGreater(Decimal(funded["hypothetical_metal_purchase_tonnes"]), 0)
+
     def test_rejects_absurd_price_and_unfundable_fraction(self):
         self.config["illustrative_quote_usd_per_tonne"] = [0]
         with self.assertRaises(ValueError):

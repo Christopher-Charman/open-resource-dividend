@@ -68,7 +68,13 @@ def model(inputs: dict) -> dict:
     for price in quotations:
         for budget in budgets:
             operating_cost = budget * operating
-            after_cost = max(Decimal(0), budget - admin_fixed - operating_cost)
+            costs_due = admin_fixed + operating_cost
+            # An underfunded scenario cannot spend more cash than it has.
+            # Keep the unpaid expense gap explicit; it is not an asset,
+            # a metal liability or a verified debt to an actual provider.
+            costs_paid = min(budget, costs_due)
+            unfunded_costs = costs_due - costs_paid
+            after_cost = budget - costs_paid
             # The model assumes full settlement at a STATIC quoted price; it
             # does not model the demand's impact on that quote.
             assumed_acquired_tonnes = after_cost / (price * (1 + premium))
@@ -84,7 +90,10 @@ def model(inputs: dict) -> dict:
             scenarios.append({
                 "budget_usd_assumed": int(budget),
                 "price_usd_per_tonne_ASSUMED_NOT_OBSERVED": int(price),
-                "assumed_cash_operating_cost_usd": _fmt(admin_fixed + operating_cost, "0.00"),
+                "assumed_operating_cost_due_usd": _fmt(costs_due, "0.00"),
+                "assumed_cash_operating_cost_usd": _fmt(costs_paid, "0.00"),
+                "unfunded_operating_cost_usd": _fmt(unfunded_costs, "0.00"),
+                "operating_costs_fully_funded": unfunded_costs == 0,
                 "hypothetical_metal_purchase_tonnes": _fmt(assumed_acquired_tonnes, "0.000000"),
                 "retained_metal_claims_tonnes": _fmt(retained_claim_tonnes, "0.000000"),
                 "hypothetical_distributable_tonnes": _fmt(distributable_tonnes, "0.000000"),
@@ -107,6 +116,8 @@ def model(inputs: dict) -> dict:
     # amount, after modelled costs and a retained metal-claims buffer?
     # All quantities are independent of the price at which that cash converts
     # into metal, *if* both sale and purchase quote move proportionally.
+    # Fixed-cost break-even is distinct from funding a positive dividend.
+    minimum_budget_to_cover_costs = admin_fixed / (1 - operating)
     required_gross_annual_budget = (
         ((population * target) * (1 + premium) / (1 - retained)) + admin_fixed
     ) / (1 - operating)
@@ -120,6 +131,9 @@ def model(inputs: dict) -> dict:
         "metal": "Cu",
         "world_2025_mine_output_copper_content_tonnes": int(mine_output),
         "reference_target_usd_per_person_per_year_NOT_PROMISED": int(target),
+        "minimum_annual_funding_to_cover_model_costs_usd": _fmt(
+            minimum_budget_to_cover_costs, "0.00"
+        ),
         "annual_cash_income_required_before_costs_usd": _fmt(required_gross_annual_budget, "0.00"),
         "hypothetical_endowment_principal_at_assumed_realized_yield_usd": (
             _fmt(required_capital_at_assumed_yield, "0.00")
