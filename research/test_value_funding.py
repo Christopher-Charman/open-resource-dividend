@@ -69,6 +69,20 @@ class ValueFundingTests(unittest.TestCase):
         self.assertTrue(funded["operating_costs_fully_funded"])
         self.assertGreater(Decimal(funded["hypothetical_metal_purchase_tonnes"]), 0)
 
+    def test_malformed_scenario_arrays_raise_input_errors(self):
+        # Lists and dictionaries are valid JSON values, but not money or prices.
+        for field in ("annual_funding_budgets_usd", "illustrative_quote_usd_per_tonne"):
+            for bad in ([14000, []], [14000, {}], [14000, True], [14000, "14000"]):
+                config = dict(self.config)
+                config[field] = bad
+                with self.subTest(field=field, bad=bad), self.assertRaises(ValueError):
+                    model(config)
+
+        config = dict(self.config)
+        config["schema_version"] = True
+        with self.assertRaises(ValueError):
+            model(config)
+
     def test_rejects_absurd_price_and_unfundable_fraction(self):
         self.config["illustrative_quote_usd_per_tonne"] = [0]
         with self.assertRaises(ValueError):
