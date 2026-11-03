@@ -40,7 +40,7 @@ def _fmt(v: Decimal, precision: str = "0.000") -> str:
 
 def model(inputs: dict) -> dict:
     """Report sensitivity and reverse requirement without claiming deliverability."""
-    if not isinstance(inputs, dict) or inputs.get("schema_version") != 1:
+    if not isinstance(inputs, dict) or type(inputs.get("schema_version")) is not int or inputs["schema_version"] != 1:
         raise ValueError("unsupported research input schema")
     if inputs.get("metal") != "Cu":
         raise ValueError("current validated scenario covers copper only")
@@ -57,12 +57,15 @@ def model(inputs: dict) -> dict:
     budgets = inputs["annual_funding_budgets_usd"]
     quotations = inputs["illustrative_quote_usd_per_tonne"]
     if (not isinstance(budgets, list) or not budgets
-            or not isinstance(quotations, list) or not quotations
-            or len(set(budgets)) != len(budgets)
-            or len(set(quotations)) != len(quotations)):
-        raise ValueError("nonempty unique quote and funding scenarios required")
+            or not isinstance(quotations, list) or not quotations):
+        raise ValueError("nonempty quote and funding scenarios required")
+    # Validate every value before deduplicating: malformed JSON arrays/objects
+    # must fail as invalid research inputs, not crash with an unhashable TypeError.
+    # In particular, bool is not a valid amount even though bool subclasses int.
     budgets = [_natural(x) for x in budgets]
     quotations = [_natural(x) for x in quotations]
+    if len(set(budgets)) != len(budgets) or len(set(quotations)) != len(quotations):
+        raise ValueError("unique quote and funding scenarios required")
 
     scenarios = []
     for price in quotations:
