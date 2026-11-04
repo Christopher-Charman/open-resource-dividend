@@ -56,6 +56,11 @@ class FundingScenarioTests(unittest.TestCase):
         bad["periods"][0]["recipients"] = True
         with self.assertRaises(FundingError):
             simulate(bad)
+        for invalid_metal in ([], {}, ["Cu"], {"metal": "Cu"}):
+            bad = copy.deepcopy(sample)
+            bad["metal"] = invalid_metal
+            with self.subTest(invalid_metal=invalid_metal), self.assertRaises(FundingError):
+                simulate(bad)
         bad = copy.deepcopy(sample)
         bad["periods"][1]["label"] = bad["periods"][0]["label"]
         with self.assertRaises(FundingError):
