@@ -39,7 +39,7 @@ def simulate(config: dict) -> dict:
     if not isinstance(config["name"], str) or not config["name"].strip():
         raise FundingError("scenario name must be nonempty")
     metal = config["metal"]
-    if metal not in METALS:
+    if not isinstance(metal, str) or metal not in METALS:
         raise FundingError("unsupported metal class")
     initial = _integer(config["initial_endowment_units"])
     target = _integer(config["target_per_person_units"], 1)
