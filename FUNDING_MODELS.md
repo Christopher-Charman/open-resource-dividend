@@ -85,6 +85,24 @@ Alaska's Permanent Fund converts revenue from mineral-related royalties into an 
 - Alaska Permanent Fund Corporation, fund structure: https://apfc.org/the-fund/fund-structure/
 - Alaska constitutional resource-revenue rationale: https://apfc.org/about/a-pioneering-investment-model/
 
+### Audited FY2026 Alaska cash-flow precedent: resource receipts are not the dividend budget
+
+The [Alaska Permanent Fund Corporation's FY2026 annual report](https://apfc.org/reports/2026-annual-report/) (published 28 September 2026; financial year ended **30 June 2026**) is a **real, publicly audited funding precedent**, not a funding source available to ORD. Its financial statements and [September 2026 audit announcement](https://apfc.org/fund-news/fy26-audit-and-budget-proposal/) separate existing capital, new royalty receipts, realised income, unrealised investment appreciation and appropriations:
+
+| FY2026 APFC measure | Reported amount | What it means for an ORD funding hypothesis |
+| --- | ---: | --- |
+| Ending total fund balance | **$91.901004 billion** | Existing invested public wealth, **not** annual distributable income or ORD-owned reserves |
+| Mineral royalty deposits into principal | **$535.039 million** | Actual external resource-related receipts in the period; legally committed to Alaska's fund, **not** a voluntary global metal donation |
+| Statutory net income | **approximately $8.2 billion** | Realised accounting income credited to the Earnings Reserve Account; varies with investment activity and cannot be equated with settled free cash |
+| GAAP net income | **approximately $10.1 billion** | Includes **unrealised** gains; **not** the amount immediately available for annual distributions |
+| General Fund distribution during FY2026 | **$3.798888 billion** | Actual reported transfer to Alaska's General Fund, for **public services and dividends together**, not a direct $3.8bn dividend paid to residents |
+| Committed FY2027 POMV draw at FY2026 close | **$3.996865 billion** | Committed for a **subsequent fiscal year**; must not be counted again as an FY2026 cash distribution |
+| Total reported FY2026 fund liabilities | **$6.327953 billion** | Balance-sheet obligations; includes **$4.767994 billion securities-lending collateral** and other liabilities. Not a second source of unencumbered backing |
+
+**Independent arithmetic check from the report's financial statements:** ending fund balance $91.901004bn = assets $98.228957bn − liabilities $6.327953bn. Reported FY2026 general-fund transfers of $3.798888bn are **less than** the reported ~$8.2bn statutory net income, but that comparison alone cannot establish the spendable, legally appropriated balance for any other purpose. The $535.039m mineral deposits and the fund's investment earnings are **different flows**; adding both to an ORD metal-reserve ledger would be double-counting without actual settled title to independently deliverable metal.
+
+**Transferable design lesson:** A genuinely sustainable distribution institution needs independently evidenced *period-specific inflows*, expenses, appropriations, liquidity and retained capital, and must not confuse (i) physical-resource income or donations, (ii) investment returns, (iii) realised cash available for lawful spending, (iv) funds actually transferred to recipients and (v) audited *unencumbered deliverable metal*. Alaska's audited fund demonstrates the accounting and governance separation, **not** a globally transferable, voluntarily funded or physically redeemable metal right. Its public-law financing and resident eligibility are jurisdiction-specific. ORD's [synthetic funding scenarios](examples/funding_scenarios.py) must continue to represent hypothetical settled contributions as assumptions, not relabel Alaska's actual balances as ORD backing.
+
 ### Windfall Trust: AI wealth -> shared endowment -> universal income
 
 The Future of Life Institute describes a proposed **Windfall Trust** intended to give people a stake in potentially enormous profits from advanced AI, including research into legal structures, investment policy, payout formulas and governance. This is an especially relevant **AI-era universal-wealth** antecedent. The proposal does **not** establish that a global, gold/silver/copper-redeemable entitlement is funded or exists; its emphasis is shared ownership of AI windfalls, not open physical-resource claims.
