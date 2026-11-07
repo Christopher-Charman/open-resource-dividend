@@ -123,6 +123,17 @@ Wheaton Precious Metals describes metal streaming as upfront financing plus an a
 - Kinesis redemption rules: https://support.kinesis.money/hc/en-gb/articles/12439302237085-How-to-redeem-physical-gold-and-silver
 - Kinesis audit archive: https://kinesis.money/audits/
 
+### Operational funding and issuance distinction: GoodCollective versus GoodDollar (7 November 2026)
+
+Two existing, related products demonstrate **different** mechanisms and must not be conflated when considering ORD's voluntary funding:
+
+- [GoodCollective's published product description](https://www.gooddollar.org/goodcollective) describes donor-funded, identity- or activity-specific payment pools. It explicitly charges a **5% network fee on each donation** and permits additional pool-configured administration fees. Thus a purely illustrative **$100 gross donation yields $95 before any additional pool fees**, not $100 of assets available to distribute. This is a **published fee schedule**, not an audited receipt or an estimate of metal custody costs; the donor-funded pool still requires independent verification of what it legally holds.
+- [GoodDollar's current architecture](https://docs.gooddollar.org/how-gooddollar-works/architecture-and-value-flow) describes a cryptocurrency reserve, identity verification and daily distributions. Its protocol **mints new G$ by reducing the reserve ratio / increasing leverage**. This is an existing cryptocurrency monetary mechanism, **not a transfer of already-owned, fixed-mass, unencumbered metal claims**. It cannot be assumed to satisfy ORD's `L_m <= R_m` physical-unit rule. Its value-transfer experience is relevant; its issuance economics are **not interchangeable** with ORD's resource-title requirement.
+
+**Quantified funding consequence:** Under the *illustrative assumption* that a proposed voluntary funding channel charged GoodCollective's published 5% network fee (no partnership is proposed or established), acquiring **$1,000,000 of net metal-purchase budget** would require **$1,000,000 / (1 - 0.05) = $1,052,631.58 in gross gifts**, *before* separate administration, storage, audit, purchase premium and delivery costs. That calculation is **not a quote** for ORD, and the actual fee base or applicability of any future provider must be established contractually. For a genuinely funded physical-claim distribution, account for fees **before** acquiring or transferring claims, and do not fill a shortfall by increasing the token supply without newly verified eligible metal.
+
+This comparison tightens the difference between **donation gross receipts**, **net settled acquisition funds**, **existing asset claims transferred** and **new digital money created against a variable reserve ratio**. [Prior-art classification](PRIOR_ART.md) documents the operational versus proposed mechanisms. These findings do not imply GoodDollar, GoodCollective or any other provider endorses ORD.
+
 ## 4. Funding scenarios to investigate first
 
 ### Scenario 1: Pure voluntary seed and recurring gifts
