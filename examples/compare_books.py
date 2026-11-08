@@ -46,6 +46,7 @@ def compare_books(journal_events: list[dict], inventory: dict, extra_liabilities
         raise AssuranceInputError("lots must be a list")
     seen = set()
     declared = dict.fromkeys(METALS, 0)
+    encumbered_totals = dict.fromkeys(METALS, 0)
     for lot in lots:
         if not isinstance(lot, dict) or set(lot) != {"id", "metal", "quantity", "encumbered"}:
             raise AssuranceInputError("lot schema mismatch")
@@ -55,7 +56,9 @@ def compare_books(journal_events: list[dict], inventory: dict, extra_liabilities
         seen.add(name)
         if metal not in METALS or type(quantity) is not int or quantity <= 0 or type(encumbered) is not bool:
             raise AssuranceInputError("invalid metal, lot quantity or encumbrance flag")
-        if not encumbered:
+        if encumbered:
+            encumbered_totals[metal] += quantity
+        else:
             declared[metal] += quantity
 
     additional = _quantities(extra_liabilities)
@@ -65,6 +68,10 @@ def compare_books(journal_events: list[dict], inventory: dict, extra_liabilities
     return {
         "mathematical_coverage_of_declared_inventory": all(v == 0 for v in deficits.values()),
         "declared_unencumbered_lot_quantities": declared,
+        "declared_encumbered_lot_quantities_excluded": encumbered_totals,
+        "declared_gross_lot_quantities": {
+            m: declared[m] + encumbered_totals[m] for m in METALS
+        },
         "replayed_claim_liabilities": claims,
         "declared_other_liabilities": additional,
         "total_declared_liabilities": combined,
@@ -75,7 +82,7 @@ def compare_books(journal_events: list[dict], inventory: dict, extra_liabilities
         "liability_completeness_verified": False,
         "witnessed_append_only_history_verified": False,
         "audit_conclusion": "UNVERIFIED_PHYSICAL_AND_LEGAL_BACKING",
-        "warning": "Declared lots and obligations can be fabricated or incomplete. "
+        "warning": "Declared lots, encumbrances and obligations can be fabricated or incomplete. "
                    "Arithmetic coverage is NOT proof of reserves.",
     }
 
