@@ -28,6 +28,24 @@ class CompareBooksTests(unittest.TestCase):
         self.assertEqual(report["uncovered_by_declared_inventory"]["Cu"], 2)
         self.assertEqual(report["audit_conclusion"], "UNVERIFIED_PHYSICAL_AND_LEGAL_BACKING")
 
+    def test_encumbered_metal_is_disclosed_but_never_counted_as_backing(self):
+        # A nominally sufficient gross stock is not sufficient collateral
+        # when part of the inventory is pledged or otherwise encumbered.
+        lots = inventory(8)
+        lots["lots"].append({
+            "id": "PLEDGED-LOT", "metal": "Cu",
+            "quantity": 5, "encumbered": True,
+        })
+        report = compare_books(
+            baseline(), lots, {"Au": 0, "Ag": 0, "Cu": 0}
+        )
+        self.assertEqual(report["declared_gross_lot_quantities"]["Cu"], 13)
+        self.assertEqual(report["declared_encumbered_lot_quantities_excluded"]["Cu"], 5)
+        self.assertEqual(report["declared_unencumbered_lot_quantities"]["Cu"], 8)
+        self.assertEqual(report["uncovered_by_declared_inventory"]["Cu"], 2)
+        self.assertFalse(report["mathematical_coverage_of_declared_inventory"])
+        self.assertFalse(report["physical_assets_independently_verified"])
+
     def test_arithmetic_coverage_never_certifies_audits_or_extra_claims(self):
         report = compare_books(
             baseline(), inventory(10), {"Au": 0, "Ag": 0, "Cu": 0}
