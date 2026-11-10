@@ -96,7 +96,7 @@ python3 examples/replay_audit.py
 python3 examples/replay_audit.py --events path/to/synthetic-events.json
 ```
 
-It detects malformed links, overspending, duplicate synthetic receipt IDs, unfunded distributions and snapshot divergence. A fully malicious history can still be rewritten and rehashed without an independently witnessed checkpoint. This is **not** a consensus mechanism.
+It detects malformed links, overspending, duplicate synthetic receipt IDs, unfunded distributions and snapshot divergence. The illustrative `StockFlow.dividend` input boundary also rejects empty, non-string, unhashable or duplicate recipient account names with `FundingError` before changing balances; this is not real-world identity validation. A fully malicious history can still be rewritten and rehashed without an independently witnessed checkpoint. This is **not** a consensus mechanism.
 
 ## Maintaining the work
 
