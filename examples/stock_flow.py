@@ -94,8 +94,9 @@ class StockFlow:
         if type(retained_buffer) is not int or retained_buffer < 0:
             raise FundingError("retained buffer must be a nonnegative integer")
         people = list(recipients)
-        if not people or len(people) != len(set(people)) or pool in people:
-            raise FundingError("eligible recipients must be unique and exclude pool")
+        if (not people or any(not isinstance(p, str) or not p.strip() for p in people)
+                or len(people) != len(set(people)) or pool in people):
+            raise FundingError("eligible recipients must be nonempty unique account names excluding pool")
         for person in people:
             self._account(person)
         total = len(people) * per_person

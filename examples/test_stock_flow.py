@@ -25,6 +25,18 @@ class ConservationTests(unittest.TestCase):
         self.assertEqual(ledger.accounts["pool"]["Ag"], 12)
         ledger.verify()
 
+    def test_malformed_recipient_rejected_without_mutating_balances(self):
+        ledger = StockFlow()
+        ledger.deposit_assumed_verified("donor", "Cu", 5, "SYNTH-1")
+        ledger.transfer("donor", "pool", "Cu", 5)
+        before = len(ledger.events)
+        for recipients in (["valid", []], ["valid", {}], ["valid", ""], ["valid", "  "]):
+            with self.subTest(recipients=recipients), self.assertRaises(FundingError):
+                ledger.dividend("pool", recipients, "Cu", 1)
+            self.assertEqual(ledger.accounts["pool"]["Cu"], 5)
+            self.assertEqual(len(ledger.events), before)
+        ledger.verify()
+
     def test_redemption_extinguishes_claim_and_detects_log_tamper(self):
         ledger = StockFlow()
         ledger.deposit_assumed_verified("Alice", "Au", 6, "RECEIPT-A")
