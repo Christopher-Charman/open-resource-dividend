@@ -190,6 +190,24 @@ The [value and funding feasibility study](research/VALUE_AND_FUNDING.md) turns t
 
 That calculation is not an endorsement of fiat backing, a nominal payout target, a return assumption or a proposal to buy the world's copper. USD is the **external market quote** used to compare the purchasing power of legally acquired physical claims. At large global volumes, unchanged wholesale quotations are demonstrably unreliable modelling assumptions.
 
+### Endowment-yield stress: funding continuity is not reserve solvency (14 November 2026)
+
+The [reproducible funding model](research/value_funding.py) calculates approximately **$945.68 billion in annual settled external income** for an entirely hypothetical $100 reference-value allocation to 8.3 billion recipients, including its stated cost, acquisition-premium and retained-claims-buffer assumptions. At a *hypothetical* 4% realised annual return, the corresponding capital arithmetic is approximately **$23.64 trillion**. Neither amount exists or is pledged to ORD.
+
+Hold that hypothetical capital constant and vary only the **realised, spendable, settled income** in a period. Values below are rounded and exclude tax, market price impact, capital volatility and any legal restrictions on distributing returns:
+
+| Realised annual return on illustrative $23.64T capital | Settled income available before model costs | Shortfall against illustrative $945.68B funding requirement |
+| ---: | ---: | ---: |
+| 4% | ~$945.6B | ~$0.1B (rounding) |
+| 2% | ~$472.8B | ~$472.9B |
+| 0% | $0 | ~$945.7B |
+
+The comparison deliberately holds the initial notional capital constant: it **does not** assume capital can be liquidated, borrowed against or pledged to cover a payout. At 2%, maintaining the *same* illustrative gross income would instead require approximately **$47.28 trillion** of capital, before changes in costs or asset prices. A negative return may impair capital and cannot be treated as negative metal reserves or an authority to issue additional claims.
+
+**Implication:** A fund can remain fully backed in the narrow sense that its *existing* metal liabilities do not exceed eligible reserves, while being unable to finance **new** universal distributions. Its period payout must fall with actual uncommitted pool holdings after expenses and buffers; a fixed payout requires a separate, demonstrably funded multi-period guarantee. The appropriate invariant is `new_distribution <= settled_unencumbered_pool_claims - commitments - retained_buffer`, not `new_distribution = target * population`.
+
+This is a scenario stress test, **not a forecast, investable yield, promised payment or evidence of an endowment**. It extends the funding falsification criterion in [issue #2](https://github.com/Christopher-Charman/open-resource-dividend/issues/2). The same external funding and physical-title verification obligations apply regardless of the return assumption.
+
 ## 6. Next research questions
 
 1. Can a legally independent endowment earn *real* income in metal or reliably acquire physical claims without claiming the same metals twice?
